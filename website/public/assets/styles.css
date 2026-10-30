@@ -75,7 +75,7 @@ button {
   background: #dfe6c4;
 }
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--focus, var(--accent));
   outline-offset: 5px;
 }
 code,
@@ -491,6 +491,9 @@ li + li {
   margin-bottom: 0;
 }
 .code-block {
+  /* Always dark, so its own text tokens stay legible inside light sheets. */
+  --ink: var(--on-dark);
+  --muted: var(--on-dark-muted);
   margin-block: 1.3rem;
   border-radius: 12px;
   overflow: hidden;
@@ -3948,7 +3951,7 @@ html[dir="rtl"] .rl-step:not(:last-child)::after {
 
 /* Keyboard focus stays visible on the always-dark surfaces. */
 :is(.site-footer, .code-block, .command-bar, .index-start, .mini-terminal) {
-  --accent: #f1efeb;
+  --focus: #f1efeb;
 }
 
 /* Print everything, including sections that have not scrolled into view. */
