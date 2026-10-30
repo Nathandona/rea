@@ -194,6 +194,40 @@ async function initializeWebsite() {
 
   initializeStepRail();
 
+  // Topic lists marked data-scrollspy highlight the section being read.
+  function initializeScrollSpy() {
+    document.querySelectorAll("nav[data-scrollspy]").forEach((nav) => {
+      const links = Array.from(nav.querySelectorAll('a[href^="#"]'));
+      const sections = links.map((link) =>
+        document.getElementById(link.getAttribute("href").slice(1)),
+      );
+      if (sections.some((section) => section === null)) return;
+      const update = () => {
+        const line = window.innerHeight * 0.35;
+        let current = 0;
+        sections.forEach((section, index) => {
+          if (section.getBoundingClientRect().top <= line) current = index;
+        });
+        links.forEach((link, index) => {
+          if (index === current) link.setAttribute("aria-current", "true");
+          else link.removeAttribute("aria-current");
+        });
+      };
+      let frame = 0;
+      window.addEventListener(
+        "scroll",
+        () => {
+          cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(update);
+        },
+        { passive: true },
+      );
+      update();
+    });
+  }
+
+  initializeScrollSpy();
+
   async function initializeGitHubStars() {
     const link = document.querySelector(".nav-github");
     const stars = link?.querySelector(".nav-github-stars");

@@ -377,7 +377,7 @@ studies, RL environments and a closing setup section follow; the setup section
 repeats the install prompt and command once, then links the target guides and
 the guided Notes example.
 
-Photographs in `public/assets/home/` were generated for this page and show
+Photographs in `public/assets/photos/` were generated for this page and show
 generic hardware, not the inspected programs. Agent and platform marks come
 from Simple Icons; interface icons are Hugeicons. The header holds the main
 navigation, language and theme controls, GitHub and Get started. The footer

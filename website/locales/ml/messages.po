@@ -12,7 +12,7 @@ msgctxt "page:blog/index.html"
 msgid "Skip to content"
 msgstr ""
 
-#: website/public/blog/index.html:143 website/public/blog/index.html:194
+#: website/public/blog/index.html:143 website/public/blog/index.html:196
 #: website/public/blog/reverse-engineering-models/index.html:143
 #: website/public/blog/reverse-engineering-models/index.html:833
 #: website/public/blog/touhou-reconstruction/index.html:143
@@ -21,21 +21,21 @@ msgstr ""
 #: website/public/contributors/index.html:1081
 #: website/public/examples/dino-lab/index.html:144
 #: website/public/examples/dino-lab/index.html:425
-#: website/public/faq/index.html:143 website/public/faq/index.html:523
+#: website/public/faq/index.html:143 website/public/faq/index.html:538
 #: website/public/first-investigation/index.html:143
 #: website/public/first-investigation/index.html:484
 #: website/public/get-started/index.html:143
 #: website/public/get-started/index.html:1802
 #: website/public/guides/browser/index.html:143
 #: website/public/guides/browser/index.html:457
-#: website/public/guides/index.html:143 website/public/guides/index.html:251
+#: website/public/guides/index.html:143 website/public/guides/index.html:247
 #: website/public/guides/javascript/index.html:143
 #: website/public/guides/javascript/index.html:461
 #: website/public/guides/native/index.html:143
 #: website/public/guides/native/index.html:462
 #: website/public/guides/rl-environments/index.html:143
 #: website/public/guides/rl-environments/index.html:448
-#: website/public/index.html:144 website/public/index.html:1422
+#: website/public/index.html:144 website/public/index.html:1430
 #: website/public/showcase/aegis/index.html:144
 #: website/public/showcase/aegis/index.html:765
 #: website/public/showcase/ctf/index.html:143
@@ -43,7 +43,7 @@ msgstr ""
 #: website/public/showcase/dx-ball/index.html:143
 #: website/public/showcase/dx-ball/index.html:735
 #: website/public/showcase/index.html:143
-#: website/public/showcase/index.html:287
+#: website/public/showcase/index.html:325
 #: website/public/showcase/notion/index.html:143
 #: website/public/showcase/notion/index.html:581
 #: website/public/showcase/th04/index.html:143
@@ -52,7 +52,7 @@ msgctxt "shared"
 msgid "Get started"
 msgstr ""
 
-#: website/public/blog/index.html:120 website/public/blog/index.html:195
+#: website/public/blog/index.html:120 website/public/blog/index.html:197
 #: website/public/blog/reverse-engineering-models/index.html:120
 #: website/public/blog/reverse-engineering-models/index.html:834
 #: website/public/blog/touhou-reconstruction/index.html:120
@@ -61,21 +61,21 @@ msgstr ""
 #: website/public/contributors/index.html:1082
 #: website/public/examples/dino-lab/index.html:121
 #: website/public/examples/dino-lab/index.html:426
-#: website/public/faq/index.html:120 website/public/faq/index.html:524
+#: website/public/faq/index.html:120 website/public/faq/index.html:539
 #: website/public/first-investigation/index.html:120
 #: website/public/first-investigation/index.html:485
 #: website/public/get-started/index.html:120
 #: website/public/get-started/index.html:1803
 #: website/public/guides/browser/index.html:120
 #: website/public/guides/browser/index.html:458
-#: website/public/guides/index.html:120 website/public/guides/index.html:252
+#: website/public/guides/index.html:120 website/public/guides/index.html:248
 #: website/public/guides/javascript/index.html:120
 #: website/public/guides/javascript/index.html:462
 #: website/public/guides/native/index.html:120
 #: website/public/guides/native/index.html:463
 #: website/public/guides/rl-environments/index.html:120
 #: website/public/guides/rl-environments/index.html:449
-#: website/public/index.html:121 website/public/index.html:1423
+#: website/public/index.html:121 website/public/index.html:1431
 #: website/public/showcase/aegis/index.html:121
 #: website/public/showcase/aegis/index.html:766
 #: website/public/showcase/ctf/index.html:120
@@ -83,7 +83,7 @@ msgstr ""
 #: website/public/showcase/dx-ball/index.html:120
 #: website/public/showcase/dx-ball/index.html:736
 #: website/public/showcase/index.html:120
-#: website/public/showcase/index.html:288
+#: website/public/showcase/index.html:326
 #: website/public/showcase/notion/index.html:120
 #: website/public/showcase/notion/index.html:582
 #: website/public/showcase/th04/index.html:120
@@ -92,7 +92,7 @@ msgctxt "shared"
 msgid "Showcases"
 msgstr ""
 
-#: website/public/blog/index.html:121 website/public/blog/index.html:196
+#: website/public/blog/index.html:121 website/public/blog/index.html:198
 #: website/public/blog/reverse-engineering-models/index.html:121
 #: website/public/blog/reverse-engineering-models/index.html:835
 #: website/public/blog/touhou-reconstruction/index.html:121
@@ -101,21 +101,21 @@ msgstr ""
 #: website/public/contributors/index.html:1083
 #: website/public/examples/dino-lab/index.html:122
 #: website/public/examples/dino-lab/index.html:427
-#: website/public/faq/index.html:121 website/public/faq/index.html:525
+#: website/public/faq/index.html:121 website/public/faq/index.html:540
 #: website/public/first-investigation/index.html:121
 #: website/public/first-investigation/index.html:486
 #: website/public/get-started/index.html:121
 #: website/public/get-started/index.html:1804
 #: website/public/guides/browser/index.html:121
 #: website/public/guides/browser/index.html:459
-#: website/public/guides/index.html:121 website/public/guides/index.html:253
+#: website/public/guides/index.html:121 website/public/guides/index.html:249
 #: website/public/guides/javascript/index.html:121
 #: website/public/guides/javascript/index.html:463
 #: website/public/guides/native/index.html:121
 #: website/public/guides/native/index.html:464
 #: website/public/guides/rl-environments/index.html:121
 #: website/public/guides/rl-environments/index.html:450
-#: website/public/index.html:122 website/public/index.html:1424
+#: website/public/index.html:122 website/public/index.html:1432
 #: website/public/showcase/aegis/index.html:122
 #: website/public/showcase/aegis/index.html:767
 #: website/public/showcase/ctf/index.html:121
@@ -123,7 +123,7 @@ msgstr ""
 #: website/public/showcase/dx-ball/index.html:121
 #: website/public/showcase/dx-ball/index.html:737
 #: website/public/showcase/index.html:121
-#: website/public/showcase/index.html:289
+#: website/public/showcase/index.html:327
 #: website/public/showcase/notion/index.html:121
 #: website/public/showcase/notion/index.html:583
 #: website/public/showcase/th04/index.html:121
@@ -132,7 +132,7 @@ msgctxt "shared"
 msgid "Blog"
 msgstr ""
 
-#: website/public/blog/index.html:122 website/public/blog/index.html:197
+#: website/public/blog/index.html:122 website/public/blog/index.html:199
 #: website/public/blog/reverse-engineering-models/index.html:122
 #: website/public/blog/reverse-engineering-models/index.html:836
 #: website/public/blog/touhou-reconstruction/index.html:122
@@ -141,21 +141,21 @@ msgstr ""
 #: website/public/contributors/index.html:1084
 #: website/public/examples/dino-lab/index.html:123
 #: website/public/examples/dino-lab/index.html:428
-#: website/public/faq/index.html:122 website/public/faq/index.html:526
+#: website/public/faq/index.html:122 website/public/faq/index.html:541
 #: website/public/first-investigation/index.html:122
 #: website/public/first-investigation/index.html:487
 #: website/public/get-started/index.html:122
 #: website/public/get-started/index.html:1805
 #: website/public/guides/browser/index.html:122
 #: website/public/guides/browser/index.html:460
-#: website/public/guides/index.html:122 website/public/guides/index.html:254
+#: website/public/guides/index.html:122 website/public/guides/index.html:250
 #: website/public/guides/javascript/index.html:122
 #: website/public/guides/javascript/index.html:464
 #: website/public/guides/native/index.html:122
 #: website/public/guides/native/index.html:465
 #: website/public/guides/rl-environments/index.html:122
 #: website/public/guides/rl-environments/index.html:451
-#: website/public/index.html:123 website/public/index.html:1425
+#: website/public/index.html:123 website/public/index.html:1433
 #: website/public/showcase/aegis/index.html:123
 #: website/public/showcase/aegis/index.html:768
 #: website/public/showcase/ctf/index.html:122
@@ -163,7 +163,7 @@ msgstr ""
 #: website/public/showcase/dx-ball/index.html:122
 #: website/public/showcase/dx-ball/index.html:738
 #: website/public/showcase/index.html:122
-#: website/public/showcase/index.html:290
+#: website/public/showcase/index.html:328
 #: website/public/showcase/notion/index.html:122
 #: website/public/showcase/notion/index.html:584
 #: website/public/showcase/th04/index.html:122
@@ -172,23 +172,23 @@ msgctxt "shared"
 msgid "Guides"
 msgstr ""
 
-#: website/public/blog/index.html:204
+#: website/public/blog/index.html:206
 #: website/public/blog/reverse-engineering-models/index.html:843
 #: website/public/blog/touhou-reconstruction/index.html:1040
 #: website/public/contributors/index.html:1091
 #: website/public/examples/dino-lab/index.html:435
-#: website/public/faq/index.html:533
+#: website/public/faq/index.html:548
 #: website/public/first-investigation/index.html:494
 #: website/public/get-started/index.html:1812
 #: website/public/guides/browser/index.html:467
-#: website/public/guides/index.html:261
+#: website/public/guides/index.html:257
 #: website/public/guides/javascript/index.html:471
 #: website/public/guides/native/index.html:472
 #: website/public/guides/rl-environments/index.html:458
-#: website/public/index.html:1432 website/public/showcase/aegis/index.html:775
+#: website/public/index.html:1440 website/public/showcase/aegis/index.html:775
 #: website/public/showcase/ctf/index.html:737
 #: website/public/showcase/dx-ball/index.html:745
-#: website/public/showcase/index.html:297
+#: website/public/showcase/index.html:335
 #: website/public/showcase/notion/index.html:591
 #: website/public/showcase/th04/index.html:760
 msgctxt "shared"
@@ -213,99 +213,75 @@ msgctxt "page:blog/index.html"
 msgid "Thoughts on reverse engineering."
 msgstr ""
 
-#. {ph0}: <br />
-#: website/public/blog/index.html:156
-#, python-brace-format
-msgctxt "page:blog/index.html"
-msgid "Model specialization{ph0}Essay"
-msgstr ""
-
-#: website/public/blog/index.html:158
-msgctxt "page:blog/index.html"
-msgid "Does reverse engineering need a bigger model?"
-msgstr ""
-
-#: website/public/blog/index.html:159
+#: website/public/blog/index.html:163
 msgctxt "page:blog/index.html"
 msgid ""
 "What Touhou reconstruction suggests about general models, specialist models "
 "and learning from compiler feedback."
 msgstr ""
 
-#: website/public/blog/index.html:163 website/public/blog/index.html:178
+#: website/public/blog/index.html:167 website/public/blog/index.html:183
 msgctxt "page:blog/index.html"
 msgid "Read the article"
 msgstr ""
 
-#: website/public/blog/index.html:166
+#: website/public/blog/index.html:157
 msgctxt "page:blog/index.html"
 msgid "By N0zoM1z0 · 13 October 2026"
 msgstr ""
 
-#. {ph0}: <br />
-#: website/public/blog/index.html:170
-#, python-brace-format
-msgctxt "page:blog/index.html"
-msgid "Game reconstruction{ph0}Essay"
-msgstr ""
-
-#: website/public/blog/index.html:172
-msgctxt "page:blog/index.html"
-msgid "The industrial revolution in reverse engineering"
-msgstr ""
-
-#: website/public/blog/index.html:173
+#: website/public/blog/index.html:178
 msgctxt "page:blog/index.html"
 msgid ""
 "What manual RE and reconstructing TH08, TH095 and TH04 taught me about "
 "agents, verification and knowledge that compounds across projects."
 msgstr ""
 
-#: website/public/blog/index.html:181
+#: website/public/blog/index.html:172
 msgctxt "page:blog/index.html"
 msgid "By N0zoM1z0 · 10 October 2026"
 msgstr ""
 
-#: website/public/blog/index.html:209
+#: website/public/blog/index.html:211
 #: website/public/blog/reverse-engineering-models/index.html:848
 #: website/public/blog/touhou-reconstruction/index.html:1045
 #: website/public/contributors/index.html:1096
 #: website/public/examples/dino-lab/index.html:440
-#: website/public/faq/index.html:538
+#: website/public/faq/index.html:553
 #: website/public/first-investigation/index.html:499
 #: website/public/get-started/index.html:1817
 #: website/public/guides/browser/index.html:472
-#: website/public/guides/index.html:266
+#: website/public/guides/index.html:262
 #: website/public/guides/javascript/index.html:476
 #: website/public/guides/native/index.html:477
 #: website/public/guides/rl-environments/index.html:463
-#: website/public/index.html:1437 website/public/showcase/aegis/index.html:780
+#: website/public/index.html:1445 website/public/showcase/aegis/index.html:780
 #: website/public/showcase/ctf/index.html:742
 #: website/public/showcase/dx-ball/index.html:750
-#: website/public/showcase/index.html:302
+#: website/public/showcase/index.html:340
 #: website/public/showcase/notion/index.html:596
 #: website/public/showcase/th04/index.html:765
 msgctxt "shared"
 msgid "MIT license"
 msgstr ""
 
-#: website/public/blog/index.html:210
+#: website/public/blog/index.html:212
 #: website/public/blog/reverse-engineering-models/index.html:849
 #: website/public/blog/touhou-reconstruction/index.html:1046
 #: website/public/contributors/index.html:1097
 #: website/public/examples/dino-lab/index.html:441
-#: website/public/faq/index.html:539
+#: website/public/faq/index.html:554
 #: website/public/first-investigation/index.html:500
 #: website/public/get-started/index.html:1818
 #: website/public/guides/browser/index.html:473
-#: website/public/guides/index.html:267
+#: website/public/guides/index.html:263
 #: website/public/guides/javascript/index.html:477
 #: website/public/guides/native/index.html:478
 #: website/public/guides/rl-environments/index.html:464
-#: website/public/index.html:1438 website/public/showcase/aegis/index.html:781
+#: website/public/index.html:1446 website/public/showcase/aegis/index.html:781
 #: website/public/showcase/ctf/index.html:743
 #: website/public/showcase/dx-ball/index.html:751
-#: website/public/showcase/index.html:303
+#: website/public/showcase/index.html:341
 #: website/public/showcase/notion/index.html:597
 #: website/public/showcase/th04/index.html:766
 msgctxt "shared"
@@ -6306,20 +6282,15 @@ msgstr ""
 
 #: website/public/guides/index.html:159
 msgctxt "page:guides/index.html"
-msgid "First investigation"
-msgstr ""
-
-#: website/public/guides/index.html:161
-msgctxt "page:guides/index.html"
 msgid "Set up REA"
 msgstr ""
 
-#: website/public/guides/index.html:162
+#: website/public/guides/index.html:160
 msgctxt "page:guides/index.html"
 msgid "Connect your coding agent or use REA from the terminal."
 msgstr ""
 
-#: website/public/guides/index.html:163
+#: website/public/guides/index.html:162
 msgctxt "page:guides/index.html"
 msgid "Get started with REA"
 msgstr ""
@@ -6331,69 +6302,54 @@ msgstr ""
 
 #: website/public/guides/index.html:169
 msgctxt "page:guides/index.html"
-msgid "Recover a sound-pan calculation"
-msgstr ""
-
-#: website/public/guides/index.html:170
-msgctxt "page:guides/index.html"
 msgid ""
 "Start with a Windows game executable. Inspect instructions, follow a caller,"
 " read numeric constants and check the recovered C."
 msgstr ""
 
-#: website/public/guides/index.html:175
+#: website/public/guides/index.html:174
 msgctxt "page:guides/index.html"
 msgid "Instructions"
 msgstr ""
 
-#: website/public/guides/index.html:176
+#: website/public/guides/index.html:175
 msgctxt "page:guides/index.html"
 msgid "Caller"
 msgstr ""
 
-#: website/public/guides/index.html:177
+#: website/public/guides/index.html:176
 msgctxt "page:guides/index.html"
 msgid "Constants"
 msgstr ""
 
-#: website/public/guides/index.html:178
+#: website/public/guides/index.html:177
 msgctxt "page:guides/index.html"
 msgid "C function"
 msgstr ""
 
-#: website/public/guides/index.html:180
+#: website/public/guides/index.html:179
 msgctxt "page:guides/index.html"
 msgid "Native analysis guide"
 msgstr ""
 
-#: website/public/guides/index.html:184
-msgctxt "page:guides/index.html"
-msgid "JavaScript & Electron"
-msgstr ""
-
 #: website/public/guides/index.html:186
-msgctxt "page:guides/index.html"
-msgid "Follow a CSV export"
-msgstr ""
-
-#: website/public/guides/index.html:187
 msgctxt "page:guides/index.html"
 msgid ""
 "A small Notes app spreads one feature across the renderer, preload and main "
 "process. Use REA to connect the API, IPC channel and file writer."
 msgstr ""
 
-#: website/public/guides/index.html:193
+#: website/public/guides/index.html:192
 msgctxt "page:guides/index.html"
 msgid "Button"
 msgstr ""
 
-#: website/public/guides/index.html:194
+#: website/public/guides/index.html:193
 msgctxt "page:guides/index.html"
 msgid "Preload API"
 msgstr ""
 
-#: website/public/guides/index.html:195
+#: website/public/guides/index.html:194
 msgctxt "page:guides/index.html"
 msgid "IPC"
 msgstr ""
@@ -6403,52 +6359,47 @@ msgctxt "page:guides/index.html"
 msgid "CSV file"
 msgstr ""
 
-#: website/public/guides/index.html:197
+#: website/public/guides/index.html:201
 msgctxt "page:guides/index.html"
 msgid "JavaScript & Electron guide"
 msgstr ""
 
 #. {ph0}: <a href="../showcase/notion/">
 #. {ph1}: </a>
-#: website/public/guides/index.html:200
+#: website/public/guides/index.html:197
 #, python-brace-format
 msgctxt "page:guides/index.html"
 msgid "For a larger packaged app, follow {ph0}Notion's clipboard bridge{ph1}."
 msgstr ""
 
-#: website/public/guides/index.html:207
+#: website/public/guides/index.html:206
 msgctxt "page:guides/index.html"
 msgid "Browser behavior"
 msgstr ""
 
-#: website/public/guides/index.html:209
-msgctxt "page:guides/index.html"
-msgid "Observe a click"
-msgstr ""
-
-#: website/public/guides/index.html:210
+#: website/public/guides/index.html:208
 msgctxt "page:guides/index.html"
 msgid ""
 "Open a working Notes example, capture an export request and find the code "
 "that turns its response into a download."
 msgstr ""
 
-#: website/public/guides/index.html:215
+#: website/public/guides/index.html:213
 msgctxt "page:guides/index.html"
 msgid "Your click"
 msgstr ""
 
-#: website/public/guides/index.html:216
+#: website/public/guides/index.html:214
 msgctxt "page:guides/index.html"
 msgid "Captured request"
 msgstr ""
 
-#: website/public/guides/index.html:217
+#: website/public/guides/index.html:215
 msgctxt "page:guides/index.html"
 msgid "Export script"
 msgstr ""
 
-#: website/public/guides/index.html:219
+#: website/public/guides/index.html:217
 msgctxt "page:guides/index.html"
 msgid "Browser observation guide"
 msgstr ""
@@ -7384,50 +7335,42 @@ msgctxt "page:index.html"
 msgid "Skip to content"
 msgstr ""
 
-#: website/public/index.html:210
+#: website/public/index.html:218
 msgctxt "page:index.html"
 msgid "Get started"
 msgstr ""
 
-#: website/public/index.html:327 website/public/index.html:644
-#: website/public/index.html:918 website/public/index.html:1310
+#: website/public/index.html:335 website/public/index.html:652
+#: website/public/index.html:926 website/public/index.html:1318
 msgctxt "page:index.html"
 msgid "Copy"
 msgstr ""
 
-#: website/public/index.html:265
+#: website/public/index.html:273
 msgctxt "page:index.html"
 msgid "Ask about one feature"
 msgstr ""
 
-#: website/public/index.html:281
+#: website/public/index.html:289
 msgctxt "page:index.html"
 msgid "Inspect the program"
 msgstr ""
 
-#: website/public/index.html:297
+#: website/public/index.html:305
 msgctxt "page:index.html"
 msgid "Explain it, then try a change"
 msgstr ""
 
 #. {ph0}: <span translate="no">200 + 10%</span>
-#: website/public/index.html:750
+#: website/public/index.html:758
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Why does Calculator give 220 for {ph0}?"
 msgstr ""
 
-#: website/public/index.html:759
+#: website/public/index.html:767
 msgctxt "page:index.html"
 msgid "Follow the instructions step by step"
-msgstr ""
-
-#. {ph0}: <span>
-#. {ph1}: </span>
-#: website/public/index.html:767
-#, python-brace-format
-msgctxt "page:index.html"
-msgid "{ph0}01{ph1} Decode branches"
 msgstr ""
 
 #. {ph0}: <span>
@@ -7435,12 +7378,20 @@ msgstr ""
 #: website/public/index.html:775
 #, python-brace-format
 msgctxt "page:index.html"
-msgid "{ph0}02{ph1} Trace calls"
+msgid "{ph0}01{ph1} Decode branches"
 msgstr ""
 
 #. {ph0}: <span>
 #. {ph1}: </span>
 #: website/public/index.html:783
+#, python-brace-format
+msgctxt "page:index.html"
+msgid "{ph0}02{ph1} Trace calls"
+msgstr ""
+
+#. {ph0}: <span>
+#. {ph1}: </span>
+#: website/public/index.html:791
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}03{ph1} Recover the rule"
@@ -7450,20 +7401,20 @@ msgstr ""
 #. {ph1}: </span>
 #. {ph2}: <span class="assembly-disclosure" aria-hidden="true" >
 #. {ph3}: </span>
-#: website/public/index.html:794
+#: website/public/index.html:802
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}Original x64 · selected instructions{ph1} {ph2}{ph3}"
 msgstr ""
 
-#: website/public/index.html:836
+#: website/public/index.html:844
 msgctxt "page:index.html"
 msgid "01 · Which branch?"
 msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:837
+#: website/public/index.html:845
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7471,29 +7422,29 @@ msgid ""
 "these?”"
 msgstr ""
 
-#: website/public/index.html:841
+#: website/public/index.html:849
 msgctxt "page:index.html"
 msgid "Look up the command IDs, then label the branch."
 msgstr ""
 
-#: website/public/index.html:847
+#: website/public/index.html:855
 msgctxt "page:index.html"
 msgid "Divide ÷"
 msgstr ""
 
-#: website/public/index.html:851
+#: website/public/index.html:859
 msgctxt "page:index.html"
 msgid "Multiply ×"
 msgstr ""
 
-#: website/public/index.html:856
+#: website/public/index.html:864
 msgctxt "page:index.html"
 msgid "02 · What do the calls do?"
 msgstr ""
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:857
+#: website/public/index.html:865
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7501,24 +7452,24 @@ msgid ""
 "value goes in?{ph1}”"
 msgstr ""
 
-#: website/public/index.html:863
+#: website/public/index.html:871
 msgctxt "page:index.html"
 msgid "Inspect the helpers and trace the stored values."
 msgstr ""
 
-#: website/public/index.html:873
+#: website/public/index.html:881
 msgctxt "page:index.html"
 msgid "Divide"
 msgstr ""
 
-#: website/public/index.html:878
+#: website/public/index.html:886
 msgctxt "page:index.html"
 msgid "03 · What is the rule?"
 msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:879
+#: website/public/index.html:887
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7526,19 +7477,19 @@ msgid ""
 "after +.”"
 msgstr ""
 
-#: website/public/index.html:883
+#: website/public/index.html:891
 msgctxt "page:index.html"
 msgid "Name the operands and check both operator paths."
 msgstr ""
 
-#: website/public/index.html:899 website/public/index.html:826
+#: website/public/index.html:907 website/public/index.html:834
 msgctxt "page:index.html"
 msgid "Illustrative expert reasoning"
 msgstr ""
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:902
+#: website/public/index.html:910
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7546,7 +7497,7 @@ msgid ""
 "calculation.{ph1}"
 msgstr ""
 
-#: website/public/index.html:910
+#: website/public/index.html:918
 msgctxt "page:index.html"
 msgid "Ask your agent the same question"
 msgstr ""
@@ -7559,7 +7510,7 @@ msgstr ""
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/index.html:913
+#: website/public/index.html:921
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Example prompt · Calculator"
@@ -7572,7 +7523,7 @@ msgstr ""
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/index.html:927
+#: website/public/index.html:935
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7580,68 +7531,68 @@ msgid ""
 "220?{ph4}{ph5}{ph6}"
 msgstr ""
 
-#: website/public/index.html:935
+#: website/public/index.html:943
 msgctxt "page:index.html"
 msgid "Example answer · based on the findings"
 msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:938
+#: website/public/index.html:946
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
 "After +, the % button takes {ph0}a percentage of the first number.{ph1}"
 msgstr ""
 
-#: website/public/index.html:951
+#: website/public/index.html:959
 msgctxt "page:index.html"
 msgid "REA supplies"
 msgstr ""
 
-#: website/public/index.html:952
+#: website/public/index.html:960
 msgctxt "page:index.html"
 msgid "The handler’s instructions, decompiled code and calls."
 msgstr ""
 
-#: website/public/index.html:957
+#: website/public/index.html:965
 msgctxt "page:index.html"
 msgid "Your agent explains"
 msgstr ""
 
-#: website/public/index.html:958
+#: website/public/index.html:966
 msgctxt "page:index.html"
 msgid "Which branch applies, what it calculates and how to rebuild it."
 msgstr ""
 
-#: website/public/index.html:311
+#: website/public/index.html:319
 msgctxt "page:index.html"
 msgid "Why does the dinosaur get faster?"
 msgstr ""
 
 #. {ph0}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph1}: </a >
-#: website/public/index.html:528
+#: website/public/index.html:536
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Inspected target: {ph0}wayou’s Chromium-derived browser edition{ph1}."
 msgstr ""
 
 #. {ph0}: <span translate="no">index.js</span>
-#: website/public/index.html:536
+#: website/public/index.html:544
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "REA · loaded {ph0} · selected lines"
 msgstr ""
 
-#: website/public/index.html:545
+#: website/public/index.html:553
 msgctxt "page:index.html"
 msgid ""
 "Start at 6. Add 0.001 each update without a collision, while speed is below "
 "13."
 msgstr ""
 
-#: website/public/index.html:550
+#: website/public/index.html:558
 msgctxt "page:index.html"
 msgid "What each part does"
 msgstr ""
@@ -7652,7 +7603,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:552
+#: website/public/index.html:560
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7666,7 +7617,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:559
+#: website/public/index.html:567
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7680,7 +7631,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:567
+#: website/public/index.html:575
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7689,7 +7640,7 @@ msgid ""
 msgstr ""
 
 #. {ph0}: <code>index.js</code>
-#: website/public/index.html:577
+#: website/public/index.html:585
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7697,12 +7648,12 @@ msgid ""
 "and returned the loaded {ph0}, including its source and digest."
 msgstr ""
 
-#: website/public/index.html:584
+#: website/public/index.html:592
 msgctxt "page:index.html"
 msgid "Selected settings from the inspected script"
 msgstr ""
 
-#: website/public/index.html:590
+#: website/public/index.html:598
 msgctxt "page:index.html"
 msgid ""
 "We called the original game’s update function in a controlled browser check,"
@@ -7712,7 +7663,7 @@ msgstr ""
 
 #. {ph0}: <a href="examples/dino-lab/">
 #. {ph1}: </a>
-#: website/public/index.html:596
+#: website/public/index.html:604
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7725,7 +7676,7 @@ msgstr ""
 #. {ph1}: </a>
 #. {ph2}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph3}: </a >
-#: website/public/index.html:602
+#: website/public/index.html:610
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7739,32 +7690,32 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <a href="assets/licenses/dinosaur.txt" >
 #. {ph3}: </a >
-#: website/public/index.html:611
+#: website/public/index.html:619
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
 "{ph0}Inspected speed code{ph1} · {ph2}Chromium Authors · BSD license{ph3}"
 msgstr ""
 
-#: website/public/index.html:628
+#: website/public/index.html:636
 msgctxt "page:index.html"
 msgid "Rebuild Calculator’s % button."
 msgstr ""
 
 #. {ph0}: <code>previous = 200</code>
 #. {ph1}: <code>current = 10</code>
-#: website/public/index.html:970
+#: website/public/index.html:978
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "For this example, {ph0} and {ph1}."
 msgstr ""
 
-#: website/public/index.html:976
+#: website/public/index.html:984
 msgctxt "page:index.html"
 msgid "Readable summary of the % handler"
 msgstr ""
 
-#: website/public/index.html:985
+#: website/public/index.html:993
 msgctxt "page:index.html"
 msgid "From the installed app to a working % button"
 msgstr ""
@@ -7777,7 +7728,7 @@ msgstr ""
 #. {ph5}: <span class="flow-note" >
 #. {ph6}: <code>ms-calculator:</code>
 #. {ph7}: </span >
-#: website/public/index.html:989
+#: website/public/index.html:997
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7793,7 +7744,7 @@ msgstr ""
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: <code>100</code>
 #. {ph6}: </span >
-#: website/public/index.html:998
+#: website/public/index.html:1006
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7808,7 +7759,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:1006
+#: website/public/index.html:1014
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7817,17 +7768,17 @@ msgid ""
 " × above.{ph5}"
 msgstr ""
 
-#: website/public/index.html:1020
+#: website/public/index.html:1028
 msgctxt "page:index.html"
 msgid "REA · selected original instructions"
 msgstr ""
 
-#: website/public/index.html:1031
+#: website/public/index.html:1039
 msgctxt "page:index.html"
 msgid "Operator IDs · Microsoft’s source"
 msgstr ""
 
-#: website/public/index.html:1041
+#: website/public/index.html:1049
 msgctxt "page:index.html"
 msgid ""
 "Inspected with REA 4.1.0: Windows Calculator 11.2508.4.0, x64. The readable "
@@ -7845,7 +7796,7 @@ msgstr ""
 #. {ph3}: </a >
 #. {ph4}: <a href="guides/native/">
 #. {ph5}: </a>
-#: website/public/index.html:1046
+#: website/public/index.html:1054
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -7860,32 +7811,32 @@ msgid ""
 " Follow clear guides and try interactive examples with REA."
 msgstr ""
 
-#: website/public/index.html:1310
+#: website/public/index.html:1318
 msgctxt "page:index.html"
 msgid "Copy REA installation prompt"
 msgstr ""
 
-#: website/public/index.html:214 website/public/index.html:1328
+#: website/public/index.html:222 website/public/index.html:1336
 msgctxt "page:index.html"
 msgid "Copy setup command"
 msgstr ""
 
-#: website/public/index.html:762
+#: website/public/index.html:770
 msgctxt "page:index.html"
 msgid "Follow the manual Calculator analysis"
 msgstr ""
 
-#: website/public/index.html:918
+#: website/public/index.html:926
 msgctxt "page:index.html"
 msgid "Copy Calculator percentage question"
 msgstr ""
 
-#: website/public/index.html:327
+#: website/public/index.html:335
 msgctxt "page:index.html"
 msgid "Copy dinosaur analysis prompt"
 msgstr ""
 
-#: website/public/index.html:644
+#: website/public/index.html:652
 msgctxt "page:index.html"
 msgid "Copy Calculator analysis prompt"
 msgstr ""
@@ -10039,17 +9990,7 @@ msgid ""
 " results."
 msgstr ""
 
-#: website/public/showcase/index.html:159
-msgctxt "page:showcase/index.html"
-msgid "Android · APK analysis"
-msgstr ""
-
-#: website/public/showcase/index.html:161
-msgctxt "page:showcase/index.html"
-msgid "How an authenticator generates a login code"
-msgstr ""
-
-#: website/public/showcase/index.html:162
+#: website/public/showcase/index.html:169
 msgctxt "page:showcase/index.html"
 msgid ""
 "Find Aegis's six-digit code calculation in its released APK. Trace the "
@@ -10057,42 +9998,32 @@ msgid ""
 "changes every 30 seconds."
 msgstr ""
 
-#: website/public/showcase/index.html:168
+#: website/public/showcase/index.html:175
 msgctxt "page:showcase/index.html"
 msgid "APK"
 msgstr ""
 
-#: website/public/showcase/index.html:169
+#: website/public/showcase/index.html:176
 msgctxt "page:showcase/index.html"
 msgid "Generating code"
 msgstr ""
 
-#: website/public/showcase/index.html:170
+#: website/public/showcase/index.html:177
 msgctxt "page:showcase/index.html"
 msgid "Recovered rule"
 msgstr ""
 
-#: website/public/showcase/index.html:171
+#: website/public/showcase/index.html:178
 msgctxt "page:showcase/index.html"
 msgid "Adjustable clock"
 msgstr ""
 
-#: website/public/showcase/index.html:173
+#: website/public/showcase/index.html:180
 msgctxt "page:showcase/index.html"
 msgid "Read the Android case study"
 msgstr ""
 
-#: website/public/showcase/index.html:177
-msgctxt "page:showcase/index.html"
-msgid "CTF · Native analysis"
-msgstr ""
-
-#: website/public/showcase/index.html:179
-msgctxt "page:showcase/index.html"
-msgid "Solve a CTF flag checker"
-msgstr ""
-
-#: website/public/showcase/index.html:180
+#: website/public/showcase/index.html:194
 msgctxt "page:showcase/index.html"
 msgid ""
 "Inspect an easy DownUnderCTF challenge with REA. Find its checking "
@@ -10100,42 +10031,32 @@ msgid ""
 "with the original program."
 msgstr ""
 
-#: website/public/showcase/index.html:186
+#: website/public/showcase/index.html:200
 msgctxt "page:showcase/index.html"
 msgid "Binary"
 msgstr ""
 
-#: website/public/showcase/index.html:187
+#: website/public/showcase/index.html:201
 msgctxt "page:showcase/index.html"
 msgid "Checking code"
 msgstr ""
 
-#: website/public/showcase/index.html:188
+#: website/public/showcase/index.html:202
 msgctxt "page:showcase/index.html"
 msgid "Equations"
 msgstr ""
 
-#: website/public/showcase/index.html:189
+#: website/public/showcase/index.html:203
 msgctxt "page:showcase/index.html"
 msgid "Correct!"
 msgstr ""
 
-#: website/public/showcase/index.html:191
+#: website/public/showcase/index.html:205
 msgctxt "page:showcase/index.html"
 msgid "Read the CTF case study"
 msgstr ""
 
-#: website/public/showcase/index.html:195
-msgctxt "page:showcase/index.html"
-msgid "Native · Reconstruction"
-msgstr ""
-
-#: website/public/showcase/index.html:197
-msgctxt "page:showcase/index.html"
-msgid "DX-Ball's sound-pan calculation"
-msgstr ""
-
-#: website/public/showcase/index.html:198
+#: website/public/showcase/index.html:219
 msgctxt "page:showcase/index.html"
 msgid ""
 "Recover a sound-pan calculation from a 1996 Windows game. REA's "
@@ -10143,42 +10064,32 @@ msgid ""
 "function, checked against the original behavior and all 63 compiled bytes."
 msgstr ""
 
-#: website/public/showcase/index.html:205
+#: website/public/showcase/index.html:226
 msgctxt "page:showcase/index.html"
 msgid "Executable"
 msgstr ""
 
-#: website/public/showcase/index.html:206
+#: website/public/showcase/index.html:227
 msgctxt "page:showcase/index.html"
 msgid "REA findings"
 msgstr ""
 
-#: website/public/showcase/index.html:207
+#: website/public/showcase/index.html:228
 msgctxt "page:showcase/index.html"
 msgid "Recovered C"
 msgstr ""
 
-#: website/public/showcase/index.html:208
+#: website/public/showcase/index.html:229
 msgctxt "page:showcase/index.html"
 msgid "Validation"
 msgstr ""
 
-#: website/public/showcase/index.html:210
+#: website/public/showcase/index.html:231
 msgctxt "page:showcase/index.html"
 msgid "Read the DX-Ball case study"
 msgstr ""
 
-#: website/public/showcase/index.html:214
-msgctxt "page:showcase/index.html"
-msgid "Electron · Feature tracing"
-msgstr ""
-
-#: website/public/showcase/index.html:216
-msgctxt "page:showcase/index.html"
-msgid "How Notion copies text and HTML"
-msgstr ""
-
-#: website/public/showcase/index.html:217
+#: website/public/showcase/index.html:245
 msgctxt "page:showcase/index.html"
 msgid ""
 "Trace a page-facing API through Notion's packaged JavaScript. Follow its IPC"
@@ -10186,42 +10097,32 @@ msgid ""
 "rich block data connected to a copy."
 msgstr ""
 
-#: website/public/showcase/index.html:223
+#: website/public/showcase/index.html:251
 msgctxt "page:showcase/index.html"
 msgid "Packaged app"
 msgstr ""
 
-#: website/public/showcase/index.html:224
+#: website/public/showcase/index.html:252
 msgctxt "page:showcase/index.html"
 msgid "Exposed API"
 msgstr ""
 
-#: website/public/showcase/index.html:225
+#: website/public/showcase/index.html:253
 msgctxt "page:showcase/index.html"
 msgid "IPC wrappers"
 msgstr ""
 
-#: website/public/showcase/index.html:226
+#: website/public/showcase/index.html:254
 msgctxt "page:showcase/index.html"
 msgid "Clipboard"
 msgstr ""
 
-#: website/public/showcase/index.html:228
+#: website/public/showcase/index.html:256
 msgctxt "page:showcase/index.html"
 msgid "Read the Notion case study"
 msgstr ""
 
-#: website/public/showcase/index.html:232
-msgctxt "page:showcase/index.html"
-msgid "PC-98 DOS · Reconstruction"
-msgstr ""
-
-#: website/public/showcase/index.html:234
-msgctxt "page:showcase/index.html"
-msgid "How TH04 aims a ring of bullets"
-msgstr ""
-
-#: website/public/showcase/index.html:235
+#: website/public/showcase/index.html:270
 msgctxt "page:showcase/index.html"
 msgid ""
 "Inspect the original 16-bit angle helper with REA. Match its multiply, "
@@ -10229,44 +10130,44 @@ msgid ""
 "a ring aimed at the player."
 msgstr ""
 
-#: website/public/showcase/index.html:241
+#: website/public/showcase/index.html:276
 msgctxt "page:showcase/index.html"
 msgid "Original DOS code"
 msgstr ""
 
-#: website/public/showcase/index.html:242
+#: website/public/showcase/index.html:277
 msgctxt "page:showcase/index.html"
 msgid "REA instructions"
 msgstr ""
 
-#: website/public/showcase/index.html:243
+#: website/public/showcase/index.html:278
 msgctxt "page:showcase/index.html"
 msgid "Angle calculation"
 msgstr ""
 
-#: website/public/showcase/index.html:244
+#: website/public/showcase/index.html:279
 msgctxt "page:showcase/index.html"
 msgid "Bullet ring"
 msgstr ""
 
-#: website/public/showcase/index.html:246
+#: website/public/showcase/index.html:281
 msgctxt "page:showcase/index.html"
 msgid "Read the TH04 case study"
 msgstr ""
 
-#: website/public/showcase/index.html:271
+#: website/public/showcase/index.html:308
 msgctxt "page:showcase/index.html"
 msgid "Step-by-step guides"
 msgstr ""
 
-#: website/public/showcase/index.html:272
+#: website/public/showcase/index.html:309
 msgctxt "page:showcase/index.html"
 msgid ""
 "The guides walk through a native calculation, an Electron export and a "
 "browser request. Each starts with a prompt and a concrete target."
 msgstr ""
 
-#: website/public/showcase/index.html:276
+#: website/public/showcase/index.html:314
 msgctxt "page:showcase/index.html"
 msgid "Read the guides"
 msgstr ""
@@ -11815,7 +11716,7 @@ msgctxt "runtime"
 msgid "Code selected. Use your keyboard to copy it."
 msgstr ""
 
-#: website/public/assets/main.js:216
+#: website/public/assets/main.js:250
 #, python-brace-format
 msgctxt "runtime"
 msgid "REA on GitHub ({count})"
@@ -12105,17 +12006,12 @@ msgctxt "figure:th04-bullet-ring.svg"
 msgid "Same spacing: 256 ÷ 16 = 16 angle units = 22.5°"
 msgstr ""
 
-#: website/public/guides/index.html:223
+#: website/public/guides/index.html:222
 msgctxt "page:guides/index.html"
 msgid "RL environments"
 msgstr "RL പരിതസ്ഥിതികൾ"
 
-#: website/public/guides/index.html:225
-msgctxt "page:guides/index.html"
-msgid "Build an environment for agents"
-msgstr "ഏജന്റുകൾക്കായി പരിതസ്ഥിതി നിർമ്മിക്കുക"
-
-#: website/public/guides/index.html:226
+#: website/public/guides/index.html:224
 msgctxt "page:guides/index.html"
 msgid ""
 "Record a web app session, turn it into tools and local data, then add tasks "
@@ -12124,27 +12020,27 @@ msgstr ""
 "വെബ് ആപ്പ് സെഷൻ റെക്കോർഡ് ചെയ്ത് ടൂളുകളും പ്രാദേശിക ഡാറ്റയുമാക്കുക. തുടർന്ന്"
 " ടാസ്‌ക്കുകളും റിവാർഡ് പരിശോധനകളും ചേർക്കുക."
 
-#: website/public/guides/index.html:231
+#: website/public/guides/index.html:229
 msgctxt "page:guides/index.html"
 msgid "Record"
 msgstr "റെക്കോർഡ്"
 
-#: website/public/guides/index.html:231
+#: website/public/guides/index.html:230
 msgctxt "page:guides/index.html"
 msgid "Build"
 msgstr "നിർമ്മിക്കുക"
 
-#: website/public/guides/index.html:232
+#: website/public/guides/index.html:231
 msgctxt "page:guides/index.html"
 msgid "Run"
 msgstr "പ്രവർത്തിപ്പിക്കുക"
 
-#: website/public/guides/index.html:234
+#: website/public/guides/index.html:232
 msgctxt "page:guides/index.html"
 msgid "Evaluate"
 msgstr "വിലയിരുത്തുക"
 
-#: website/public/guides/index.html:236
+#: website/public/guides/index.html:234
 msgctxt "page:guides/index.html"
 msgid "Build an RL environment"
 msgstr "പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി"
@@ -12613,17 +12509,7 @@ msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Check what works{ph1}"
 msgstr ""
 
-#: website/public/showcase/index.html:250
-msgctxt "page:showcase/index.html"
-msgid "RL environments"
-msgstr "RL പരിതസ്ഥിതികൾ"
-
-#: website/public/showcase/index.html:252
-msgctxt "page:showcase/index.html"
-msgid "Build RL environments with REA"
-msgstr "REA ഉപയോഗിച്ച് RL പരിതസ്ഥിതികൾ നിർമ്മിക്കുക"
-
-#: website/public/showcase/index.html:253
+#: website/public/showcase/index.html:297
 msgctxt "page:showcase/index.html"
 msgid ""
 "Record a web app session, turn its API into tools, and export an environment"
@@ -12634,16 +12520,6 @@ msgstr ""
 " പരിതസ്ഥിതി എക്‌സ്‌പോർട്ട് ചെയ്യുക. AgentEnv ഉപയോഗിച്ച് പ്രവർത്തിപ്പിച്ച "
 "ശേഷം RL പരിശീലനത്തിനോ മൂല്യനിർണയത്തിനോ ടാസ്‌ക്കുകളും റിവാർഡ് പരിശോധനകളും "
 "ചേർക്കുക."
-
-#. {ph0}: <a class="text-link" href="../guides/rl-environments/" >
-#. {ph1}: </a >
-#. {ph2}: <a href="https://x.com/reatools/status/2112574822584918075?s=20" >
-#. {ph3}: </a >
-#: website/public/showcase/index.html:258
-#, python-brace-format
-msgctxt "page:showcase/index.html"
-msgid "{ph0}Read the guide{ph1} · {ph2}Watch the video{ph3}"
-msgstr "{ph0}പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി{ph1} · {ph2}X-ൽ ഡെമോ കാണുക{ph3}"
 
 #: website/public/blog/index.html:83 website/public/blog/index.html:96
 #: website/public/blog/reverse-engineering-models/index.html:83
@@ -12863,183 +12739,183 @@ msgctxt "page:showcase/th04/index.html"
 msgid "TH04 Reverse Engineering: DOS Bullet Patterns | REA"
 msgstr ""
 
-#: website/public/blog/index.html:193
+#: website/public/blog/index.html:195
 #: website/public/blog/reverse-engineering-models/index.html:832
 #: website/public/blog/touhou-reconstruction/index.html:1029
 #: website/public/contributors/index.html:1080
 #: website/public/examples/dino-lab/index.html:424
-#: website/public/faq/index.html:522
+#: website/public/faq/index.html:537
 #: website/public/first-investigation/index.html:483
 #: website/public/get-started/index.html:1801
 #: website/public/guides/browser/index.html:456
-#: website/public/guides/index.html:250
+#: website/public/guides/index.html:246
 #: website/public/guides/javascript/index.html:460
 #: website/public/guides/native/index.html:461
 #: website/public/guides/rl-environments/index.html:447
-#: website/public/index.html:1421 website/public/showcase/aegis/index.html:764
+#: website/public/index.html:1429 website/public/showcase/aegis/index.html:764
 #: website/public/showcase/ctf/index.html:726
 #: website/public/showcase/dx-ball/index.html:734
-#: website/public/showcase/index.html:286
+#: website/public/showcase/index.html:324
 #: website/public/showcase/notion/index.html:580
 #: website/public/showcase/th04/index.html:749
 msgctxt "shared"
 msgid "Product"
 msgstr "ഉൽപ്പന്നം"
 
-#: website/public/blog/index.html:200
+#: website/public/blog/index.html:202
 #: website/public/blog/reverse-engineering-models/index.html:839
 #: website/public/blog/touhou-reconstruction/index.html:1036
 #: website/public/contributors/index.html:1087
 #: website/public/examples/dino-lab/index.html:431
-#: website/public/faq/index.html:529
+#: website/public/faq/index.html:544
 #: website/public/first-investigation/index.html:490
 #: website/public/get-started/index.html:1808
 #: website/public/guides/browser/index.html:463
-#: website/public/guides/index.html:257
+#: website/public/guides/index.html:253
 #: website/public/guides/javascript/index.html:467
 #: website/public/guides/native/index.html:468
 #: website/public/guides/rl-environments/index.html:454
-#: website/public/index.html:1428 website/public/showcase/aegis/index.html:771
+#: website/public/index.html:1436 website/public/showcase/aegis/index.html:771
 #: website/public/showcase/ctf/index.html:733
 #: website/public/showcase/dx-ball/index.html:741
-#: website/public/showcase/index.html:293
+#: website/public/showcase/index.html:331
 #: website/public/showcase/notion/index.html:587
 #: website/public/showcase/th04/index.html:756
 msgctxt "shared"
 msgid "Help"
 msgstr "സഹായം"
 
-#: website/public/blog/index.html:203
+#: website/public/blog/index.html:205
 #: website/public/blog/reverse-engineering-models/index.html:842
 #: website/public/blog/touhou-reconstruction/index.html:1039
 #: website/public/contributors/index.html:1090
 #: website/public/examples/dino-lab/index.html:434
-#: website/public/faq/index.html:532
+#: website/public/faq/index.html:547
 #: website/public/first-investigation/index.html:493
 #: website/public/get-started/index.html:1811
 #: website/public/guides/browser/index.html:466
-#: website/public/guides/index.html:260
+#: website/public/guides/index.html:256
 #: website/public/guides/javascript/index.html:470
 #: website/public/guides/native/index.html:471
 #: website/public/guides/rl-environments/index.html:457
-#: website/public/index.html:1431 website/public/showcase/aegis/index.html:774
+#: website/public/index.html:1439 website/public/showcase/aegis/index.html:774
 #: website/public/showcase/ctf/index.html:736
 #: website/public/showcase/dx-ball/index.html:744
-#: website/public/showcase/index.html:296
+#: website/public/showcase/index.html:334
 #: website/public/showcase/notion/index.html:590
 #: website/public/showcase/th04/index.html:759
 msgctxt "shared"
 msgid "GitHub issues"
 msgstr "GitHub ഇഷ്യൂകൾ"
 
-#: website/public/blog/index.html:207
+#: website/public/blog/index.html:209
 #: website/public/blog/reverse-engineering-models/index.html:846
 #: website/public/blog/touhou-reconstruction/index.html:1043
 #: website/public/contributors/index.html:1094
 #: website/public/examples/dino-lab/index.html:438
-#: website/public/faq/index.html:536
+#: website/public/faq/index.html:551
 #: website/public/first-investigation/index.html:497
 #: website/public/get-started/index.html:1815
 #: website/public/guides/browser/index.html:470
-#: website/public/guides/index.html:264
+#: website/public/guides/index.html:260
 #: website/public/guides/javascript/index.html:474
 #: website/public/guides/native/index.html:475
 #: website/public/guides/rl-environments/index.html:461
-#: website/public/index.html:1435 website/public/showcase/aegis/index.html:778
+#: website/public/index.html:1443 website/public/showcase/aegis/index.html:778
 #: website/public/showcase/ctf/index.html:740
 #: website/public/showcase/dx-ball/index.html:748
-#: website/public/showcase/index.html:300
+#: website/public/showcase/index.html:338
 #: website/public/showcase/notion/index.html:594
 #: website/public/showcase/th04/index.html:763
 msgctxt "shared"
 msgid "Project"
 msgstr "പ്രോജക്റ്റ്"
 
-#: website/public/blog/index.html:208
+#: website/public/blog/index.html:210
 #: website/public/blog/reverse-engineering-models/index.html:847
 #: website/public/blog/touhou-reconstruction/index.html:1044
 #: website/public/contributors/index.html:1095
 #: website/public/examples/dino-lab/index.html:439
-#: website/public/faq/index.html:537
+#: website/public/faq/index.html:552
 #: website/public/first-investigation/index.html:498
 #: website/public/get-started/index.html:1816
 #: website/public/guides/browser/index.html:471
-#: website/public/guides/index.html:265
+#: website/public/guides/index.html:261
 #: website/public/guides/javascript/index.html:475
 #: website/public/guides/native/index.html:476
 #: website/public/guides/rl-environments/index.html:462
-#: website/public/index.html:1436 website/public/showcase/aegis/index.html:779
+#: website/public/index.html:1444 website/public/showcase/aegis/index.html:779
 #: website/public/showcase/ctf/index.html:741
 #: website/public/showcase/dx-ball/index.html:749
-#: website/public/showcase/index.html:301
+#: website/public/showcase/index.html:339
 #: website/public/showcase/notion/index.html:595
 #: website/public/showcase/th04/index.html:764
 msgctxt "shared"
 msgid "Source code"
 msgstr "സോഴ്സ് കോഡ്"
 
-#: website/public/blog/index.html:221
+#: website/public/blog/index.html:223
 #: website/public/blog/reverse-engineering-models/index.html:860
 #: website/public/blog/touhou-reconstruction/index.html:1057
 #: website/public/contributors/index.html:1108
 #: website/public/examples/dino-lab/index.html:452
-#: website/public/faq/index.html:550
+#: website/public/faq/index.html:565
 #: website/public/first-investigation/index.html:511
 #: website/public/get-started/index.html:1829
 #: website/public/guides/browser/index.html:484
-#: website/public/guides/index.html:278
+#: website/public/guides/index.html:274
 #: website/public/guides/javascript/index.html:488
 #: website/public/guides/native/index.html:489
 #: website/public/guides/rl-environments/index.html:475
-#: website/public/index.html:1449 website/public/showcase/aegis/index.html:792
+#: website/public/index.html:1457 website/public/showcase/aegis/index.html:792
 #: website/public/showcase/ctf/index.html:754
 #: website/public/showcase/dx-ball/index.html:762
-#: website/public/showcase/index.html:314
+#: website/public/showcase/index.html:352
 #: website/public/showcase/notion/index.html:608
 #: website/public/showcase/th04/index.html:777
 msgctxt "shared"
 msgid "Reverse engineering with your coding agent."
 msgstr "നിങ്ങളുടെ കോഡിംഗ് ഏജന്റിനൊപ്പം റിവേഴ്സ് എഞ്ചിനീയറിംഗ്."
 
-#: website/public/blog/index.html:222
+#: website/public/blog/index.html:224
 #: website/public/blog/reverse-engineering-models/index.html:861
 #: website/public/blog/touhou-reconstruction/index.html:1058
 #: website/public/contributors/index.html:1109
 #: website/public/examples/dino-lab/index.html:453
-#: website/public/faq/index.html:551
+#: website/public/faq/index.html:566
 #: website/public/first-investigation/index.html:512
 #: website/public/get-started/index.html:1830
 #: website/public/guides/browser/index.html:485
-#: website/public/guides/index.html:279
+#: website/public/guides/index.html:275
 #: website/public/guides/javascript/index.html:489
 #: website/public/guides/native/index.html:490
 #: website/public/guides/rl-environments/index.html:476
-#: website/public/index.html:1450 website/public/showcase/aegis/index.html:793
+#: website/public/index.html:1458 website/public/showcase/aegis/index.html:793
 #: website/public/showcase/ctf/index.html:755
 #: website/public/showcase/dx-ball/index.html:763
-#: website/public/showcase/index.html:315
+#: website/public/showcase/index.html:353
 #: website/public/showcase/notion/index.html:609
 #: website/public/showcase/th04/index.html:778
 msgctxt "shared"
 msgid "Website by"
 msgstr "വെബ്സൈറ്റ് തയ്യാറാക്കിയത്"
 
-#: website/public/blog/index.html:191
+#: website/public/blog/index.html:193
 msgctxt "page:blog/index.html"
 msgid "Footer"
 msgstr "ഫൂട്ടർ"
 
-#: website/public/blog/index.html:214
+#: website/public/blog/index.html:216
 msgctxt "page:blog/index.html"
 msgid "REA on GitHub"
 msgstr ""
 
-#: website/public/blog/index.html:215
+#: website/public/blog/index.html:217
 msgctxt "page:blog/index.html"
 msgid "Join REA on Discord"
 msgstr ""
 
-#: website/public/blog/index.html:216
+#: website/public/blog/index.html:218
 msgctxt "page:blog/index.html"
 msgid "Follow REA on X"
 msgstr ""
@@ -13124,22 +13000,22 @@ msgctxt "page:examples/dino-lab/index.html"
 msgid "Follow REA on X"
 msgstr ""
 
-#: website/public/faq/index.html:520
+#: website/public/faq/index.html:535
 msgctxt "page:faq/index.html"
 msgid "Footer"
 msgstr "ഫൂട്ടർ"
 
-#: website/public/faq/index.html:543
+#: website/public/faq/index.html:558
 msgctxt "page:faq/index.html"
 msgid "REA on GitHub"
 msgstr ""
 
-#: website/public/faq/index.html:544
+#: website/public/faq/index.html:559
 msgctxt "page:faq/index.html"
 msgid "Join REA on Discord"
 msgstr ""
 
-#: website/public/faq/index.html:545
+#: website/public/faq/index.html:560
 msgctxt "page:faq/index.html"
 msgid "Follow REA on X"
 msgstr ""
@@ -13249,22 +13125,22 @@ msgctxt "page:guides/browser/index.html"
 msgid "Follow REA on X"
 msgstr ""
 
-#: website/public/guides/index.html:248
+#: website/public/guides/index.html:244
 msgctxt "page:guides/index.html"
 msgid "Footer"
 msgstr "ഫൂട്ടർ"
 
-#: website/public/guides/index.html:271
+#: website/public/guides/index.html:267
 msgctxt "page:guides/index.html"
 msgid "REA on GitHub"
 msgstr ""
 
-#: website/public/guides/index.html:272
+#: website/public/guides/index.html:268
 msgctxt "page:guides/index.html"
 msgid "Join REA on Discord"
 msgstr ""
 
-#: website/public/guides/index.html:273
+#: website/public/guides/index.html:269
 msgctxt "page:guides/index.html"
 msgid "Follow REA on X"
 msgstr ""
@@ -13329,12 +13205,12 @@ msgctxt "page:guides/rl-environments/index.html"
 msgid "Follow REA on X"
 msgstr ""
 
-#: website/public/index.html:204
+#: website/public/index.html:212
 msgctxt "page:index.html"
 msgid "Take any program apart."
 msgstr ""
 
-#: website/public/index.html:205
+#: website/public/index.html:213
 msgctxt "page:index.html"
 msgid ""
 "REA lets your coding agent open an app, a game or a website and lay out the "
@@ -13345,94 +13221,94 @@ msgstr ""
 #. {ph1}: </strong >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/index.html:238
+#: website/public/index.html:246
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}npm, last 30 days{ph3}"
 msgstr ""
 
-#: website/public/index.html:249
+#: website/public/index.html:257
 msgctxt "page:index.html"
 msgid "Every investigation follows the same three steps."
 msgstr ""
 
-#: website/public/index.html:250
+#: website/public/index.html:258
 msgctxt "page:index.html"
 msgid ""
 "Your agent asks, REA reads the program, and your agent explains it. The two "
 "examples below show it on real programs."
 msgstr ""
 
-#: website/public/index.html:266
+#: website/public/index.html:274
 msgctxt "page:index.html"
 msgid ""
 "Give your agent an app, a game or a page, and one question about how it "
 "works."
 msgstr ""
 
-#: website/public/index.html:282
+#: website/public/index.html:290
 msgctxt "page:index.html"
 msgid ""
 "REA lets your agent read the code and see what the program does while it "
 "runs."
 msgstr ""
 
-#: website/public/index.html:298
+#: website/public/index.html:306
 msgctxt "page:index.html"
 msgid ""
 "Your agent uses the findings to explain the feature or rebuild it with your "
 "change."
 msgstr ""
 
-#: website/public/index.html:312
+#: website/public/index.html:320
 msgctxt "page:index.html"
 msgid ""
 "The game speeds up as you run. Ask your agent for the rule, then rebuild it "
 "with a speed control."
 msgstr ""
 
-#: website/public/index.html:336
+#: website/public/index.html:344
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect this dinosaur game. Why does it get faster? Show the "
 "speed rule, then build a small version with an adjustable speed."
 msgstr ""
 
-#: website/public/index.html:501
+#: website/public/index.html:509
 msgctxt "page:index.html"
 msgid ""
 "Recovered speed: it starts at 6, reaches 10 after 4,000 updates and stops at"
 " 13 after 10,000 updates."
 msgstr ""
 
-#: website/public/index.html:508
+#: website/public/index.html:516
 msgctxt "page:index.html"
 msgid "Starting speed"
 msgstr ""
 
-#: website/public/index.html:512
+#: website/public/index.html:520
 msgctxt "page:index.html"
 msgid "Added on each update"
 msgstr ""
 
-#: website/public/index.html:516
+#: website/public/index.html:524
 msgctxt "page:index.html"
 msgid "Where it stops"
 msgstr ""
 
-#: website/public/index.html:522 website/public/index.html:744
+#: website/public/index.html:530 website/public/index.html:752
 msgctxt "page:index.html"
 msgid "See how it was found"
 msgstr ""
 
-#: website/public/index.html:629
+#: website/public/index.html:637
 msgctxt "page:index.html"
 msgid ""
 "The % key does different things after + and after ×. Ask your agent to find "
 "both rules."
 msgstr ""
 
-#: website/public/index.html:653
+#: website/public/index.html:661
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect Windows Calculator’s % button. Find the rule after + and "
@@ -13442,7 +13318,7 @@ msgstr ""
 #. {ph0}: <span class="calculator-sum" translate="no">200 + 10%</span>
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:698
+#: website/public/index.html:706
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% of 200 is added: 200 + 20{ph2}"
@@ -13451,63 +13327,63 @@ msgstr ""
 #. {ph0}: <span class="calculator-sum" translate="no">200 × 10%</span>
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:733
+#: website/public/index.html:741
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% becomes 0.1: 200 × 0.1{ph2}"
 msgstr ""
 
-#: website/public/index.html:965
+#: website/public/index.html:973
 msgctxt "page:index.html"
 msgid ""
 "Selected assembly from the installed Calculator DLL. The thoughts and reply "
 "illustrate the findings."
 msgstr ""
 
-#: website/public/index.html:1066
+#: website/public/index.html:1074
 msgctxt "page:index.html"
 msgid "Real apps, taken apart."
 msgstr ""
 
-#: website/public/index.html:1067
+#: website/public/index.html:1075
 msgctxt "page:index.html"
 msgid ""
 "Each case study follows one feature in a released app or game, with the code"
 " and the checked results."
 msgstr ""
 
-#: website/public/index.html:1072
+#: website/public/index.html:1080
 msgctxt "page:index.html"
 msgid "All showcases"
 msgstr ""
 
-#: website/public/index.html:1087
+#: website/public/index.html:1095
 msgctxt "page:index.html"
 msgid "Android app"
 msgstr ""
 
 #. {ph0}: <a href="showcase/aegis/" >
 #. {ph1}: </a >
-#: website/public/index.html:1089
+#: website/public/index.html:1097
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How an authenticator generates a login code{ph1}"
 msgstr ""
 
-#: website/public/index.html:1094
+#: website/public/index.html:1102
 msgctxt "page:index.html"
 msgid ""
 "Trace Aegis’s six-digit code through its released APK, then see why it "
 "changes every 30 seconds."
 msgstr ""
 
-#: website/public/index.html:1098 website/public/index.html:1126
-#: website/public/index.html:1154
+#: website/public/index.html:1106 website/public/index.html:1134
+#: website/public/index.html:1162
 msgctxt "page:index.html"
 msgid "Read the case study"
 msgstr ""
 
-#: website/public/index.html:1115
+#: website/public/index.html:1123
 msgctxt "page:index.html"
 msgid "Electron app"
 msgstr ""
@@ -13515,91 +13391,91 @@ msgstr ""
 #. {ph0}: <a href="showcase/notion/" >
 #. {ph1}: <br />
 #. {ph2}: </a >
-#: website/public/index.html:1117
+#: website/public/index.html:1125
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How Notion copies{ph1}text and HTML{ph2}"
 msgstr ""
 
-#: website/public/index.html:1122
+#: website/public/index.html:1130
 msgctxt "page:index.html"
 msgid ""
 "Follow Notion’s packaged JavaScript to the system clipboard and see how a "
 "copy keeps its rich block data."
 msgstr ""
 
-#: website/public/index.html:1143
+#: website/public/index.html:1151
 msgctxt "page:index.html"
 msgid "Windows game"
 msgstr ""
 
 #. {ph0}: <a href="showcase/dx-ball/" >
 #. {ph1}: </a >
-#: website/public/index.html:1145
+#: website/public/index.html:1153
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}DX-Ball’s sound-pan calculation{ph1}"
 msgstr ""
 
-#: website/public/index.html:1150
+#: website/public/index.html:1158
 msgctxt "page:index.html"
 msgid ""
 "Recover how this 1996 game turns a hit brick’s position into stereo sound."
 msgstr ""
 
-#: website/public/index.html:1166
+#: website/public/index.html:1174
 msgctxt "page:index.html"
 msgid "Build RL environments from a web app."
 msgstr ""
 
-#: website/public/index.html:1168
+#: website/public/index.html:1176
 msgctxt "page:index.html"
 msgid ""
 "Turn a recorded session into a local environment where agents practice tasks"
 " without the original app."
 msgstr ""
 
-#: website/public/index.html:1173
+#: website/public/index.html:1181
 msgctxt "page:index.html"
 msgid "Read the guide"
 msgstr ""
 
-#: website/public/index.html:1179
+#: website/public/index.html:1187
 msgctxt "page:index.html"
 msgid "Watch the demo on"
 msgstr ""
 
-#: website/public/index.html:1229
+#: website/public/index.html:1237
 msgctxt "page:index.html"
 msgid "Record a session"
 msgstr ""
 
-#: website/public/index.html:1230
+#: website/public/index.html:1238
 msgctxt "page:index.html"
 msgid "Your agent records a test app’s requests and responses."
 msgstr ""
 
-#: website/public/index.html:1252
+#: website/public/index.html:1260
 msgctxt "page:index.html"
 msgid "Build with REA"
 msgstr ""
 
-#: website/public/index.html:1253
+#: website/public/index.html:1261
 msgctxt "page:index.html"
 msgid "REA turns the recording into tools and reports what it supports."
 msgstr ""
 
-#: website/public/index.html:1274
+#: website/public/index.html:1282
 msgctxt "page:index.html"
 msgid "Run with AgentEnv"
 msgstr ""
 
-#: website/public/index.html:1275
+#: website/public/index.html:1283
 msgctxt "page:index.html"
 msgid "Agents practice tasks in it, without the original app."
 msgstr ""
 
-#: website/public/index.html:1279
+#: website/public/index.html:1287
 msgctxt "page:index.html"
 msgid ""
 "Example with a test app that manages folders. The environment only supports "
@@ -13607,13 +13483,13 @@ msgid ""
 msgstr ""
 
 #. {ph0}: <br />
-#: website/public/index.html:1290
+#: website/public/index.html:1298
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Ask how it works.{ph0}Then rebuild it."
 msgstr ""
 
-#: website/public/index.html:1293
+#: website/public/index.html:1301
 msgctxt "page:index.html"
 msgid ""
 "Set up REA in your coding agent. It shows you the plan, waits for your "
@@ -13621,7 +13497,7 @@ msgid ""
 msgstr ""
 
 #. {ph0}: <code translate="no">npx rea-agents@latest setup</code>
-#: website/public/index.html:1319
+#: website/public/index.html:1327
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -13632,35 +13508,35 @@ msgstr ""
 #. {ph0}: <span translate="no">Node.js</span>
 #. {ph1}: <a href="get-started/">
 #. {ph2}: </a>
-#: website/public/index.html:1336
+#: website/public/index.html:1344
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Needs {ph0}. No coding agent yet? {ph1}Follow the setup guide{ph2}."
 msgstr ""
 
-#: website/public/index.html:1342
+#: website/public/index.html:1350
 msgctxt "page:index.html"
 msgid "Then pick a guide for your target."
 msgstr ""
 
-#: website/public/index.html:1357
+#: website/public/index.html:1365
 msgctxt "page:index.html"
 msgid "Native programs"
 msgstr ""
 
-#: website/public/index.html:1376
+#: website/public/index.html:1384
 msgctxt "page:index.html"
 msgid "JavaScript and Electron"
 msgstr ""
 
-#: website/public/index.html:1390
+#: website/public/index.html:1398
 msgctxt "page:index.html"
 msgid "Browser and runtime"
 msgstr ""
 
 #. {ph0}: <a href="first-investigation/" >
 #. {ph1}: </a >
-#: website/public/index.html:1394
+#: website/public/index.html:1402
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -13668,70 +13544,70 @@ msgid ""
 "export."
 msgstr ""
 
-#: website/public/index.html:195
+#: website/public/index.html:195 website/public/index.html:203
 msgctxt "page:index.html"
 msgid ""
 "A calculator taken apart and laid out piece by piece: its case, keypad, "
 "circuit board, display, screws and keys."
 msgstr ""
 
-#: website/public/index.html:257
+#: website/public/index.html:265
 msgctxt "page:index.html"
 msgid ""
 "A calculator keypad with its % key set apart and tagged with a paper label."
 msgstr ""
 
-#: website/public/index.html:273
+#: website/public/index.html:281
 msgctxt "page:index.html"
 msgid "A calculator beside its circuit board, with a loupe over the chip."
 msgstr ""
 
-#: website/public/index.html:289
+#: website/public/index.html:297
 msgctxt "page:index.html"
 msgid ""
 "The calculator reassembled with its % key highlighted and a spare % key "
 "beside it."
 msgstr ""
 
-#: website/public/index.html:1076
+#: website/public/index.html:1084
 msgctxt "page:index.html"
 msgid ""
 "A phone taken apart: its screen showing a six-digit code, frame, back, "
 "battery, board and screws."
 msgstr ""
 
-#: website/public/index.html:1104
+#: website/public/index.html:1112
 msgctxt "page:index.html"
 msgid ""
 "Ctrl, C and V keys in a row, followed by a lifted key and three blank keys."
 msgstr ""
 
-#: website/public/index.html:1132
+#: website/public/index.html:1140
 msgctxt "page:index.html"
 msgid "A sound card wired to a speaker on each side."
 msgstr ""
 
-#: website/public/index.html:1403
+#: website/public/index.html:1411
 msgctxt "page:index.html"
 msgid "The rebuilt calculator showing 220 on its display."
 msgstr ""
 
-#: website/public/index.html:1419
+#: website/public/index.html:1427
 msgctxt "page:index.html"
 msgid "Footer"
 msgstr "ഫൂട്ടർ"
 
-#: website/public/index.html:1442
+#: website/public/index.html:1450
 msgctxt "page:index.html"
 msgid "REA on GitHub"
 msgstr ""
 
-#: website/public/index.html:1443
+#: website/public/index.html:1451
 msgctxt "page:index.html"
 msgid "Join REA on Discord"
 msgstr ""
 
-#: website/public/index.html:1444
+#: website/public/index.html:1452
 msgctxt "page:index.html"
 msgid "Follow REA on X"
 msgstr ""
@@ -13796,22 +13672,22 @@ msgctxt "page:showcase/dx-ball/index.html"
 msgid "Follow REA on X"
 msgstr ""
 
-#: website/public/showcase/index.html:284
+#: website/public/showcase/index.html:322
 msgctxt "page:showcase/index.html"
 msgid "Footer"
 msgstr "ഫൂട്ടർ"
 
-#: website/public/showcase/index.html:307
+#: website/public/showcase/index.html:345
 msgctxt "page:showcase/index.html"
 msgid "REA on GitHub"
 msgstr ""
 
-#: website/public/showcase/index.html:308
+#: website/public/showcase/index.html:346
 msgctxt "page:showcase/index.html"
 msgid "Join REA on Discord"
 msgstr ""
 
-#: website/public/showcase/index.html:309
+#: website/public/showcase/index.html:347
 msgctxt "page:showcase/index.html"
 msgid "Follow REA on X"
 msgstr ""
@@ -13867,6 +13743,291 @@ msgstr "{count} ഡൗൺലോഡുകൾ"
 msgctxt "runtime"
 msgid "Step {number} of {total}"
 msgstr "ഘട്ടം {number} / {total}"
+
+#. {ph0}: <a href="reverse-engineering-models/" >
+#. {ph1}: </a >
+#: website/public/blog/index.html:158
+#, python-brace-format
+msgctxt "page:blog/index.html"
+msgid "{ph0}Does reverse engineering need a bigger model?{ph1}"
+msgstr ""
+
+#. {ph0}: <a href="touhou-reconstruction/" >
+#. {ph1}: </a >
+#: website/public/blog/index.html:173
+#, python-brace-format
+msgctxt "page:blog/index.html"
+msgid "{ph0}The industrial revolution in reverse engineering{ph1}"
+msgstr ""
+
+#: website/public/faq/index.html:516
+msgctxt "page:faq/index.html"
+msgid "Still stuck?"
+msgstr ""
+
+#: website/public/faq/index.html:517
+msgctxt "page:faq/index.html"
+msgid ""
+"Ask the community on Discord, or report a bug in GitHub issues with the "
+"command and its output."
+msgstr ""
+
+#: website/public/faq/index.html:523
+msgctxt "page:faq/index.html"
+msgid "GitHub issues"
+msgstr "GitHub ഇഷ്യൂകൾ"
+
+#: website/public/faq/index.html:526
+msgctxt "page:faq/index.html"
+msgid "Join Discord"
+msgstr ""
+
+#. {ph0}: <a href="native/">
+#. {ph1}: </a>
+#: website/public/guides/index.html:168
+#, python-brace-format
+msgctxt "page:guides/index.html"
+msgid "{ph0}Recover a sound-pan calculation{ph1}"
+msgstr ""
+
+#. {ph0}: <a href="javascript/">
+#. {ph1}: </a>
+#: website/public/guides/index.html:185
+#, python-brace-format
+msgctxt "page:guides/index.html"
+msgid "{ph0}Follow a CSV export{ph1}"
+msgstr ""
+
+#. {ph0}: <a href="browser/">
+#. {ph1}: </a>
+#: website/public/guides/index.html:207
+#, python-brace-format
+msgctxt "page:guides/index.html"
+msgid "{ph0}Observe a click{ph1}"
+msgstr ""
+
+#. {ph0}: <a href="rl-environments/">
+#. {ph1}: </a>
+#: website/public/guides/index.html:223
+#, python-brace-format
+msgctxt "page:guides/index.html"
+msgid "{ph0}Build an environment for agents{ph1}"
+msgstr "{ph0}ഏജന്റുകൾക്കായി പരിതസ്ഥിതി നിർമ്മിക്കുക{ph1}"
+
+#: website/public/showcase/index.html:167
+msgctxt "page:showcase/index.html"
+msgid "Android app"
+msgstr ""
+
+#. {ph0}: <a href="aegis/">
+#. {ph1}: </a>
+#: website/public/showcase/index.html:168
+#, python-brace-format
+msgctxt "page:showcase/index.html"
+msgid "{ph0}How an authenticator generates a login code{ph1}"
+msgstr ""
+
+#: website/public/showcase/index.html:192
+msgctxt "page:showcase/index.html"
+msgid "CTF challenge"
+msgstr ""
+
+#. {ph0}: <a href="ctf/">
+#. {ph1}: </a>
+#: website/public/showcase/index.html:193
+#, python-brace-format
+msgctxt "page:showcase/index.html"
+msgid "{ph0}Solve a CTF flag checker{ph1}"
+msgstr ""
+
+#: website/public/showcase/index.html:217
+msgctxt "page:showcase/index.html"
+msgid "Windows game"
+msgstr ""
+
+#. {ph0}: <a href="dx-ball/">
+#. {ph1}: </a>
+#: website/public/showcase/index.html:218
+#, python-brace-format
+msgctxt "page:showcase/index.html"
+msgid "{ph0}DX-Ball's sound-pan calculation{ph1}"
+msgstr ""
+
+#: website/public/showcase/index.html:243
+msgctxt "page:showcase/index.html"
+msgid "Electron app"
+msgstr ""
+
+#. {ph0}: <a href="notion/">
+#. {ph1}: </a>
+#: website/public/showcase/index.html:244
+#, python-brace-format
+msgctxt "page:showcase/index.html"
+msgid "{ph0}How Notion copies text and HTML{ph1}"
+msgstr ""
+
+#: website/public/showcase/index.html:268
+msgctxt "page:showcase/index.html"
+msgid "PC-98 game"
+msgstr ""
+
+#. {ph0}: <a href="th04/">
+#. {ph1}: </a>
+#: website/public/showcase/index.html:269
+#, python-brace-format
+msgctxt "page:showcase/index.html"
+msgid "{ph0}How TH04 aims a ring of bullets{ph1}"
+msgstr ""
+
+#: website/public/showcase/index.html:293
+msgctxt "page:showcase/index.html"
+msgid "Web app"
+msgstr ""
+
+#. {ph0}: <a href="../guides/rl-environments/">
+#. {ph1}: </a>
+#: website/public/showcase/index.html:294
+#, python-brace-format
+msgctxt "page:showcase/index.html"
+msgid "{ph0}Build RL environments with REA{ph1}"
+msgstr "{ph0}REA ഉപയോഗിച്ച് RL പരിതസ്ഥിതികൾ നിർമ്മിക്കുക{ph1}"
+
+#: website/public/showcase/index.html:302
+msgctxt "page:showcase/index.html"
+msgid "Read the guide"
+msgstr ""
+
+#: website/public/showcase/index.html:159
+msgctxt "page:showcase/index.html"
+msgid ""
+"A phone taken apart: its screen showing a six-digit code, frame, back, "
+"battery, board and screws."
+msgstr ""
+
+#: website/public/showcase/index.html:184
+msgctxt "page:showcase/index.html"
+msgid "A combination padlock taken apart beside a small cloth flag."
+msgstr ""
+
+#: website/public/showcase/index.html:209
+msgctxt "page:showcase/index.html"
+msgid "A sound card wired to a speaker on each side."
+msgstr ""
+
+#: website/public/showcase/index.html:235
+msgctxt "page:showcase/index.html"
+msgid ""
+"Ctrl, C and V keys in a row, followed by a lifted key and three blank keys."
+msgstr ""
+
+#: website/public/showcase/index.html:260
+msgctxt "page:showcase/index.html"
+msgid ""
+"A ring of small white beads around a floppy disk, with a small arrow token "
+"pointing at one bead."
+msgstr ""
+
+#: website/public/showcase/index.html:285
+msgctxt "page:showcase/index.html"
+msgid ""
+"Manila folders, index cards with check marks and a stopwatch laid out as a "
+"practice kit."
+msgstr ""
+
+#, python-brace-format
+#~ msgctxt "page:blog/index.html"
+#~ msgid "Model specialization{ph0}Essay"
+#~ msgstr ""
+
+#~ msgctxt "page:blog/index.html"
+#~ msgid "Does reverse engineering need a bigger model?"
+#~ msgstr ""
+
+#, python-brace-format
+#~ msgctxt "page:blog/index.html"
+#~ msgid "Game reconstruction{ph0}Essay"
+#~ msgstr ""
+
+#~ msgctxt "page:blog/index.html"
+#~ msgid "The industrial revolution in reverse engineering"
+#~ msgstr ""
+
+#~ msgctxt "page:guides/index.html"
+#~ msgid "First investigation"
+#~ msgstr ""
+
+#~ msgctxt "page:guides/index.html"
+#~ msgid "Recover a sound-pan calculation"
+#~ msgstr ""
+
+#~ msgctxt "page:guides/index.html"
+#~ msgid "JavaScript & Electron"
+#~ msgstr ""
+
+#~ msgctxt "page:guides/index.html"
+#~ msgid "Follow a CSV export"
+#~ msgstr ""
+
+#~ msgctxt "page:guides/index.html"
+#~ msgid "Observe a click"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "Android · APK analysis"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "How an authenticator generates a login code"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "CTF · Native analysis"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "Solve a CTF flag checker"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "Native · Reconstruction"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "DX-Ball's sound-pan calculation"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "Electron · Feature tracing"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "How Notion copies text and HTML"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "PC-98 DOS · Reconstruction"
+#~ msgstr ""
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "How TH04 aims a ring of bullets"
+#~ msgstr ""
+
+#~ msgctxt "page:guides/index.html"
+#~ msgid "Build an environment for agents"
+#~ msgstr "ഏജന്റുകൾക്കായി പരിതസ്ഥിതി നിർമ്മിക്കുക"
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "RL environments"
+#~ msgstr "RL പരിതസ്ഥിതികൾ"
+
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "Build RL environments with REA"
+#~ msgstr "REA ഉപയോഗിച്ച് RL പരിതസ്ഥിതികൾ നിർമ്മിക്കുക"
+
+#, python-brace-format
+#~ msgctxt "page:showcase/index.html"
+#~ msgid "{ph0}Read the guide{ph1} · {ph2}Watch the video{ph3}"
+#~ msgstr "{ph0}പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി{ph1} · {ph2}X-ൽ ഡെമോ കാണുക{ph3}"
 
 #~ msgctxt "shared"
 #~ msgid "Source"

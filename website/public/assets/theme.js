@@ -89,7 +89,7 @@
   };
 
   const initializeReveal = () => {
-    if (!motion || document.querySelector(".home-hero") === null) return;
+    if (!motion) return;
     document
       .querySelectorAll(".home-hero h1, .home-section h2")
       .forEach(splitWords);
