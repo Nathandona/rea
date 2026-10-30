@@ -3096,11 +3096,10 @@ html[dir="rtl"] .brand-name {
 .home-evidence {
   grid-column: 1 / -1;
   min-width: 0;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--hairline);
+  margin: 0;
 }
-.home-evidence[hidden] {
-  display: none;
+.home-evidence > summary {
+  font-size: 1rem;
 }
 
 /* Calculator: a dark band with two LCD results. */
@@ -3123,9 +3122,6 @@ html[dir="rtl"] .brand-name {
 }
 .home-band-dark .prompt-card-header {
   border-bottom-color: rgb(241 239 235 / 8%);
-}
-.home-band-dark .code-key {
-  background: #3a4220;
 }
 .calculator-results {
   display: grid;
@@ -3545,7 +3541,8 @@ html[dir="rtl"] .rl-step:not(:last-child)::after {
   color: var(--page);
 }
 .home-hero .button:hover {
-  background: #34322d;
+  border-color: color-mix(in srgb, var(--ink) 82%, var(--page));
+  background: color-mix(in srgb, var(--ink) 82%, var(--page));
 }
 
 /* Motion: one entrance per visit, reveals that run once, and quick feedback. */
@@ -3705,9 +3702,6 @@ html[dir="rtl"] .rl-step:not(:last-child)::after {
 }
 
 /* Evidence and copy feedback. */
-.home-evidence:not([hidden]) {
-  animation: rise-in 300ms var(--ease-out-strong);
-}
 .copy-button.is-copied::before {
   animation: copy-confirm 220ms var(--ease-out-strong);
 }
@@ -3748,7 +3742,6 @@ html[dir="rtl"] .rl-step:not(:last-child)::after {
   .home-hero h1 .word > span,
   .home-hero-copy > :not(h1),
   .home-downloads:not([hidden]) .home-downloads-text,
-  .home-evidence:not([hidden]),
   .copy-button.is-copied::before {
     animation-name: disclosure-fade;
     animation-duration: 200ms;
@@ -3924,4 +3917,58 @@ html[dir="rtl"] .rl-step:not(:last-child)::after {
 }
 :root[data-theme="dark"] .home-downloads-chart .is-empty {
   fill: #4a4741;
+}
+
+/* Evidence on the dark Calculator band opens as a light sheet, so the original
+   figures and code keep the colors they were designed with. */
+:root:not([data-theme="dark"]) .home-band-dark .home-evidence-body {
+  --ink: #1b1a17;
+  --muted: #57534b;
+  --faint: #8a867c;
+  --line: #dad6ce;
+  --soft: #e8e5df;
+  --accent: #1b1a17;
+  --page: #f1efeb;
+  --plate: #fbfaf6;
+  --hairline: rgb(27 26 23 / 12%);
+  --underline: rgb(27 26 23 / 30%);
+  margin-top: 0.5rem;
+  padding: 2rem;
+  border-radius: 16px;
+  background: var(--page);
+  color: var(--ink);
+}
+
+/* Keyboard focus stays visible on the always-dark surfaces. */
+:is(.site-footer, .code-block, .command-bar, .index-start, .mini-terminal) {
+  --accent: #f1efeb;
+}
+
+/* Print everything, including sections that have not scrolled into view. */
+@media print {
+  .motion-ready
+    :is(
+      .home-split-heading,
+      .home-example-question,
+      .home-start-content,
+      .home-card,
+      .home-example-answer,
+      .home-start-image,
+      .home-caption
+    ),
+  .motion-ready
+    :is(.home-split-heading, .home-example-question, .home-start-content)
+    > :not(h2),
+  .motion-ready .home-card > img,
+  .motion-ready .word > span,
+  .motion-ready .lcd-digits g:first-of-type rect,
+  .motion-ready
+    :is(.mini-requests tr, .mini-tools li, .mini-muted, .mini-pass) {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .motion-ready :is(.home-card > img, .home-start-image, .lcd-curve) {
+    clip-path: none !important;
+  }
 }

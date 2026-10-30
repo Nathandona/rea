@@ -338,11 +338,6 @@ saved choice applies before the first paint. That script owns the resolved
 palette, embedded SVGs and dinosaur canvas follow that choice. Keep the theme
 region in the page scaffold and run `sync` after editing its template.
 
-Reading pages share a small `↑ Top` link at the bottom right. It appears after
-scrolling and returns to the page header, with smooth scrolling when reduced
-motion is disabled. Keyboard activation returns focus to the first navigation
-link. Without JavaScript, the link stays visible and uses its `#top` anchor.
-
 The FAQ uses native `<details>` for its answers. Keep replies short and link to
 on-site guides for the next step. Individual answers have stable fragment IDs;
 the shared script opens an answer when its fragment is visited. The questions
@@ -371,8 +366,9 @@ program, explain it and try a change.
 The dinosaur and Calculator examples each pair the question and a copyable
 agent prompt with a visual answer: the recovered speed curve on an LCD, and the
 two % results. "See how it was found" reveals the original code, the checks and,
-for Calculator, the manual/agent comparison. That evidence starts hidden and
-opens on click or from a link into it. The playable speed control lives in the dinosaur lab. Case
+for Calculator, the manual/agent comparison. That evidence is a native
+disclosure below each example; the link opens it through the shared fragment
+helper. The playable speed control lives in the dinosaur lab. Case
 studies, RL environments and a closing setup section follow; the setup section
 repeats the install prompt and command once, then links the target guides and
 the guided Notes example.

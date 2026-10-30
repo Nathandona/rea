@@ -5251,15 +5251,15 @@ msgctxt "page:index.html"
 msgid "Skip to content"
 msgstr "ข้ามไปที่เนื้อหา"
 
-#: website/public/index.html:335 website/public/index.html:652
-#: website/public/index.html:926 website/public/index.html:1318
+#: website/public/index.html:335 website/public/index.html:657
+#: website/public/index.html:946 website/public/index.html:1341
 msgctxt "page:index.html"
 msgid "Copy"
 msgstr "คัดลอก"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:775
+#: website/public/index.html:789
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}01{ph1} Decode branches"
@@ -5267,7 +5267,7 @@ msgstr "{ph0}01{ph1} ถอดรหัสสาขา"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:783
+#: website/public/index.html:797
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}02{ph1} Trace calls"
@@ -5275,7 +5275,7 @@ msgstr "{ph0}02{ph1} ติดตามการโทร"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:791
+#: website/public/index.html:805
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}03{ph1} Recover the rule"
@@ -5285,20 +5285,20 @@ msgstr "{ph0}03{ph1} กู้คืนกฎ"
 #. {ph1}: </span>
 #. {ph2}: <span class="assembly-disclosure" aria-hidden="true" >
 #. {ph3}: </span>
-#: website/public/index.html:802
+#: website/public/index.html:816
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}Original x64 · selected instructions{ph1} {ph2}{ph3}"
 msgstr "{ph0}ต้นฉบับ 64·เลือกคำแนะนำ{ph1} {ph2}{ph3}"
 
-#: website/public/index.html:844
+#: website/public/index.html:858
 msgctxt "page:index.html"
 msgid "01 · Which branch?"
 msgstr "01·สาขาใด?"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:845
+#: website/public/index.html:859
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5308,29 +5308,29 @@ msgstr ""
 "“{ph0}0*5 บาท? 0*5 องศาเซลเซียส?{ph1} สองกระโดดไปยังสถานที่เดียวกัน "
 "ผู้ประกอบการคนไหน”"
 
-#: website/public/index.html:849
+#: website/public/index.html:863
 msgctxt "page:index.html"
 msgid "Look up the command IDs, then label the branch."
 msgstr "ค้นหารหัสคำสั่งแล้วติดป้ายชื่อสาขา"
 
-#: website/public/index.html:855
+#: website/public/index.html:869
 msgctxt "page:index.html"
 msgid "Divide ÷"
 msgstr "แบ่ง÷"
 
-#: website/public/index.html:859
+#: website/public/index.html:873
 msgctxt "page:index.html"
 msgid "Multiply ×"
 msgstr "คูณ×"
 
-#: website/public/index.html:864
+#: website/public/index.html:878
 msgctxt "page:index.html"
 msgid "02 · What do the calls do?"
 msgstr "02 · ฟังก์ชันที่เรียกทำอะไร?"
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:865
+#: website/public/index.html:881
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5340,24 +5340,24 @@ msgstr ""
 "\"100 เป็นที่ชัดเจน การโทรเป็นแค่ที่อยู่ {ph0}อันไหนแบ่งกัน? "
 "ซึ่งค่าไปใน?{ph1}”"
 
-#: website/public/index.html:871
+#: website/public/index.html:887
 msgctxt "page:index.html"
 msgid "Inspect the helpers and trace the stored values."
 msgstr "ตรวจสอบฟังก์ชั่นผู้ช่วยและติดตามค่าที่เก็บไว้"
 
-#: website/public/index.html:881
+#: website/public/index.html:897
 msgctxt "page:index.html"
 msgid "Divide"
 msgstr "แบ่ง"
 
-#: website/public/index.html:886
+#: website/public/index.html:902
 msgctxt "page:index.html"
 msgid "03 · What is the rule?"
 msgstr "03·กฎคืออะไร?"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:887
+#: website/public/index.html:903
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5367,19 +5367,19 @@ msgstr ""
 "\"เส้นทางนี้คูณด้วยอินพุตอื่นๆ แล้ว {ph0}10%หมายถึง 10%ของ 200{ph1} "
 "หลังจาก+.”"
 
-#: website/public/index.html:891
+#: website/public/index.html:907
 msgctxt "page:index.html"
 msgid "Name the operands and check both operator paths."
 msgstr "ตั้งชื่อตัวดำเนินการและตรวจสอบเส้นทางตัวดำเนินการทั้งสอง"
 
-#: website/public/index.html:907 website/public/index.html:834
+#: website/public/index.html:923 website/public/index.html:848
 msgctxt "page:index.html"
 msgid "Illustrative expert reasoning"
 msgstr "เหตุผลผู้เชี่ยวชาญที่เป็นตัวอย่าง"
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:910
+#: website/public/index.html:928
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5395,42 +5395,42 @@ msgstr "{ph0}คุณถอดรหัสคำแนะนำตามสา�
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/index.html:921
+#: website/public/index.html:941
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Example prompt · Calculator"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}ตัวอย่างพรอมต์*เครื่องคิดเลข"
 
-#: website/public/index.html:943
+#: website/public/index.html:963
 msgctxt "page:index.html"
 msgid "Example answer · based on the findings"
 msgstr "คำตอบตัวอย่าง·ขึ้นอยู่กับการค้นพบ"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:946
+#: website/public/index.html:966
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
 "After +, the % button takes {ph0}a percentage of the first number.{ph1}"
 msgstr "หลังจาก+ปุ่ม%ใช้เวลา {ph0}เปอร์เซ็นต์ของจำนวนแรก{ph1}"
 
-#: website/public/index.html:959
+#: website/public/index.html:979
 msgctxt "page:index.html"
 msgid "REA supplies"
 msgstr "ข้อมูลที่ REA ให้"
 
-#: website/public/index.html:960
+#: website/public/index.html:980
 msgctxt "page:index.html"
 msgid "The handler’s instructions, decompiled code and calls."
 msgstr "คำแนะนำของผู้จัดการถอดรหัสและการโทร"
 
-#: website/public/index.html:965
+#: website/public/index.html:985
 msgctxt "page:index.html"
 msgid "Your agent explains"
 msgstr "สิ่งที่ผู้ช่วยอธิบาย"
 
-#: website/public/index.html:966
+#: website/public/index.html:986
 msgctxt "page:index.html"
 msgid "Which branch applies, what it calculates and how to rebuild it."
 msgstr "ซึ่งสาขาที่ใช้สิ่งที่มันคำนวณและวิธีการที่จะสร้างมัน"
@@ -5442,24 +5442,24 @@ msgstr "ทำไมไดโนเสาร์จึงวิ่งเร็ว
 
 #. {ph0}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph1}: </a >
-#: website/public/index.html:536
+#: website/public/index.html:538
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Inspected target: {ph0}wayou’s Chromium-derived browser edition{ph1}."
 msgstr "ตรวจสอบเป้าหมาย: {ph0}วายู Chromium-รุ่นเบราว์เซอร์ที่ได้มา{ph1}."
 
-#: website/public/index.html:558
+#: website/public/index.html:560
 msgctxt "page:index.html"
 msgid "What each part does"
 msgstr "สิ่งที่แต่ละส่วนทำ"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
-#. {ph2}: <span class="flow-node">
+#. {ph2}: <span class="flow-node" >
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:560
+#: website/public/index.html:562
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5471,11 +5471,11 @@ msgstr ""
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
-#. {ph2}: <span class="flow-node">
+#. {ph2}: <span class="flow-node" >
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:567
+#: website/public/index.html:570
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5490,7 +5490,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:575
+#: website/public/index.html:579
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5500,7 +5500,7 @@ msgstr ""
 "{ph0}03·คุณ{ph1}{ph2}เปลี่ยนความเร็วและเล่น{ph3}{ph4}ลองเร่งเดิมแล้วเลือกก้าวของคุณเอง{ph5}"
 
 #. {ph0}: <code>index.js</code>
-#: website/public/index.html:585
+#: website/public/index.html:589
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5510,7 +5510,7 @@ msgstr ""
 "REA ตรวจสอบรุ่นเบราว์เซอร์ผ่านการเชื่อมต่อดีบักท้องถิ่นและส่งกลับโหลด {ph0} "
 "รวมทั้งแหล่งที่มาและย่อย"
 
-#: website/public/index.html:598
+#: website/public/index.html:602
 msgctxt "page:index.html"
 msgid ""
 "We called the original game’s update function in a controlled browser check,"
@@ -5523,7 +5523,7 @@ msgstr ""
 
 #. {ph0}: <a href="examples/dino-lab/">
 #. {ph1}: </a>
-#: website/public/index.html:604
+#: website/public/index.html:608
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5539,7 +5539,7 @@ msgstr ""
 #. {ph1}: </a>
 #. {ph2}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph3}: </a >
-#: website/public/index.html:610
+#: website/public/index.html:614
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5556,7 +5556,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <a href="assets/licenses/dinosaur.txt" >
 #. {ph3}: </a >
-#: website/public/index.html:619
+#: website/public/index.html:623
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5564,20 +5564,20 @@ msgid ""
 msgstr ""
 "{ph0}ตรวจสอบรหัสความเร็ว{ph1} · {ph2}Chromium ผู้เขียน·ใบอนุญาตบีเอส{ph3}"
 
-#: website/public/index.html:636
+#: website/public/index.html:641
 msgctxt "page:index.html"
 msgid "Rebuild Calculator’s % button."
 msgstr "สร้างปุ่ม % ของเครื่องคิดเลขขึ้นใหม่"
 
 #. {ph0}: <code>previous = 200</code>
 #. {ph1}: <code>current = 10</code>
-#: website/public/index.html:978
+#: website/public/index.html:998
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "For this example, {ph0} and {ph1}."
 msgstr "สำหรับตัวอย่างนี้, {ph0} และ {ph1}."
 
-#: website/public/index.html:993
+#: website/public/index.html:1013
 msgctxt "page:index.html"
 msgid "From the installed app to a working % button"
 msgstr "จากแอปที่ติดตั้งไปยังปุ่ม%การทำงาน"
@@ -5589,7 +5589,7 @@ msgstr "จากแอปที่ติดตั้งไปยังปุ่
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: <code>100</code>
 #. {ph6}: </span >
-#: website/public/index.html:1006
+#: website/public/index.html:1027
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5603,11 +5603,11 @@ msgstr ""
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
-#. {ph2}: <span class="flow-node">
+#. {ph2}: <span class="flow-node" >
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:1014
+#: website/public/index.html:1035
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5617,7 +5617,7 @@ msgid ""
 msgstr ""
 "{ph0}03·ตัวแทนของคุณตีความมัน{ph1}{ph2}อธิบายและทำซ้ำกฎ{ph3}{ph4}ตรวจสอบสาขาที่มีแหล่งที่มาของไมโครซอฟท์,แล้วลอง+และ×ข้างต้น.{ph5}"
 
-#: website/public/index.html:1049
+#: website/public/index.html:1071
 msgctxt "page:index.html"
 msgid ""
 "Inspected with REA 4.1.0: Windows Calculator 11.2508.4.0, x64. The readable "
@@ -5637,7 +5637,7 @@ msgstr ""
 #. {ph3}: </a >
 #. {ph4}: <a href="guides/native/">
 #. {ph5}: </a>
-#: website/public/index.html:1054
+#: website/public/index.html:1076
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5661,22 +5661,22 @@ msgstr ""
 "แอพพลิเควิศวกรย้อนกลับ,ไบนารีและพฤติกรรมเบราว์เซอร์กับตัวแทนการเข้ารหัสของคุณ"
 " ทำตามคำแนะนำที่ชัดเจนและลองตัวอย่างแบบโต้ตอบกับ REA."
 
-#: website/public/index.html:1318
+#: website/public/index.html:1341
 msgctxt "page:index.html"
 msgid "Copy REA installation prompt"
 msgstr "คัดลอก REA พร้อมท์การติดตั้ง"
 
-#: website/public/index.html:222 website/public/index.html:1336
+#: website/public/index.html:222 website/public/index.html:1359
 msgctxt "page:index.html"
 msgid "Copy setup command"
 msgstr "คัดลอกคำสั่งการตั้งค่า"
 
-#: website/public/index.html:770
+#: website/public/index.html:784
 msgctxt "page:index.html"
 msgid "Follow the manual Calculator analysis"
 msgstr "ปฏิบัติตามคู่มือการวิเคราะห์เครื่องคิดเลข"
 
-#: website/public/index.html:926
+#: website/public/index.html:946
 msgctxt "page:index.html"
 msgid "Copy Calculator percentage question"
 msgstr "คัดลอกคำถามร้อยละเครื่องคิดเลข"
@@ -5686,7 +5686,7 @@ msgctxt "page:index.html"
 msgid "Copy dinosaur analysis prompt"
 msgstr "คัดลอกไดโนเสาร์พร้อมท์วิเคราะห์"
 
-#: website/public/index.html:652
+#: website/public/index.html:657
 msgctxt "page:index.html"
 msgid "Copy Calculator analysis prompt"
 msgstr "คัดลอกการวิเคราะห์เครื่องคิดเลขพร้อมท์"
@@ -9486,7 +9486,7 @@ msgctxt "runtime"
 msgid "Code selected. Use your keyboard to copy it."
 msgstr "รหัสที่เลือก ใช้แป้นพิมพ์ของคุณเพื่อคัดลอก"
 
-#: website/public/assets/main.js:250
+#: website/public/assets/main.js:221
 #, python-brace-format
 msgctxt "runtime"
 msgid "REA on GitHub ({count})"
@@ -9960,7 +9960,7 @@ msgstr "ระยะห่างเดียวกัน:256÷16=16 หน่ว
 #: website/public/guides/native/index.html:463
 #: website/public/guides/rl-environments/index.html:120
 #: website/public/guides/rl-environments/index.html:449
-#: website/public/index.html:121 website/public/index.html:1431
+#: website/public/index.html:121 website/public/index.html:1454
 #: website/public/showcase/aegis/index.html:121
 #: website/public/showcase/aegis/index.html:766
 #: website/public/showcase/ctf/index.html:120
@@ -10000,7 +10000,7 @@ msgstr "ตัวอย่าง"
 #: website/public/guides/native/index.html:464
 #: website/public/guides/rl-environments/index.html:121
 #: website/public/guides/rl-environments/index.html:450
-#: website/public/index.html:122 website/public/index.html:1432
+#: website/public/index.html:122 website/public/index.html:1455
 #: website/public/showcase/aegis/index.html:122
 #: website/public/showcase/aegis/index.html:767
 #: website/public/showcase/ctf/index.html:121
@@ -10040,7 +10040,7 @@ msgstr "บล็อก"
 #: website/public/guides/native/index.html:462
 #: website/public/guides/rl-environments/index.html:143
 #: website/public/guides/rl-environments/index.html:448
-#: website/public/index.html:144 website/public/index.html:1430
+#: website/public/index.html:144 website/public/index.html:1453
 #: website/public/showcase/aegis/index.html:144
 #: website/public/showcase/aegis/index.html:765
 #: website/public/showcase/ctf/index.html:143
@@ -10080,7 +10080,7 @@ msgstr "เริ่มต้น"
 #: website/public/guides/native/index.html:465
 #: website/public/guides/rl-environments/index.html:122
 #: website/public/guides/rl-environments/index.html:451
-#: website/public/index.html:123 website/public/index.html:1433
+#: website/public/index.html:123 website/public/index.html:1456
 #: website/public/showcase/aegis/index.html:123
 #: website/public/showcase/aegis/index.html:768
 #: website/public/showcase/ctf/index.html:122
@@ -10110,7 +10110,7 @@ msgstr "คู่มือ"
 #: website/public/guides/javascript/index.html:476
 #: website/public/guides/native/index.html:477
 #: website/public/guides/rl-environments/index.html:463
-#: website/public/index.html:1445 website/public/showcase/aegis/index.html:780
+#: website/public/index.html:1468 website/public/showcase/aegis/index.html:780
 #: website/public/showcase/ctf/index.html:742
 #: website/public/showcase/dx-ball/index.html:750
 #: website/public/showcase/index.html:340
@@ -10133,7 +10133,7 @@ msgstr "สัญญาอนุญาต MIT"
 #: website/public/guides/javascript/index.html:477
 #: website/public/guides/native/index.html:478
 #: website/public/guides/rl-environments/index.html:464
-#: website/public/index.html:1446 website/public/showcase/aegis/index.html:781
+#: website/public/index.html:1469 website/public/showcase/aegis/index.html:781
 #: website/public/showcase/ctf/index.html:743
 #: website/public/showcase/dx-ball/index.html:751
 #: website/public/showcase/index.html:341
@@ -10238,22 +10238,22 @@ msgctxt "page:guides/native/index.html"
 msgid "Recovered C · excerpt"
 msgstr "กู้คืนค*ตัดตอนมา"
 
-#: website/public/index.html:592
+#: website/public/index.html:596
 msgctxt "page:index.html"
 msgid "Selected settings from the inspected script"
 msgstr "การตั้งค่าที่เลือกจากสคริปต์ที่ตรวจสอบแล้ว"
 
-#: website/public/index.html:984
+#: website/public/index.html:1004
 msgctxt "page:index.html"
 msgid "Readable summary of the % handler"
 msgstr "สรุปที่สามารถอ่านได้ของตัวจัดการ%"
 
-#: website/public/index.html:1028
+#: website/public/index.html:1050
 msgctxt "page:index.html"
 msgid "REA · selected original instructions"
 msgstr "REA *เลือกคำแนะนำเดิม"
 
-#: website/public/index.html:1039
+#: website/public/index.html:1061
 msgctxt "page:index.html"
 msgid "Operator IDs · Microsoft’s source"
 msgstr "รหัสผู้ประกอบการ·แหล่งที่มาของไมโครซอฟท์"
@@ -10832,7 +10832,7 @@ msgstr ""
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/index.html:935
+#: website/public/index.html:955
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -10843,7 +10843,7 @@ msgstr ""
 "220?{ph4}{ph5}{ph6}"
 
 #. {ph0}: <span translate="no">index.js</span>
-#: website/public/index.html:544
+#: website/public/index.html:546
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "REA · loaded {ph0} · selected lines"
@@ -10852,12 +10852,12 @@ msgstr "REA *โหลด {ph0} *สายที่เลือก"
 #. {ph0}: <span class="flow-label" >
 #. {ph1}: <span translate="no">calc.exe</span>
 #. {ph2}: </span >
-#. {ph3}: <span class="flow-node">
+#. {ph3}: <span class="flow-node" >
 #. {ph4}: </span >
 #. {ph5}: <span class="flow-note" >
 #. {ph6}: <code>ms-calculator:</code>
 #. {ph7}: </span >
-#: website/public/index.html:997
+#: website/public/index.html:1017
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -13448,7 +13448,7 @@ msgid "Then check Ghidra and save its paths for your client:"
 msgstr "จากนั้นตรวจสอบ Ghidra และบันทึกพาธสำหรับแอปที่เชื่อมต่อของคุณ:"
 
 #. {ph0}: <span translate="no">200 + 10%</span>
-#: website/public/index.html:758
+#: website/public/index.html:772
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Why does Calculator give 220 for {ph0}?"
@@ -13474,17 +13474,17 @@ msgctxt "page:index.html"
 msgid "Explain it, then try a change"
 msgstr "เข้าใจแล้วลองปรับเปลี่ยน"
 
-#: website/public/index.html:767
+#: website/public/index.html:781
 msgctxt "page:index.html"
 msgid "Follow the instructions step by step"
 msgstr "ตามคำสั่งทีละขั้น"
 
-#: website/public/index.html:918
+#: website/public/index.html:936
 msgctxt "page:index.html"
 msgid "Ask your agent the same question"
 msgstr "ถามเอเจนต์ด้วยคำถามเดียวกัน"
 
-#: website/public/index.html:553
+#: website/public/index.html:555
 msgctxt "page:index.html"
 msgid ""
 "Start at 6. Add 0.001 each update without a collision, while speed is below "
@@ -13571,7 +13571,7 @@ msgstr ""
 #: website/public/guides/javascript/index.html:471
 #: website/public/guides/native/index.html:472
 #: website/public/guides/rl-environments/index.html:458
-#: website/public/index.html:1440 website/public/showcase/aegis/index.html:775
+#: website/public/index.html:1463 website/public/showcase/aegis/index.html:775
 #: website/public/showcase/ctf/index.html:737
 #: website/public/showcase/dx-ball/index.html:745
 #: website/public/showcase/index.html:335
@@ -14411,7 +14411,7 @@ msgstr ""
 "หนึ่งครั้งแล้วเลือกโหมดเดโมหรือเปิดใช้งานไลเซนส์ก่อนการวิเคราะห์ครั้งแรก "
 "การตั้งค่าอัตโนมัติบน Linux ต้องใช้ x86_64 บน Linux arm64 ให้ใช้ Ghidra"
 
-#: website/public/index.html:973
+#: website/public/index.html:993
 msgctxt "page:index.html"
 msgid ""
 "Selected assembly from the installed Calculator DLL. The thoughts and reply "
@@ -14433,7 +14433,7 @@ msgstr ""
 #: website/public/guides/javascript/index.html:460
 #: website/public/guides/native/index.html:461
 #: website/public/guides/rl-environments/index.html:447
-#: website/public/index.html:1429 website/public/showcase/aegis/index.html:764
+#: website/public/index.html:1452 website/public/showcase/aegis/index.html:764
 #: website/public/showcase/ctf/index.html:726
 #: website/public/showcase/dx-ball/index.html:734
 #: website/public/showcase/index.html:324
@@ -14456,7 +14456,7 @@ msgstr "ผลิตภัณฑ์"
 #: website/public/guides/javascript/index.html:467
 #: website/public/guides/native/index.html:468
 #: website/public/guides/rl-environments/index.html:454
-#: website/public/index.html:1436 website/public/showcase/aegis/index.html:771
+#: website/public/index.html:1459 website/public/showcase/aegis/index.html:771
 #: website/public/showcase/ctf/index.html:733
 #: website/public/showcase/dx-ball/index.html:741
 #: website/public/showcase/index.html:331
@@ -14479,7 +14479,7 @@ msgstr "ความช่วยเหลือ"
 #: website/public/guides/javascript/index.html:470
 #: website/public/guides/native/index.html:471
 #: website/public/guides/rl-environments/index.html:457
-#: website/public/index.html:1439 website/public/showcase/aegis/index.html:774
+#: website/public/index.html:1462 website/public/showcase/aegis/index.html:774
 #: website/public/showcase/ctf/index.html:736
 #: website/public/showcase/dx-ball/index.html:744
 #: website/public/showcase/index.html:334
@@ -14502,7 +14502,7 @@ msgstr "Issues บน GitHub"
 #: website/public/guides/javascript/index.html:474
 #: website/public/guides/native/index.html:475
 #: website/public/guides/rl-environments/index.html:461
-#: website/public/index.html:1443 website/public/showcase/aegis/index.html:778
+#: website/public/index.html:1466 website/public/showcase/aegis/index.html:778
 #: website/public/showcase/ctf/index.html:740
 #: website/public/showcase/dx-ball/index.html:748
 #: website/public/showcase/index.html:338
@@ -14525,7 +14525,7 @@ msgstr "โปรเจกต์"
 #: website/public/guides/javascript/index.html:475
 #: website/public/guides/native/index.html:476
 #: website/public/guides/rl-environments/index.html:462
-#: website/public/index.html:1444 website/public/showcase/aegis/index.html:779
+#: website/public/index.html:1467 website/public/showcase/aegis/index.html:779
 #: website/public/showcase/ctf/index.html:741
 #: website/public/showcase/dx-ball/index.html:749
 #: website/public/showcase/index.html:339
@@ -14548,7 +14548,7 @@ msgstr "ซอร์สโค้ด"
 #: website/public/guides/javascript/index.html:488
 #: website/public/guides/native/index.html:489
 #: website/public/guides/rl-environments/index.html:475
-#: website/public/index.html:1457 website/public/showcase/aegis/index.html:792
+#: website/public/index.html:1480 website/public/showcase/aegis/index.html:792
 #: website/public/showcase/ctf/index.html:754
 #: website/public/showcase/dx-ball/index.html:762
 #: website/public/showcase/index.html:352
@@ -14571,7 +14571,7 @@ msgstr "วิศวกรรมย้อนกลับด้วยเอเจ
 #: website/public/guides/javascript/index.html:489
 #: website/public/guides/native/index.html:490
 #: website/public/guides/rl-environments/index.html:476
-#: website/public/index.html:1458 website/public/showcase/aegis/index.html:793
+#: website/public/index.html:1481 website/public/showcase/aegis/index.html:793
 #: website/public/showcase/ctf/index.html:755
 #: website/public/showcase/dx-ball/index.html:763
 #: website/public/showcase/index.html:353
@@ -14990,19 +14990,20 @@ msgctxt "page:index.html"
 msgid "Where it stops"
 msgstr "จุดที่หยุด"
 
-#: website/public/index.html:530 website/public/index.html:752
+#: website/public/index.html:530 website/public/index.html:536
+#: website/public/index.html:761 website/public/index.html:770
 msgctxt "page:index.html"
 msgid "See how it was found"
 msgstr "ดูว่าค้นพบได้อย่างไร"
 
-#: website/public/index.html:637
+#: website/public/index.html:642
 msgctxt "page:index.html"
 msgid ""
 "The % key does different things after + and after ×. Ask your agent to find "
 "both rules."
 msgstr "ปุ่ม % ทำงานต่างกันหลัง + และหลัง × ขอให้เอเจนต์ของคุณหากฎทั้งสองข้อ"
 
-#: website/public/index.html:661
+#: website/public/index.html:666
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect Windows Calculator’s % button. Find the rule after + and "
@@ -15011,30 +15012,32 @@ msgstr ""
 "ใช้ REA ตรวจสอบปุ่ม % ของเครื่องคิดเลข Windows หากฎหลัง + และกฎหลัง × "
 "แล้วสร้างทั้งสองขึ้นใหม่"
 
-#. {ph0}: <span class="calculator-sum" translate="no">200 + 10%</span>
+#. {ph0}: <span class="calculator-sum" translate="no" >200 + 10%<span
+#. class="sr-only"> = 220</span></span >
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:706
+#: website/public/index.html:711
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% of 200 is added: 200 + 20{ph2}"
 msgstr "{ph0} {ph1}บวก 10% ของ 200 เข้าไป: 200 + 20{ph2}"
 
-#. {ph0}: <span class="calculator-sum" translate="no">200 × 10%</span>
+#. {ph0}: <span class="calculator-sum" translate="no" >200 × 10%<span
+#. class="sr-only"> = 20</span></span >
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:741
+#: website/public/index.html:748
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% becomes 0.1: 200 × 0.1{ph2}"
 msgstr "{ph0} {ph1}10% กลายเป็น 0.1: 200 × 0.1{ph2}"
 
-#: website/public/index.html:1074
+#: website/public/index.html:1097
 msgctxt "page:index.html"
 msgid "Real apps, taken apart."
 msgstr "แยกชิ้นส่วนแอปจริงให้ดู"
 
-#: website/public/index.html:1075
+#: website/public/index.html:1098
 msgctxt "page:index.html"
 msgid ""
 "Each case study follows one feature in a released app or game, with the code"
@@ -15043,25 +15046,25 @@ msgstr ""
 "กรณีศึกษาแต่ละเรื่องติดตามฟีเจอร์หนึ่งในแอปหรือเกมที่เผยแพร่แล้ว "
 "พร้อมโค้ดและผลลัพธ์ที่ตรวจสอบแล้ว"
 
-#: website/public/index.html:1080
+#: website/public/index.html:1103
 msgctxt "page:index.html"
 msgid "All showcases"
 msgstr "ตัวอย่างทั้งหมด"
 
-#: website/public/index.html:1095
+#: website/public/index.html:1118
 msgctxt "page:index.html"
 msgid "Android app"
 msgstr "แอป Android"
 
 #. {ph0}: <a href="showcase/aegis/" >
 #. {ph1}: </a >
-#: website/public/index.html:1097
+#: website/public/index.html:1120
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How an authenticator generates a login code{ph1}"
 msgstr "{ph0}วิธีที่ผู้รับรองความถูกต้องสร้างรหัสล็อกอิน{ph1}"
 
-#: website/public/index.html:1102
+#: website/public/index.html:1125
 msgctxt "page:index.html"
 msgid ""
 "Trace Aegis’s six-digit code through its released APK, then see why it "
@@ -15070,13 +15073,13 @@ msgstr ""
 "ติดตามรหัสหกหลักของ Aegis ผ่าน APK ที่เผยแพร่ แล้วดูว่าทำไมมันเปลี่ยนทุก 30 "
 "วินาที"
 
-#: website/public/index.html:1106 website/public/index.html:1134
-#: website/public/index.html:1162
+#: website/public/index.html:1129 website/public/index.html:1157
+#: website/public/index.html:1185
 msgctxt "page:index.html"
 msgid "Read the case study"
 msgstr "อ่านกรณีศึกษา"
 
-#: website/public/index.html:1123
+#: website/public/index.html:1146
 msgctxt "page:index.html"
 msgid "Electron app"
 msgstr "แอป Electron"
@@ -15084,13 +15087,13 @@ msgstr "แอป Electron"
 #. {ph0}: <a href="showcase/notion/" >
 #. {ph1}: <br />
 #. {ph2}: </a >
-#: website/public/index.html:1125
+#: website/public/index.html:1148
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How Notion copies{ph1}text and HTML{ph2}"
 msgstr "{ph0}Notion คัดลอก{ph1}ข้อความและ HTML อย่างไร{ph2}"
 
-#: website/public/index.html:1130
+#: website/public/index.html:1153
 msgctxt "page:index.html"
 msgid ""
 "Follow Notion’s packaged JavaScript to the system clipboard and see how a "
@@ -15099,31 +15102,31 @@ msgstr ""
 "ติดตาม JavaScript ที่แพ็กไว้ของ Notion ไปจนถึงคลิปบอร์ดของระบบ "
 "แล้วดูว่าการคัดลอกเก็บข้อมูลบล็อกแบบสมบูรณ์ไว้ได้อย่างไร"
 
-#: website/public/index.html:1151
+#: website/public/index.html:1174
 msgctxt "page:index.html"
 msgid "Windows game"
 msgstr "เกม Windows"
 
 #. {ph0}: <a href="showcase/dx-ball/" >
 #. {ph1}: </a >
-#: website/public/index.html:1153
+#: website/public/index.html:1176
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}DX-Ball’s sound-pan calculation{ph1}"
 msgstr "{ph0}การคำนวณตำแหน่งเสียงซ้ายขวาของ DX-Ball{ph1}"
 
-#: website/public/index.html:1158
+#: website/public/index.html:1181
 msgctxt "page:index.html"
 msgid ""
 "Recover how this 1996 game turns a hit brick’s position into stereo sound."
 msgstr "กู้คืนวิธีที่เกมปี 1996 นี้แปลงตำแหน่งของอิฐที่ถูกชนเป็นเสียงสเตอริโอ"
 
-#: website/public/index.html:1174
+#: website/public/index.html:1197
 msgctxt "page:index.html"
 msgid "Build RL environments from a web app."
 msgstr "สร้างสภาพแวดล้อม RL จากเว็บแอป"
 
-#: website/public/index.html:1176
+#: website/public/index.html:1199
 msgctxt "page:index.html"
 msgid ""
 "Turn a recorded session into a local environment where agents practice tasks"
@@ -15132,47 +15135,47 @@ msgstr ""
 "เปลี่ยนเซสชันที่บันทึกไว้ให้เป็นสภาพแวดล้อมในเครื่อง "
 "ที่เอเจนต์ฝึกทำงานได้โดยไม่ต้องใช้แอปต้นฉบับ"
 
-#: website/public/index.html:1181
+#: website/public/index.html:1204
 msgctxt "page:index.html"
 msgid "Read the guide"
 msgstr "อ่านคู่มือ"
 
-#: website/public/index.html:1187
+#: website/public/index.html:1210
 msgctxt "page:index.html"
 msgid "Watch the demo on"
 msgstr "ดูเดโมบน"
 
-#: website/public/index.html:1237
+#: website/public/index.html:1260
 msgctxt "page:index.html"
 msgid "Record a session"
 msgstr "บันทึกเซสชัน"
 
-#: website/public/index.html:1238
+#: website/public/index.html:1261
 msgctxt "page:index.html"
 msgid "Your agent records a test app’s requests and responses."
 msgstr "เอเจนต์ของคุณบันทึกคำขอและการตอบกลับของแอปทดสอบ"
 
-#: website/public/index.html:1260
+#: website/public/index.html:1283
 msgctxt "page:index.html"
 msgid "Build with REA"
 msgstr "สร้างด้วย REA"
 
-#: website/public/index.html:1261
+#: website/public/index.html:1284
 msgctxt "page:index.html"
 msgid "REA turns the recording into tools and reports what it supports."
 msgstr "REA เปลี่ยนการบันทึกให้เป็นเครื่องมือ และรายงานว่ารองรับอะไรบ้าง"
 
-#: website/public/index.html:1282
+#: website/public/index.html:1305
 msgctxt "page:index.html"
 msgid "Run with AgentEnv"
 msgstr "รันด้วย AgentEnv"
 
-#: website/public/index.html:1283
+#: website/public/index.html:1306
 msgctxt "page:index.html"
 msgid "Agents practice tasks in it, without the original app."
 msgstr "เอเจนต์ฝึกทำงานในนั้นได้โดยไม่ต้องใช้แอปต้นฉบับ"
 
-#: website/public/index.html:1287
+#: website/public/index.html:1310
 msgctxt "page:index.html"
 msgid ""
 "Example with a test app that manages folders. The environment only supports "
@@ -15182,13 +15185,13 @@ msgstr ""
 "สภาพแวดล้อมรองรับเฉพาะการเปลี่ยนแปลงที่การบันทึกยืนยันแล้ว"
 
 #. {ph0}: <br />
-#: website/public/index.html:1298
+#: website/public/index.html:1321
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Ask how it works.{ph0}Then rebuild it."
 msgstr "ถามว่ามันทำงานอย่างไร{ph0}แล้วสร้างมันขึ้นใหม่"
 
-#: website/public/index.html:1301
+#: website/public/index.html:1324
 msgctxt "page:index.html"
 msgid ""
 "Set up REA in your coding agent. It shows you the plan, waits for your "
@@ -15198,7 +15201,7 @@ msgstr ""
 "แล้วตรวจสอบว่าทุกอย่างทำงานได้"
 
 #. {ph0}: <code translate="no">npx rea-agents@latest setup</code>
-#: website/public/index.html:1327
+#: website/public/index.html:1350
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -15211,7 +15214,7 @@ msgstr ""
 #. {ph0}: <span translate="no">Node.js</span>
 #. {ph1}: <a href="get-started/">
 #. {ph2}: </a>
-#: website/public/index.html:1344
+#: website/public/index.html:1367
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Needs {ph0}. No coding agent yet? {ph1}Follow the setup guide{ph2}."
@@ -15219,29 +15222,29 @@ msgstr ""
 "ต้องใช้ {ph0} ยังไม่มีเอเจนต์เขียนโค้ดใช่ไหม? "
 "{ph1}ทำตามคู่มือการตั้งค่า{ph2}"
 
-#: website/public/index.html:1350
+#: website/public/index.html:1373
 msgctxt "page:index.html"
 msgid "Then pick a guide for your target."
 msgstr "จากนั้นเลือกคู่มือสำหรับเป้าหมายของคุณ"
 
-#: website/public/index.html:1365
+#: website/public/index.html:1388
 msgctxt "page:index.html"
 msgid "Native programs"
 msgstr "โปรแกรมเนทีฟ"
 
-#: website/public/index.html:1384
+#: website/public/index.html:1407
 msgctxt "page:index.html"
 msgid "JavaScript and Electron"
 msgstr "JavaScript และ Electron"
 
-#: website/public/index.html:1398
+#: website/public/index.html:1421
 msgctxt "page:index.html"
 msgid "Browser and runtime"
 msgstr "เบราว์เซอร์และรันไทม์"
 
 #. {ph0}: <a href="first-investigation/" >
 #. {ph1}: </a >
-#: website/public/index.html:1402
+#: website/public/index.html:1425
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -15280,7 +15283,7 @@ msgstr ""
 "เครื่องคิดเลขที่ประกอบกลับแล้ว โดยไฮไลต์ปุ่ม % และมีปุ่ม % สำรองวางอยู่ข้าง "
 "ๆ"
 
-#: website/public/index.html:1084
+#: website/public/index.html:1107
 msgctxt "page:index.html"
 msgid ""
 "A phone taken apart: its screen showing a six-digit code, frame, back, "
@@ -15289,38 +15292,38 @@ msgstr ""
 "โทรศัพท์ที่ถูกแยกชิ้นส่วน: หน้าจอแสดงรหัสหกหลัก กรอบ ฝาหลัง แบตเตอรี่ "
 "แผงวงจร และสกรู"
 
-#: website/public/index.html:1112
+#: website/public/index.html:1135
 msgctxt "page:index.html"
 msgid ""
 "Ctrl, C and V keys in a row, followed by a lifted key and three blank keys."
 msgstr "ปุ่ม Ctrl, C และ V เรียงกัน ตามด้วยปุ่มที่ยกขึ้นและปุ่มว่างสามปุ่ม"
 
-#: website/public/index.html:1140
+#: website/public/index.html:1163
 msgctxt "page:index.html"
 msgid "A sound card wired to a speaker on each side."
 msgstr "การ์ดเสียงที่ต่อกับลำโพงทั้งสองข้าง"
 
-#: website/public/index.html:1411
+#: website/public/index.html:1434
 msgctxt "page:index.html"
 msgid "The rebuilt calculator showing 220 on its display."
 msgstr "เครื่องคิดเลขที่สร้างขึ้นใหม่แสดง 220 บนหน้าจอ"
 
-#: website/public/index.html:1427
+#: website/public/index.html:1450
 msgctxt "page:index.html"
 msgid "Footer"
 msgstr "ส่วนท้าย"
 
-#: website/public/index.html:1450
+#: website/public/index.html:1473
 msgctxt "page:index.html"
 msgid "REA on GitHub"
 msgstr "REA บน GitHub"
 
-#: website/public/index.html:1451
+#: website/public/index.html:1474
 msgctxt "page:index.html"
 msgid "Join REA on Discord"
 msgstr "เข้าร่วม REA บน Discord"
 
-#: website/public/index.html:1452
+#: website/public/index.html:1475
 msgctxt "page:index.html"
 msgid "Follow REA on X"
 msgstr "ติดตาม REA บน X"
@@ -15451,7 +15454,7 @@ msgctxt "runtime"
 msgid "{count} downloads"
 msgstr "ดาวน์โหลด {count} ครั้ง"
 
-#: website/public/assets/main.js:176
+#: website/public/assets/main.js:147
 #, python-brace-format
 msgctxt "runtime"
 msgid "Step {number} of {total}"

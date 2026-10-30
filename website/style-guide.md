@@ -226,14 +226,16 @@ display size; scaling small labels down is not a mobile layout.
 
 The shared stylesheet defines the site. Its core colors are:
 
-| Token      | Light     | Dark      | Use                              |
-| ---------- | --------- | --------- | -------------------------------- |
-| `--page`   | `#f7f6f2` | `#151513` | Page background                  |
-| `--ink`    | `#1b1a17` | `#ecebe5` | Main text                        |
-| `--muted`  | `#67635a` | `#a39f95` | Secondary text                   |
-| `--line`   | `#e2dfd6` | `#34322d` | Section and component boundaries |
-| `--soft`   | `#efede7` | `#1d1c19` | Code and supporting surfaces     |
-| `--accent` | `#2f54c8` | `#8ea9ff` | Links and meaningful highlights  |
+| Token        | Light                 | Dark                     | Use                                  |
+| ------------ | --------------------- | ------------------------ | ------------------------------------ |
+| `--page`     | `#f1efeb`             | `#151513`                | Page background                      |
+| `--plate`    | `#fbfaf6`             | `#1d1c19`                | Cards and prompts                    |
+| `--soft`     | `#e8e5df`             | `#1f1e1b`                | Bands, chips and supporting surfaces |
+| `--ink`      | `#1b1a17`             | `#ecebe5`                | Main text, links and actions         |
+| `--muted`    | `#57534b`             | `#a39f95`                | Secondary text                       |
+| `--hairline` | `rgb(27 26 23 / 12%)` | `rgb(236 235 229 / 11%)` | Card borders and section rules       |
+| `--accent`   | `#1b1a17`             | `#ecebe5`                | Links and focus outlines             |
+| `--dark`     | `#1b1a17`             | `#0f0f0e`                | Code blocks, footer and dark bands   |
 
 Neutrals carry a slight warm bias in both themes. Ink is the link and action
 color; a muted lime marks code highlights and the LCD figures. A new fixed color should come from the same warm family.
@@ -256,11 +258,11 @@ fonts in `assets/fonts/` under the SIL Open Font License; system fonts follow in
 each stack, and the CJK, Thai and right-to-left stacks keep their local faces.
 Korean editions use Noto Sans KR from Google Fonts, with local Korean fonts as
 fallbacks; code retains Geist Mono for Latin glyphs. The content container is
-at most 1080px wide, with article text limited to 760px. The header has its own
-1320px container. Keep its primary navigation to Get started, Showcases, Blog
-and Guides, with FAQ and Contributors in the footer. Utility controls have quiet
-borders and clear hover and keyboard focus states. At 1100px and below,
-navigation moves to a separate row. Reuse the
+at most 1200px wide, with article text limited to 760px. The header has its own
+1296px container. Keep its primary navigation to Showcases, Blog, Guides and
+FAQ, with Get started as the header's button and Contributors in the footer. Utility controls have quiet
+borders and clear hover and keyboard focus states. At 900px and below,
+the navigation links are hidden; the footer lists every destination. Reuse the
 existing heading sizes, line heights, section spacing and component classes.
 
 ### Logo
@@ -275,25 +277,25 @@ other colors. Inline copies in the header and footer templates use
 `currentColor` so they follow the theme.
 
 Whitespace separates ideas. Thin rules identify sections. Headings establish
-hierarchy. The blue accent identifies something useful. Keep these elements
+hierarchy. Ink underlines identify links; the lime highlight marks a meaningful
+code selection. Keep these elements
 consistent rather than adding a new treatment for each page. Decorative
 gradients, large shadows and scroll effects do not help explain the examples.
 
-Motion confirms an action rather than decorating the page. Controls change color
+Motion confirms an action or reveals a section once as it enters the
+viewport; headlines rise word by word and photographs open from their top edge. Controls change color
 in about 150ms and scale to `--press` while pressed. Menus and opened details
 enter in 150 to 200ms with `--ease-out`. Under reduced motion, keep opacity and
 color changes and remove movement. A card that leads to one page makes its whole
 area the link target through its existing text link; keep that link's wording
 specific.
 
-Agent terminals contain short, copyable prompts. Use the existing continuous
-cursor animation and reduced-motion behavior. Label an example prompt as an
+Agent prompts are light cards with a copy button in their header. Label an
+example prompt as an
 example; a real recorded result belongs in an evidence block. Copy buttons
 should copy only the intended text, without the prompt symbol or cursor.
 
-Include the shared `↑ Top` link on reading pages, with `id="top"` on the body.
-Keep its 44px minimum touch height, safe-area spacing and keyboard focus return.
-Use the shared script for visibility and reduced-motion behavior.
+Keep `id="top"` on the body for the skip link and in-page anchors.
 
 Use `minmax(0, 1fr)` for grid tracks that contain long commands or nested panels.
 Allow code blocks to scroll within their own area. Check expanded details as

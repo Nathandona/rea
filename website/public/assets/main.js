@@ -120,35 +120,6 @@ async function initializeWebsite() {
 
   initializeLinkedDetails();
 
-  // "See how it was found" links reveal the evidence that follows them. The
-  // evidence starts hidden and opens on click or when the URL points into it.
-  function initializeRevealLinks() {
-    document.querySelectorAll("a[data-reveal]").forEach((link) => {
-      const region = document.getElementById(
-        link.getAttribute("href").slice(1),
-      );
-      if (region === null) return;
-      const setOpen = (open) => {
-        region.hidden = !open;
-        link.setAttribute("aria-expanded", String(open));
-      };
-      link.setAttribute("role", "button");
-      link.setAttribute("aria-controls", region.id);
-      const hash = window.location.hash.slice(1);
-      setOpen(
-        hash !== "" &&
-          (hash === region.id ||
-            region.querySelector(`[id="${CSS.escape(hash)}"]`) !== null),
-      );
-      link.addEventListener("click", (event) => {
-        event.preventDefault();
-        setOpen(region.hidden);
-      });
-    });
-  }
-
-  initializeRevealLinks();
-
   // The setup step rail marks steps above the reading position as done and the
   // one being read as current, with a "Step 2 of 4" summary for small screens.
   function initializeStepRail() {
