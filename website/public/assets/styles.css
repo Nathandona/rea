@@ -134,7 +134,7 @@ section[id] {
   scroll-margin-top: 4.5rem;
 }
 .container {
-  width: min(1080px, calc(100% - 3.5rem));
+  width: min(var(--content-width, 1080px), calc(100% - 3.5rem));
   margin-inline: auto;
 }
 .skip-link {
@@ -204,6 +204,10 @@ section[id] {
   font-family: var(--font-mono);
   font-size: 0.72rem;
 }
+.language-picker[open] summary {
+  background: var(--soft);
+  color: var(--ink);
+}
 .language-picker summary > span:last-child {
   min-inline-size: 0;
   overflow: hidden;
@@ -221,6 +225,10 @@ section[id] {
   border-right: 1.25px solid currentColor;
   border-bottom: 1.25px solid currentColor;
   transform: rotate(45deg);
+}
+.language-picker[open] summary::after {
+  margin-top: 0.2em;
+  transform: rotate(225deg);
 }
 .language-picker nav {
   position: absolute;
@@ -2521,14 +2529,14 @@ html[dir="rtl"] .home-install-resources a::after {
 .home-case-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .home-case-card {
   position: relative;
   display: flex;
   min-width: 0;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 2rem;
   border: 1px solid var(--line);
   border-radius: 5px;
   transition:
@@ -2566,7 +2574,7 @@ html[dir="rtl"] .home-install-resources a::after {
 }
 .home-case-card p:not(.eyebrow) {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .home-case-card .text-link {
   margin-top: auto;
@@ -2575,11 +2583,20 @@ html[dir="rtl"] .home-install-resources a::after {
 .home-page #community p {
   color: var(--muted);
 }
+.home-environments {
+  background: var(--soft);
+}
+.home-environment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: start;
+}
 .home-example-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
   align-items: start;
-  gap: 3rem;
+  gap: clamp(2rem, 4vw, 4rem);
 }
 .percent-figure,
 .dino-demo {
@@ -2799,6 +2816,7 @@ html[dir="rtl"] .home-install-resources a::after {
 }
 @media (max-width: 850px) {
   .home-role-comparison,
+  .home-environment-grid,
   .home-example-grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 2rem;
@@ -2846,6 +2864,9 @@ html[dir="rtl"] .home-install-resources a::after {
   }
 }
 @media (max-width: 640px) {
+  .home-page .section {
+    padding-block: 3.5rem;
+  }
   .home-showcase-heading {
     align-items: flex-start;
     flex-direction: column;
@@ -2965,6 +2986,14 @@ html[dir="rtl"] .home-install-resources a::after {
   .navigation {
     gap: 0.5rem 0.8rem;
     font-size: 0.875rem;
+  }
+  /* Share the row evenly, but never narrower than a link's longest word. */
+  .navigation a {
+    flex: 1 1 0;
+    max-width: 100%;
+    min-height: 40px;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
   .hero {
     padding-block: 3.5rem 3rem;
@@ -3659,7 +3688,7 @@ html[dir="rtl"] .brand-name {
   }
 }
 
-/* Select local fonts with the appropriate CJK glyph forms. */
+/* Select fonts with the appropriate CJK glyph forms. */
 :lang(ja) {
   --font-sans:
     var(--font-latin), "Hiragino Sans", "Hiragino Kaku Gothic ProN",
@@ -3686,11 +3715,11 @@ html[dir="rtl"] .brand-name {
 }
 :lang(ko) {
   --font-sans:
-    var(--font-latin), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR",
-    "Noto Sans CJK KR", sans-serif;
+    "Noto Sans KR", "Noto Sans CJK KR", "Apple SD Gothic Neo", "Malgun Gothic",
+    var(--font-latin), sans-serif;
   --font-mono:
-    var(--font-code), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR",
-    "Noto Sans CJK KR", monospace;
+    var(--font-code), "Noto Sans KR", "Noto Sans CJK KR", "Apple SD Gothic Neo",
+    "Malgun Gothic", monospace;
 }
 :lang(en) {
   --font-sans: var(--font-latin), sans-serif;
