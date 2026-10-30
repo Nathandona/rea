@@ -6,6 +6,7 @@ from html import unescape
 import importlib.util
 import io
 import json
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -361,6 +362,16 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
                 data = {**original, "contributors": [{**original["contributors"][0], field: value}]}
                 with self.assertRaises(ValueError):
                     WEBSITE.checked_contributors(data)
+
+    def test_wordmark_copies_match_the_brand_source(self):
+        source = (ROOT / "website/public/assets/brand/wordmark.svg").read_text()
+        paths = re.findall(r'\bd="([^"]+)"', source)
+        self.assertEqual(len(paths), 4)
+        for copy in ("website/templates/header.html.tmpl", "website/templates/footer.html.tmpl", "website/public/assets/social-card.svg"):
+            with self.subTest(copy=copy):
+                text = (ROOT / copy).read_text()
+                for path in paths:
+                    self.assertIn(f'd="{path}"', text)
 
     def test_shared_edits_preserve_body_and_catch_drift_before_rewriting(self):
         with tempfile.TemporaryDirectory() as directory:
