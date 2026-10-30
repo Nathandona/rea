@@ -4797,15 +4797,15 @@ msgctxt "page:index.html"
 msgid "Skip to content"
 msgstr "跳转到内容"
 
-#: website/public/index.html:284 website/public/index.html:448
-#: website/public/index.html:663 website/public/index.html:1035
+#: website/public/index.html:327 website/public/index.html:644
+#: website/public/index.html:918 website/public/index.html:1310
 msgctxt "page:index.html"
 msgid "Copy"
 msgstr "复制"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:512
+#: website/public/index.html:767
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}01{ph1} Decode branches"
@@ -4813,7 +4813,7 @@ msgstr "{ph0}01{ph1} 分析分支"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:520
+#: website/public/index.html:775
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}02{ph1} Trace calls"
@@ -4821,7 +4821,7 @@ msgstr "{ph0}02{ph1} 追踪函数调用"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:528
+#: website/public/index.html:783
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}03{ph1} Recover the rule"
@@ -4831,20 +4831,20 @@ msgstr "{ph0}03{ph1} 还原计算规则"
 #. {ph1}: </span>
 #. {ph2}: <span class="assembly-disclosure" aria-hidden="true" >
 #. {ph3}: </span>
-#: website/public/index.html:539
+#: website/public/index.html:794
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}Original x64 · selected instructions{ph1} {ph2}{ph3}"
 msgstr "{ph0}原始 x64 指令节选{ph1} {ph2}{ph3}"
 
-#: website/public/index.html:581
+#: website/public/index.html:836
 msgctxt "page:index.html"
 msgid "01 · Which branch?"
 msgstr "01 · 走哪个分支？"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:582
+#: website/public/index.html:837
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -4852,29 +4852,29 @@ msgid ""
 "these?”"
 msgstr "“{ph0}0x5b? 0x5c?{ph1} 两处跳转到同一个目标。它们对应哪些运算符？”"
 
-#: website/public/index.html:586
+#: website/public/index.html:841
 msgctxt "page:index.html"
 msgid "Look up the command IDs, then label the branch."
 msgstr "查找命令 ID，再标明分支含义。"
 
-#: website/public/index.html:592
+#: website/public/index.html:847
 msgctxt "page:index.html"
 msgid "Divide ÷"
 msgstr "除÷"
 
-#: website/public/index.html:596
+#: website/public/index.html:851
 msgctxt "page:index.html"
 msgid "Multiply ×"
 msgstr "乘×"
 
-#: website/public/index.html:601
+#: website/public/index.html:856
 msgctxt "page:index.html"
 msgid "02 · What do the calls do?"
 msgstr "02 · 这些函数调用做什么？"
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:602
+#: website/public/index.html:857
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -4882,24 +4882,24 @@ msgid ""
 "value goes in?{ph1}”"
 msgstr "“100 很明确，但函数调用只有地址。{ph0}哪个负责除法？传进去的是哪个值？{ph1}”"
 
-#: website/public/index.html:608
+#: website/public/index.html:863
 msgctxt "page:index.html"
 msgid "Inspect the helpers and trace the stored values."
 msgstr "检查辅助函数，追踪存储的数值。"
 
-#: website/public/index.html:618
+#: website/public/index.html:873
 msgctxt "page:index.html"
 msgid "Divide"
 msgstr "除法"
 
-#: website/public/index.html:623
+#: website/public/index.html:878
 msgctxt "page:index.html"
 msgid "03 · What is the rule?"
 msgstr "03 · 规则是什么？"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:624
+#: website/public/index.html:879
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -4907,19 +4907,19 @@ msgid ""
 "after +.”"
 msgstr "“这个分支乘上了另一个输入。所以在 + 之后，{ph0}10% 表示 200 的 10%{ph1}。”"
 
-#: website/public/index.html:628
+#: website/public/index.html:883
 msgctxt "page:index.html"
 msgid "Name the operands and check both operator paths."
 msgstr "确定操作数的含义，并检查两条运算路径。"
 
-#: website/public/index.html:644 website/public/index.html:571
+#: website/public/index.html:899 website/public/index.html:826
 msgctxt "page:index.html"
 msgid "Illustrative expert reasoning"
 msgstr "专家思考过程示意"
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:647
+#: website/public/index.html:902
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -4935,60 +4935,60 @@ msgstr "{ph0}你需要读懂指令、追踪调用，再还原计算过程。{ph1
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/index.html:658
+#: website/public/index.html:913
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Example prompt · Calculator"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}示例提示词 · 计算器"
 
-#: website/public/index.html:680
+#: website/public/index.html:935
 msgctxt "page:index.html"
 msgid "Example answer · based on the findings"
 msgstr "示例回答 · 根据分析结果"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:683
+#: website/public/index.html:938
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
 "After +, the % button takes {ph0}a percentage of the first number.{ph1}"
 msgstr "在 + 之后，% 按钮计算的是{ph0}第一个数的百分比。{ph1}"
 
-#: website/public/index.html:696
+#: website/public/index.html:951
 msgctxt "page:index.html"
 msgid "REA supplies"
 msgstr "REA 提供"
 
-#: website/public/index.html:697
+#: website/public/index.html:952
 msgctxt "page:index.html"
 msgid "The handler’s instructions, decompiled code and calls."
 msgstr "处理函数的指令、反编译代码和调用关系。"
 
-#: website/public/index.html:702
+#: website/public/index.html:957
 msgctxt "page:index.html"
 msgid "Your agent explains"
 msgstr "编程助手解释"
 
-#: website/public/index.html:703
+#: website/public/index.html:958
 msgctxt "page:index.html"
 msgid "Which branch applies, what it calculates and how to rebuild it."
 msgstr "走哪个分支、怎样计算，以及如何重新实现。"
 
-#: website/public/index.html:268
+#: website/public/index.html:311
 msgctxt "page:index.html"
 msgid "Why does the dinosaur get faster?"
 msgstr "为什么恐龙变得更快？"
 
 #. {ph0}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph1}: </a >
-#: website/public/index.html:332
+#: website/public/index.html:528
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Inspected target: {ph0}wayou’s Chromium-derived browser edition{ph1}."
 msgstr "分析目标：{ph0}wayou 基于 Chromium 制作的浏览器版本{ph1}。"
 
-#: website/public/index.html:354
+#: website/public/index.html:550
 msgctxt "page:index.html"
 msgid "What each part does"
 msgstr "各部分负责什么"
@@ -4999,7 +4999,7 @@ msgstr "各部分负责什么"
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:356
+#: website/public/index.html:552
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5013,7 +5013,7 @@ msgstr "{ph0}01 · REA{ph1}{ph2}读取正在运行的游戏脚本{ph3}{ph4}把�
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:363
+#: website/public/index.html:559
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5027,7 +5027,7 @@ msgstr "{ph0}02 · 编程助手{ph1}{ph2}重建规则，加入控制{ph3}{ph4}�
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:371
+#: website/public/index.html:567
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5036,7 +5036,7 @@ msgid ""
 msgstr "{ph0}03 · 你{ph1}{ph2}调整速度，亲自试玩{ph3}{ph4}先体验原版加速，再选择自己的节奏。{ph5}"
 
 #. {ph0}: <code>index.js</code>
-#: website/public/index.html:381
+#: website/public/index.html:577
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5044,7 +5044,7 @@ msgid ""
 "and returned the loaded {ph0}, including its source and digest."
 msgstr "REA 通过本地调试连接检查 HTTP 浏览器版本，返回了已加载的 {ph0}，包含源码和摘要。"
 
-#: website/public/index.html:394
+#: website/public/index.html:590
 msgctxt "page:index.html"
 msgid ""
 "We called the original game’s update function in a controlled browser check,"
@@ -5056,7 +5056,7 @@ msgstr ""
 
 #. {ph0}: <a href="examples/dino-lab/">
 #. {ph1}: </a>
-#: website/public/index.html:400
+#: website/public/index.html:596
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5069,7 +5069,7 @@ msgstr "新小游戏保留了这条速度规则。绘图、跳跃和碰撞代码
 #. {ph1}: </a>
 #. {ph2}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph3}: </a >
-#: website/public/index.html:406
+#: website/public/index.html:602
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5084,27 +5084,27 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <a href="assets/licenses/dinosaur.txt" >
 #. {ph3}: </a >
-#: website/public/index.html:415
+#: website/public/index.html:611
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
 "{ph0}Inspected speed code{ph1} · {ph2}Chromium Authors · BSD license{ph3}"
 msgstr "{ph0}分析的速度代码{ph1} · {ph2}Chromium Authors · BSD 许可证{ph3}"
 
-#: website/public/index.html:432
+#: website/public/index.html:628
 msgctxt "page:index.html"
 msgid "Rebuild Calculator’s % button."
 msgstr "重新实现计算器的 % 按钮。"
 
 #. {ph0}: <code>previous = 200</code>
 #. {ph1}: <code>current = 10</code>
-#: website/public/index.html:715
+#: website/public/index.html:970
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "For this example, {ph0} and {ph1}."
 msgstr "对于这个例子, {ph0} 和 {ph1}."
 
-#: website/public/index.html:730
+#: website/public/index.html:985
 msgctxt "page:index.html"
 msgid "From the installed app to a working % button"
 msgstr "从已安装的应用，到能运行的 % 按钮"
@@ -5116,7 +5116,7 @@ msgstr "从已安装的应用，到能运行的 % 按钮"
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: <code>100</code>
 #. {ph6}: </span >
-#: website/public/index.html:743
+#: website/public/index.html:998
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5132,7 +5132,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:751
+#: website/public/index.html:1006
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5143,7 +5143,7 @@ msgstr ""
 "{ph0}03 · 编程助手解释{ph1}{ph2}解释并复现规则{ph3}{ph4}对照 Microsoft 的源码核实分支，再试试上面的 + 和 "
 "×。{ph5}"
 
-#: website/public/index.html:786
+#: website/public/index.html:1041
 msgctxt "page:index.html"
 msgid ""
 "Inspected with REA 4.1.0: Windows Calculator 11.2508.4.0, x64. The readable "
@@ -5163,7 +5163,7 @@ msgstr ""
 #. {ph3}: </a >
 #. {ph4}: <a href="guides/native/">
 #. {ph5}: </a>
-#: website/public/index.html:791
+#: website/public/index.html:1046
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5183,32 +5183,32 @@ msgid ""
 " Follow clear guides and try interactive examples with REA."
 msgstr "和编程助手一起分析应用、二进制文件和浏览器行为。跟着清晰的指南，体验 REA 的交互示例。"
 
-#: website/public/index.html:1035
+#: website/public/index.html:1310
 msgctxt "page:index.html"
 msgid "Copy REA installation prompt"
 msgstr "复制REA安装提示"
 
-#: website/public/index.html:171 website/public/index.html:1053
+#: website/public/index.html:214 website/public/index.html:1328
 msgctxt "page:index.html"
 msgid "Copy setup command"
 msgstr "复制安装命令"
 
-#: website/public/index.html:507
+#: website/public/index.html:762
 msgctxt "page:index.html"
 msgid "Follow the manual Calculator analysis"
 msgstr "跟随手工完成的计算器分析"
 
-#: website/public/index.html:663
+#: website/public/index.html:918
 msgctxt "page:index.html"
 msgid "Copy Calculator percentage question"
 msgstr "复制计算器百分比问题"
 
-#: website/public/index.html:284
+#: website/public/index.html:327
 msgctxt "page:index.html"
 msgid "Copy dinosaur analysis prompt"
 msgstr "复制恐龙分析提示"
 
-#: website/public/index.html:448
+#: website/public/index.html:644
 msgctxt "page:index.html"
 msgid "Copy Calculator analysis prompt"
 msgstr "复制计算器分析提示"
@@ -8903,7 +8903,7 @@ msgctxt "runtime"
 msgid "Code selected. Use your keyboard to copy it."
 msgstr "代码已选中，请用键盘快捷键复制。"
 
-#: website/public/assets/main.js:215
+#: website/public/assets/main.js:216
 #, python-brace-format
 msgctxt "runtime"
 msgid "REA on GitHub ({count})"
@@ -9364,7 +9364,7 @@ msgstr "相同间距：256÷16=16角度单位=22.5°"
 #: website/public/guides/native/index.html:463
 #: website/public/guides/rl-environments/index.html:120
 #: website/public/guides/rl-environments/index.html:449
-#: website/public/index.html:121 website/public/index.html:1136
+#: website/public/index.html:121 website/public/index.html:1423
 #: website/public/showcase/aegis/index.html:121
 #: website/public/showcase/aegis/index.html:766
 #: website/public/showcase/ctf/index.html:120
@@ -9404,7 +9404,7 @@ msgstr "案例展示"
 #: website/public/guides/native/index.html:464
 #: website/public/guides/rl-environments/index.html:121
 #: website/public/guides/rl-environments/index.html:450
-#: website/public/index.html:122 website/public/index.html:1137
+#: website/public/index.html:122 website/public/index.html:1424
 #: website/public/showcase/aegis/index.html:122
 #: website/public/showcase/aegis/index.html:767
 #: website/public/showcase/ctf/index.html:121
@@ -9444,7 +9444,7 @@ msgstr "博客"
 #: website/public/guides/native/index.html:462
 #: website/public/guides/rl-environments/index.html:143
 #: website/public/guides/rl-environments/index.html:448
-#: website/public/index.html:144 website/public/index.html:1135
+#: website/public/index.html:144 website/public/index.html:1422
 #: website/public/showcase/aegis/index.html:144
 #: website/public/showcase/aegis/index.html:765
 #: website/public/showcase/ctf/index.html:143
@@ -9484,7 +9484,7 @@ msgstr "开始使用"
 #: website/public/guides/native/index.html:465
 #: website/public/guides/rl-environments/index.html:122
 #: website/public/guides/rl-environments/index.html:451
-#: website/public/index.html:123 website/public/index.html:1138
+#: website/public/index.html:123 website/public/index.html:1425
 #: website/public/showcase/aegis/index.html:123
 #: website/public/showcase/aegis/index.html:768
 #: website/public/showcase/ctf/index.html:122
@@ -9514,7 +9514,7 @@ msgstr "指南"
 #: website/public/guides/javascript/index.html:476
 #: website/public/guides/native/index.html:477
 #: website/public/guides/rl-environments/index.html:463
-#: website/public/index.html:1150 website/public/showcase/aegis/index.html:780
+#: website/public/index.html:1437 website/public/showcase/aegis/index.html:780
 #: website/public/showcase/ctf/index.html:742
 #: website/public/showcase/dx-ball/index.html:750
 #: website/public/showcase/index.html:302
@@ -9537,7 +9537,7 @@ msgstr "MIT 许可证"
 #: website/public/guides/javascript/index.html:477
 #: website/public/guides/native/index.html:478
 #: website/public/guides/rl-environments/index.html:464
-#: website/public/index.html:1151 website/public/showcase/aegis/index.html:781
+#: website/public/index.html:1438 website/public/showcase/aegis/index.html:781
 #: website/public/showcase/ctf/index.html:743
 #: website/public/showcase/dx-ball/index.html:751
 #: website/public/showcase/index.html:303
@@ -9642,22 +9642,22 @@ msgctxt "page:guides/native/index.html"
 msgid "Recovered C · excerpt"
 msgstr "恢复C · 摘录"
 
-#: website/public/index.html:388
+#: website/public/index.html:584
 msgctxt "page:index.html"
 msgid "Selected settings from the inspected script"
 msgstr "实际脚本中的设置节选"
 
-#: website/public/index.html:721
+#: website/public/index.html:976
 msgctxt "page:index.html"
 msgid "Readable summary of the % handler"
 msgstr "% 处理函数的可读摘要"
 
-#: website/public/index.html:765
+#: website/public/index.html:1020
 msgctxt "page:index.html"
 msgid "REA · selected original instructions"
 msgstr "REA · 原始指令节选"
 
-#: website/public/index.html:776
+#: website/public/index.html:1031
 msgctxt "page:index.html"
 msgid "Operator IDs · Microsoft’s source"
 msgstr "运算符 ID · Microsoft 源码"
@@ -10215,7 +10215,7 @@ msgstr "下载示例并解压。压缩包内含完整的 {ph0} 文件夹。用 {
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/index.html:672
+#: website/public/index.html:927
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -10225,7 +10225,7 @@ msgstr ""
 "{ph0}›{ph1}{ph2}用 REA 检查 Windows 计算器。为什么 {ph3} 会得到 220？{ph4}{ph5}{ph6}"
 
 #. {ph0}: <span translate="no">index.js</span>
-#: website/public/index.html:340
+#: website/public/index.html:536
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "REA · loaded {ph0} · selected lines"
@@ -10239,7 +10239,7 @@ msgstr "REA · 已加载 {ph0} · 选定行"
 #. {ph5}: <span class="flow-note" >
 #. {ph6}: <code>ms-calculator:</code>
 #. {ph7}: </span >
-#: website/public/index.html:734
+#: website/public/index.html:989
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -10296,12 +10296,12 @@ msgctxt "page:showcase/notion/index.html"
 msgid "main/{ph0} · clipboard receiver"
 msgstr "main/{ph0} · 剪贴板接收函数"
 
-#: website/public/assets/theme.js:130
+#: website/public/assets/theme.js:139
 msgctxt "runtime"
 msgid "Switch to light mode"
 msgstr "切换到浅色模式"
 
-#: website/public/assets/theme.js:131
+#: website/public/assets/theme.js:140
 msgctxt "runtime"
 msgid "Switch to dark mode"
 msgstr "切换到深色模式"
@@ -12522,43 +12522,43 @@ msgid "Then check Ghidra and save its paths for your client:"
 msgstr "然后检查 Ghidra，并为客户端保存这些路径："
 
 #. {ph0}: <span translate="no">200 + 10%</span>
-#: website/public/index.html:495
+#: website/public/index.html:750
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Why does Calculator give 220 for {ph0}?"
 msgstr "为什么计算器对 {ph0} 给出 220？"
 
-#: website/public/index.html:167
+#: website/public/index.html:210
 msgctxt "page:index.html"
 msgid "Get started"
 msgstr "开始使用"
 
-#: website/public/index.html:222
+#: website/public/index.html:265
 msgctxt "page:index.html"
 msgid "Ask about one feature"
 msgstr "问一个具体功能"
 
-#: website/public/index.html:238
+#: website/public/index.html:281
 msgctxt "page:index.html"
 msgid "Inspect the program"
 msgstr "检查程序"
 
-#: website/public/index.html:254
+#: website/public/index.html:297
 msgctxt "page:index.html"
 msgid "Explain it, then try a change"
 msgstr "理解它，再试着修改"
 
-#: website/public/index.html:504
+#: website/public/index.html:759
 msgctxt "page:index.html"
 msgid "Follow the instructions step by step"
 msgstr "一步步阅读指令"
 
-#: website/public/index.html:655
+#: website/public/index.html:910
 msgctxt "page:index.html"
 msgid "Ask your agent the same question"
 msgstr "向助手提同一个问题"
 
-#: website/public/index.html:349
+#: website/public/index.html:545
 msgctxt "page:index.html"
 msgid ""
 "Start at 6. Add 0.001 each update without a collision, while speed is below "
@@ -12633,7 +12633,7 @@ msgstr "用 REA 通过我已配置的分析引擎检查 {ph0}。列出它的函�
 #: website/public/guides/javascript/index.html:471
 #: website/public/guides/native/index.html:472
 #: website/public/guides/rl-environments/index.html:458
-#: website/public/index.html:1145 website/public/showcase/aegis/index.html:775
+#: website/public/index.html:1432 website/public/showcase/aegis/index.html:775
 #: website/public/showcase/ctf/index.html:737
 #: website/public/showcase/dx-ball/index.html:745
 #: website/public/showcase/index.html:297
@@ -12818,7 +12818,7 @@ msgstr "跳转到内容"
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Guides{ph3} / RL environments"
-msgstr ""
+msgstr "{ph0}首页{ph1} / {ph2}指南{ph3} / RL 环境"
 
 #: website/public/guides/rl-environments/index.html:153
 msgctxt "page:guides/rl-environments/index.html"
@@ -12839,7 +12839,7 @@ msgstr "将录制的 Web 应用会话转为可运行的环境，用于训练和�
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Watch the announcement video on X{ph1}"
-msgstr ""
+msgstr "{ph0}在 X 上观看发布视频{ph1}"
 
 #: website/public/guides/rl-environments/index.html:166
 #: website/public/guides/rl-environments/index.html:165
@@ -12850,22 +12850,22 @@ msgstr "在本页"
 #: website/public/guides/rl-environments/index.html:179
 msgctxt "page:guides/rl-environments/index.html"
 msgid "What REA builds"
-msgstr ""
+msgstr "REA 构建什么"
 
 #: website/public/guides/rl-environments/index.html:222
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Before you start"
-msgstr ""
+msgstr "开始之前"
 
 #: website/public/guides/rl-environments/index.html:323
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Run the environment"
-msgstr ""
+msgstr "运行环境"
 
 #: website/public/guides/rl-environments/index.html:404
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Check what works"
-msgstr ""
+msgstr "检查哪些可用"
 
 #: website/public/guides/rl-environments/index.html:180
 msgctxt "page:guides/rl-environments/index.html"
@@ -12875,6 +12875,8 @@ msgid ""
 "calls, the local data those tools use, and a basic test that checks the "
 "environment starts and responds."
 msgstr ""
+"智能体无需运行原始应用，就能练习查找问题、创建文件夹或编辑记录。REA "
+"会构建智能体调用的工具、这些工具使用的本地数据，以及一个检查环境能否启动并响应的基础测试。"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -12888,7 +12890,7 @@ msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "{ph0}01 · Record{ph1}{ph2}Use a test app{ph3}{ph4}Capture requests, "
 "responses, and the results of changes.{ph5}"
-msgstr ""
+msgstr "{ph0}01 · 录制{ph1}{ph2}使用测试应用{ph3}{ph4}捕获请求、响应以及更改的结果。{ph5}"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -12904,6 +12906,8 @@ msgid ""
 "state{ph3}{ph4}Export a runnable AgentEnv folder with the recording and a "
 "test.{ph5}"
 msgstr ""
+"{ph0}02 · 用 REA 构建{ph1}{ph2}创建工具和本地状态{ph3}{ph4}导出一个可运行的 AgentEnv "
+"文件夹，其中包含录制内容和一个测试。{ph5}"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -12919,13 +12923,15 @@ msgid ""
 "agent{ph3}{ph4}Add task goals and reward checks for evaluation or RL "
 "training.{ph5}"
 msgstr ""
+"{ph0}03 · 用 AgentEnv 运行{ph1}{ph2}把环境交给智能体{ph3}{ph4}添加任务目标和奖励检查，用于评估或 RL "
+"训练。{ph5}"
 
 #: website/public/guides/rl-environments/index.html:214
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "The recording determines which operations the environment can support. "
 "Changes are supported when the recording confirms their effects."
-msgstr ""
+msgstr "录制内容决定了环境能支持哪些操作。只有当录制内容确认了更改的效果时，这些更改才会被支持。"
 
 #. {ph0}: <a href="../../get-started/">
 #. {ph1}: </a >
@@ -12938,6 +12944,8 @@ msgid ""
 "create, edit, and delete data. REA records the app you provide; you start it"
 " and prepare its test data."
 msgstr ""
+"{ph0}配置 REA 并配合你的编程助手使用{ph1}。要录制应用，你需要一个 Chrome "
+"系浏览器，以及一个正在运行、允许智能体创建、编辑和删除数据的测试实例。REA 录制你提供的应用；由你启动应用并准备测试数据。"
 
 #. {ph0}: <a href="https://github.com/scaleapi/agentenv-framework#install" >
 #. {ph1}: </a >
@@ -12950,18 +12958,20 @@ msgid ""
 "and start Docker. REA's compatibility check uses AgentEnv version {ph2} with"
 " Python 3.12."
 msgstr ""
+"要运行导出的环境，请安装 {ph0}AgentEnv 框架{ph1}并启动 Docker。REA 的兼容性检查使用 AgentEnv {ph2} 版本和"
+" Python 3.12。"
 
 #: website/public/guides/rl-environments/index.html:240
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Record and build with your agent"
-msgstr ""
+msgstr "和编程助手一起录制并构建"
 
 #: website/public/guides/rl-environments/index.html:241
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Tell your agent which app and operations to cover. For an app with folders, "
 "adapt this example:"
-msgstr ""
+msgstr "告诉编程助手要覆盖哪个应用和哪些操作。对于带文件夹的应用，可以参考这个示例进行修改："
 
 #. {ph0}: <span class="terminal-dots" aria-hidden="true" >
 #. {ph1}: <i>
@@ -13007,6 +13017,9 @@ msgid ""
 " {ph6}, which does not exist yet. Check which operations are supported and "
 "report any gaps.{ph7}{ph8}{ph9}"
 msgstr ""
+"{ph0}›{ph1}{ph2}使用 REA 从我位于 {ph3} 的测试 Web 应用构建一个 AgentEnv "
+"环境。覆盖文件夹的列出、创建、重命名和删除。你可以创建和删除测试文件夹；不要改动已有数据。使用 {ph4} 中的密码以 admin 身份登录。使用位于 "
+"{ph5} 的浏览器，并导出到尚不存在的 {ph6}。检查哪些操作受支持，并报告所有缺口。{ph7}{ph8}{ph9}"
 
 #. {ph0}: <code>APP_PASSWORD</code>
 #: website/public/guides/rl-environments/index.html:275
@@ -13016,7 +13029,7 @@ msgid ""
 "Example prompt. Replace the URL, operations, account, and paths. Set {ph0} "
 "in the environment that starts REA's MCP server so the password stays out of"
 " the prompt."
-msgstr ""
+msgstr "示例提示词。请替换 URL、操作、账号和路径。在启动 REA MCP 服务器的环境中设置 {ph0}，这样密码就不会出现在提示词中。"
 
 #. {ph0}: <a href="#run">
 #. {ph1}: </a>
@@ -13027,12 +13040,12 @@ msgid ""
 "Your agent inspects the app, records a session, checks the supported "
 "operations, and exports the environment. After export, continue with "
 "{ph0}running the environment{ph1}."
-msgstr ""
+msgstr "编程助手会检查应用、录制会话、检查受支持的操作并导出环境。导出后，请继续{ph0}运行环境{ph1}。"
 
 #: website/public/guides/rl-environments/index.html:287
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Or use a saved recording"
-msgstr ""
+msgstr "或者使用已保存的录制"
 
 #: website/public/guides/rl-environments/index.html:288
 msgctxt "page:guides/rl-environments/index.html"
@@ -13041,11 +13054,12 @@ msgid ""
 "with API response bodies from the browser's network panel, then build into a"
 " new or empty folder:"
 msgstr ""
+"HAR 文件记录了浏览器的网络请求和响应。在浏览器的网络面板中导出一个包含 API 响应正文的 HAR 文件，然后构建到一个新的或空的文件夹中："
 
 #: website/public/guides/rl-environments/index.html:295
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Build the environment"
-msgstr ""
+msgstr "构建环境"
 
 #. {ph0}: <code>capture-browser-scenario</code>
 #. {ph1}: <code>--dry-run</code>
@@ -13058,6 +13072,8 @@ msgid ""
 " build reads local data and writes the folder without contacting the app. "
 "Add {ph1} to review the report without writing files."
 msgstr ""
+"你也可以传入由 REA 的 {ph0} 或 HAR 检查保存的捕获 Evidence JSON。Evidence "
+"是带有来源信息的已保存录制。构建过程只读取本地数据并写入文件夹，不会连接应用。添加 {ph1} 可以在不写入文件的情况下查看报告。"
 
 #: website/public/guides/rl-environments/index.html:315
 msgctxt "page:guides/rl-environments/index.html"
@@ -13065,26 +13081,26 @@ msgid ""
 "The report lists read operations, supported changes, and operations withheld"
 " because the recording did not establish their effects. Each withheld "
 "operation has a reason and a hint about what to record next."
-msgstr ""
+msgstr "报告会列出读取操作、受支持的更改，以及因录制内容未能确认其效果而被暂缓的操作。每个被暂缓的操作都附有原因和下一步应录制什么的提示。"
 
 #: website/public/guides/rl-environments/index.html:324
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Whether your agent exported the folder or you built it from a recording, run"
 " it with AgentEnv:"
-msgstr ""
+msgstr "无论文件夹是编程助手导出的，还是你从录制构建的，都可以用 AgentEnv 运行："
 
 #: website/public/guides/rl-environments/index.html:330
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Run the environment test"
-msgstr ""
+msgstr "运行环境测试"
 
 #: website/public/guides/rl-environments/index.html:342
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Use the path your agent reported if it differs. The first run builds the "
 "container image and needs access to its image and package sources."
-msgstr ""
+msgstr "如果编程助手报告的路径不同，请使用该路径。首次运行会构建容器镜像，需要能够访问镜像源和软件包源。"
 
 #: website/public/guides/rl-environments/index.html:347
 msgctxt "page:guides/rl-environments/index.html"
@@ -13093,11 +13109,13 @@ msgid ""
 "a suitable read tool exists, calls it and checks its response status. "
 "Passing it shows the environment starts and responds in that setup."
 msgstr ""
+"附带的 smoke "
+"任务是一个基础测试。它会检查工具数量；如果存在合适的读取工具，还会调用该工具并检查响应状态。通过该测试说明环境在该配置下能够启动并响应。"
 
 #: website/public/guides/rl-environments/index.html:355
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Add tasks and reward checks"
-msgstr ""
+msgstr "添加任务和奖励检查"
 
 #: website/public/guides/rl-environments/index.html:356
 msgctxt "page:guides/rl-environments/index.html"
@@ -13105,7 +13123,7 @@ msgid ""
 "Use the environment with your RL framework to define goals, score results, "
 "and run training. Your coding agent can help write the tasks and checks. "
 "Start with one operation the environment supports:"
-msgstr ""
+msgstr "在你的 RL 框架中使用该环境来定义目标、为结果打分并运行训练。编程助手可以帮你编写任务和检查。先从环境支持的一个操作开始："
 
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
@@ -13123,6 +13141,9 @@ msgid ""
 "the result. Reset the environment before each run. Use the AgentEnv task and"
 " verifier formats.{ph3}{ph4}{ph5}"
 msgstr ""
+"{ph0}›{ph1}{ph2}使用这个导出的环境添加一个 AgentEnv 任务，要求智能体创建一个名为 Practice "
+"的文件夹。检查环境状态以确认存在该名称的文件夹，并用这项检查为结果打分。每次运行前重置环境。使用 AgentEnv "
+"的任务和验证器格式。{ph3}{ph4}{ph5}"
 
 #: website/public/guides/rl-environments/index.html:389
 msgctxt "page:guides/rl-environments/index.html"
@@ -13130,7 +13151,7 @@ msgid ""
 "Example prompt for an environment that supports folder creation. A task that"
 " changes data should check the resulting state; a retrieval task can check "
 "an answer against a recorded value."
-msgstr ""
+msgstr "适用于支持创建文件夹的环境的示例提示词。会更改数据的任务应检查最终状态；检索类任务可以将答案与录制的值进行比对。"
 
 #. {ph0}: <a href="https://www.agentenvframework.com/docs" >
 #. {ph1}: </a >
@@ -13142,6 +13163,8 @@ msgid ""
 "specific grading is added in the evaluation workflow. See the {ph0}AgentEnv "
 "documentation{ph1} for tasks, verifiers, and agent connections."
 msgstr ""
+"导出内容包含可运行的环境及其基础测试。针对具体任务的评分在评估工作流中添加。有关任务、验证器和智能体连接，请参阅 {ph0}AgentEnv "
+"文档{ph1}。"
 
 #: website/public/guides/rl-environments/index.html:405
 msgctxt "page:guides/rl-environments/index.html"
@@ -13151,6 +13174,7 @@ msgid ""
 "change. Repeat with different values. For deletes, record the missing-item "
 "response and the updated list."
 msgstr ""
+"要让更改获得支持，除了操作本身，还要录制其结果：读取一个条目，修改它，然后在下一次更改前再次读取该条目及其列表。用不同的值重复这一过程。对于删除操作，请录制条目不存在时的响应以及更新后的列表。"
 
 #. {ph0}: <code>environment-compare</code>
 #: website/public/guides/rl-environments/index.html:411
@@ -13162,6 +13186,8 @@ msgid ""
 "separate recording of calls made against the app from the same starting "
 "data."
 msgstr ""
+"启动测试通过、智能体完成任务、与原始应用一致，是三项独立的检查。对于最后一项，请使用 "
+"{ph0}，并配合一份从相同初始数据出发、针对该应用的调用的独立录制。"
 
 #: website/public/guides/rl-environments/index.html:417
 msgctxt "page:guides/rl-environments/index.html"
@@ -13170,6 +13196,7 @@ msgid ""
 "paths. Custom headers, query values, and body tokens can remain. Credential-"
 "name warnings identify places to review; they do not remove those values."
 msgstr ""
+"共享文件夹之前，请检查其中保留的响应正文和本地路径。自定义请求头、查询参数值和正文中的令牌可能仍然保留。凭据名称警告只会指出需要检查的位置，不会删除这些值。"
 
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
 #. environments-quickstart.md" >
@@ -13185,6 +13212,7 @@ msgid ""
 "reports and comparison commands. The {ph2}environment reference{ph3} covers "
 "direct MCP serving, state controls, and limits."
 msgstr ""
+"有关覆盖率报告和比较命令，请参阅{ph0}完整的录制与验证指南{ph1}。{ph2}环境参考{ph3}介绍了直接 MCP 服务、状态控制和限制。"
 
 #: website/public/guides/rl-environments/index.html:6
 msgctxt "page:guides/rl-environments/index.html"
@@ -13194,7 +13222,7 @@ msgstr "用 REA 构建 RL 环境"
 #: website/public/guides/rl-environments/index.html:251
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment prompt"
-msgstr ""
+msgstr "复制环境提示词"
 
 #: website/public/guides/rl-environments/index.html:296
 msgctxt "page:guides/rl-environments/index.html"
@@ -13204,12 +13232,12 @@ msgstr "复制环境构建命令"
 #: website/public/guides/rl-environments/index.html:331
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment run command"
-msgstr ""
+msgstr "复制环境运行命令"
 
 #: website/public/guides/rl-environments/index.html:368
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy task prompt"
-msgstr ""
+msgstr "复制任务提示词"
 
 #. {ph0}: <a href="#workflow">
 #. {ph1}: </a>
@@ -13217,7 +13245,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}What REA builds{ph1}"
-msgstr ""
+msgstr "{ph0}REA 构建什么{ph1}"
 
 #. {ph0}: <a href="#prepare">
 #. {ph1}: </a>
@@ -13225,7 +13253,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Before you start{ph1}"
-msgstr ""
+msgstr "{ph0}开始之前{ph1}"
 
 #. {ph0}: <a href="#record">
 #. {ph1}: </a>
@@ -13233,7 +13261,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Record with your agent{ph1}"
-msgstr ""
+msgstr "{ph0}和编程助手一起录制{ph1}"
 
 #. {ph0}: <a href="#build">
 #. {ph1}: </a>
@@ -13241,7 +13269,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Use a saved recording{ph1}"
-msgstr ""
+msgstr "{ph0}使用已保存的录制{ph1}"
 
 #. {ph0}: <a href="#run">
 #. {ph1}: </a>
@@ -13249,7 +13277,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Run the environment{ph1}"
-msgstr ""
+msgstr "{ph0}运行环境{ph1}"
 
 #. {ph0}: <a href="#tasks">
 #. {ph1}: </a>
@@ -13257,7 +13285,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Add tasks and rewards{ph1}"
-msgstr ""
+msgstr "{ph0}添加任务和奖励{ph1}"
 
 #. {ph0}: <a href="#check">
 #. {ph1}: </a>
@@ -13265,7 +13293,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Check what works{ph1}"
-msgstr ""
+msgstr "{ph0}检查哪些可用{ph1}"
 
 #: website/public/showcase/index.html:250
 msgctxt "page:showcase/index.html"
@@ -13304,6 +13332,7 @@ msgid ""
 "renderer has since changed; the recorded source locations accompany the API,"
 " channel and handler findings."
 msgstr ""
+"由 REA 4.1.0 在下方示例的早期版本上录制。renderer 此后已有变化；录制的源码位置会随 API、通道和处理程序的发现一并给出。"
 
 #. {ph0}: <code>--client</code>
 #: website/public/get-started/index.html:585
@@ -13312,7 +13341,7 @@ msgctxt "page:get-started/index.html"
 msgid ""
 "Use the ID with {ph0} when choosing a client explicitly. These clients are "
 "supported in npm 6.8.0 and later."
-msgstr ""
+msgstr "显式选择客户端时，请将 ID 与 {ph0} 一起使用。npm 6.8.0 及更高版本支持这些客户端。"
 
 #. {ph0}: <code>droid</code>
 #. {ph1}: <code>dsh</code>
@@ -13329,6 +13358,8 @@ msgid ""
 "{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5} and {ph6} require npm 6.5.0 or "
 "later. {ph7} requires npm 6.8.0 or later."
 msgstr ""
+"{ph0}、{ph1}、{ph2}、{ph3}、{ph4}、{ph5} 和 {ph6} 需要 npm 6.5.0 或更高版本。{ph7} 需要 npm "
+"6.8.0 或更高版本。"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
@@ -13340,11 +13371,13 @@ msgid ""
 "with an MCP registration. The macOS headless profile requires a source build"
 " or a release that includes it."
 msgstr ""
+"{ph0}IDA{ph1}（Windows；macOS arm64 无界面模式）：使用已有的、带 MCP 注册的 IDA 环境。macOS "
+"无界面配置需要从源码构建，或使用包含该配置的发行版本。"
 
 #: website/public/get-started/index.html:992
 msgctxt "page:get-started/index.html"
 msgid "x86_64 installer on supported distributions"
-msgstr ""
+msgstr "受支持发行版上的 x86_64 安装程序"
 
 #. {ph0}: <a href="../../get-started/">
 #. {ph1}: </a>
@@ -13361,6 +13394,9 @@ msgid ""
 "prerequisites and PowerShell setup. A Linux environment such as WSL is "
 "another option."
 msgstr ""
+"{ph0}配置 REA{ph1}，然后将这两个文件下载到同一个文件夹。在 Windows x64 上，请使用带有匹配的 Windows "
+"原生控件并支持自有协议 stdin 的软件包；前置条件和 PowerShell 配置请参阅 {ph2}Android 提供程序指南{ph3}。也可以使用"
+" WSL 等 Linux 环境。"
 
 #: website/public/get-started/index.html:1022
 msgctxt "page:get-started/index.html"
@@ -13371,6 +13407,9 @@ msgid ""
 "arm64, use Ghidra. Hopper is commercial software; its demo has vendor-"
 "defined limits."
 msgstr ""
+"自动 Linux 配置要求运行 Ubuntu 24.04+、Fedora 41+、Nobara 44+、Arch Linux、CachyOS 或 "
+"Omarchy 的 x86_64 主机。在其他受支持的 Linux 发行版上，也可以配置已有的 Hopper 启动器。在 Linux arm64 "
+"上，请使用 Ghidra。Hopper 是商业软件；其演示版有厂商规定的限制。"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
@@ -13383,8 +13422,10 @@ msgid ""
 "license before your first analysis. Automated Linux setup requires x86_64; "
 "use Ghidra on Linux arm64."
 msgstr ""
+"{ph0}Hopper{ph1}（macOS 或 Linux）：REA 的配置会检测到它，或提供安装选项。在 macOS 上，首次分析前请先打开 "
+"Hopper 一次，并选择演示模式或激活许可证。自动 Linux 配置需要 x86_64；在 Linux arm64 上请使用 Ghidra。"
 
-#: website/public/index.html:710
+#: website/public/index.html:965
 msgctxt "page:index.html"
 msgid ""
 "Selected assembly from the installed Calculator DLL. The thoughts and reply "
@@ -13404,7 +13445,7 @@ msgstr "从已安装的计算器 DLL 中选取的汇编代码。思考过程和�
 #: website/public/guides/javascript/index.html:460
 #: website/public/guides/native/index.html:461
 #: website/public/guides/rl-environments/index.html:447
-#: website/public/index.html:1134 website/public/showcase/aegis/index.html:764
+#: website/public/index.html:1421 website/public/showcase/aegis/index.html:764
 #: website/public/showcase/ctf/index.html:726
 #: website/public/showcase/dx-ball/index.html:734
 #: website/public/showcase/index.html:286
@@ -13427,7 +13468,7 @@ msgstr "产品"
 #: website/public/guides/javascript/index.html:467
 #: website/public/guides/native/index.html:468
 #: website/public/guides/rl-environments/index.html:454
-#: website/public/index.html:1141 website/public/showcase/aegis/index.html:771
+#: website/public/index.html:1428 website/public/showcase/aegis/index.html:771
 #: website/public/showcase/ctf/index.html:733
 #: website/public/showcase/dx-ball/index.html:741
 #: website/public/showcase/index.html:293
@@ -13450,7 +13491,7 @@ msgstr "帮助"
 #: website/public/guides/javascript/index.html:470
 #: website/public/guides/native/index.html:471
 #: website/public/guides/rl-environments/index.html:457
-#: website/public/index.html:1144 website/public/showcase/aegis/index.html:774
+#: website/public/index.html:1431 website/public/showcase/aegis/index.html:774
 #: website/public/showcase/ctf/index.html:736
 #: website/public/showcase/dx-ball/index.html:744
 #: website/public/showcase/index.html:296
@@ -13473,7 +13514,7 @@ msgstr "GitHub 问题"
 #: website/public/guides/javascript/index.html:474
 #: website/public/guides/native/index.html:475
 #: website/public/guides/rl-environments/index.html:461
-#: website/public/index.html:1148 website/public/showcase/aegis/index.html:778
+#: website/public/index.html:1435 website/public/showcase/aegis/index.html:778
 #: website/public/showcase/ctf/index.html:740
 #: website/public/showcase/dx-ball/index.html:748
 #: website/public/showcase/index.html:300
@@ -13496,7 +13537,7 @@ msgstr "项目"
 #: website/public/guides/javascript/index.html:475
 #: website/public/guides/native/index.html:476
 #: website/public/guides/rl-environments/index.html:462
-#: website/public/index.html:1149 website/public/showcase/aegis/index.html:779
+#: website/public/index.html:1436 website/public/showcase/aegis/index.html:779
 #: website/public/showcase/ctf/index.html:741
 #: website/public/showcase/dx-ball/index.html:749
 #: website/public/showcase/index.html:301
@@ -13519,7 +13560,7 @@ msgstr "源代码"
 #: website/public/guides/javascript/index.html:488
 #: website/public/guides/native/index.html:489
 #: website/public/guides/rl-environments/index.html:475
-#: website/public/index.html:1162 website/public/showcase/aegis/index.html:792
+#: website/public/index.html:1449 website/public/showcase/aegis/index.html:792
 #: website/public/showcase/ctf/index.html:754
 #: website/public/showcase/dx-ball/index.html:762
 #: website/public/showcase/index.html:314
@@ -13542,7 +13583,7 @@ msgstr "用你的编程智能体做逆向工程。"
 #: website/public/guides/javascript/index.html:489
 #: website/public/guides/native/index.html:490
 #: website/public/guides/rl-environments/index.html:476
-#: website/public/index.html:1163 website/public/showcase/aegis/index.html:793
+#: website/public/index.html:1450 website/public/showcase/aegis/index.html:793
 #: website/public/showcase/ctf/index.html:755
 #: website/public/showcase/dx-ball/index.html:763
 #: website/public/showcase/index.html:315
@@ -13857,12 +13898,12 @@ msgctxt "page:guides/rl-environments/index.html"
 msgid "Follow REA on X"
 msgstr "在 X 上关注 REA"
 
-#: website/public/index.html:161
+#: website/public/index.html:204
 msgctxt "page:index.html"
 msgid "Take any program apart."
 msgstr "拆解任何程序。"
 
-#: website/public/index.html:162
+#: website/public/index.html:205
 msgctxt "page:index.html"
 msgid ""
 "REA lets your coding agent open an app, a game or a website and lay out the "
@@ -13873,94 +13914,94 @@ msgstr "REA 让你的编程智能体打开一个应用、游戏或网站，把�
 #. {ph1}: </strong >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/index.html:195
+#: website/public/index.html:238
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}npm, last 30 days{ph3}"
 msgstr "{ph0}{ph1}{ph2}npm，近 30 天{ph3}"
 
-#: website/public/index.html:206
+#: website/public/index.html:249
 msgctxt "page:index.html"
 msgid "Every investigation follows the same three steps."
 msgstr "每次调查都遵循同样的三个步骤。"
 
-#: website/public/index.html:207
+#: website/public/index.html:250
 msgctxt "page:index.html"
 msgid ""
 "Your agent asks, REA reads the program, and your agent explains it. The two "
 "examples below show it on real programs."
 msgstr "你的智能体提问，REA 读取程序，再由智能体进行解释。下面两个例子展示了它在真实程序上的效果。"
 
-#: website/public/index.html:223
+#: website/public/index.html:266
 msgctxt "page:index.html"
 msgid ""
 "Give your agent an app, a game or a page, and one question about how it "
 "works."
 msgstr "给智能体一个应用、游戏或网页，再提一个关于它如何工作的问题。"
 
-#: website/public/index.html:239
+#: website/public/index.html:282
 msgctxt "page:index.html"
 msgid ""
 "REA lets your agent read the code and see what the program does while it "
 "runs."
 msgstr "REA 让智能体读取代码，并观察程序运行时的行为。"
 
-#: website/public/index.html:255
+#: website/public/index.html:298
 msgctxt "page:index.html"
 msgid ""
 "Your agent uses the findings to explain the feature or rebuild it with your "
 "change."
 msgstr "智能体根据分析结果解释该功能，或按你的修改重新实现它。"
 
-#: website/public/index.html:269
+#: website/public/index.html:312
 msgctxt "page:index.html"
 msgid ""
 "The game speeds up as you run. Ask your agent for the rule, then rebuild it "
 "with a speed control."
 msgstr "你跑得越久，游戏就越快。让智能体找出规则，再重新实现一个带速度控制的版本。"
 
-#: website/public/index.html:293
+#: website/public/index.html:336
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect this dinosaur game. Why does it get faster? Show the "
 "speed rule, then build a small version with an adjustable speed."
 msgstr "使用 REA 检查这个恐龙游戏。它为什么会变快？给出速度规则，然后做一个可调节速度的小版本。"
 
-#: website/public/index.html:305
+#: website/public/index.html:501
 msgctxt "page:index.html"
 msgid ""
 "Recovered speed: it starts at 6, reaches 10 after 4,000 updates and stops at"
 " 13 after 10,000 updates."
 msgstr "还原出的速度：从 6 开始，4,000 次更新后达到 10，10,000 次更新后停在 13。"
 
-#: website/public/index.html:312
+#: website/public/index.html:508
 msgctxt "page:index.html"
 msgid "Starting speed"
 msgstr "初始速度"
 
-#: website/public/index.html:316
+#: website/public/index.html:512
 msgctxt "page:index.html"
 msgid "Added on each update"
 msgstr "每次更新增加"
 
-#: website/public/index.html:320
+#: website/public/index.html:516
 msgctxt "page:index.html"
 msgid "Where it stops"
 msgstr "速度上限"
 
-#: website/public/index.html:326 website/public/index.html:489
+#: website/public/index.html:522 website/public/index.html:744
 msgctxt "page:index.html"
 msgid "See how it was found"
 msgstr "查看发现过程"
 
-#: website/public/index.html:433
+#: website/public/index.html:629
 msgctxt "page:index.html"
 msgid ""
 "The % key does different things after + and after ×. Ask your agent to find "
 "both rules."
 msgstr "% 键在 + 和 × 之后的作用不同。让你的智能体找出这两条规则。"
 
-#: website/public/index.html:457
+#: website/public/index.html:653
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect Windows Calculator’s % button. Find the rule after + and "
@@ -13970,7 +14011,7 @@ msgstr "使用 REA 检查 Windows 计算器的 % 按钮。找出 + 之后的规�
 #. {ph0}: <span class="calculator-sum" translate="no">200 + 10%</span>
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:469
+#: website/public/index.html:698
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% of 200 is added: 200 + 20{ph2}"
@@ -13979,56 +14020,56 @@ msgstr "{ph0} {ph1}加上 200 的 10%：200 + 20{ph2}"
 #. {ph0}: <span class="calculator-sum" translate="no">200 × 10%</span>
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:478
+#: website/public/index.html:733
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% becomes 0.1: 200 × 0.1{ph2}"
 msgstr "{ph0} {ph1}10% 变为 0.1：200 × 0.1{ph2}"
 
-#: website/public/index.html:811
+#: website/public/index.html:1066
 msgctxt "page:index.html"
 msgid "Real apps, taken apart."
 msgstr "拆解真实应用。"
 
-#: website/public/index.html:812
+#: website/public/index.html:1067
 msgctxt "page:index.html"
 msgid ""
 "Each case study follows one feature in a released app or game, with the code"
 " and the checked results."
 msgstr "每个案例研究都追踪一个已发布应用或游戏中的功能，并附上代码和经过验证的结果。"
 
-#: website/public/index.html:817
+#: website/public/index.html:1072
 msgctxt "page:index.html"
 msgid "All showcases"
 msgstr "全部案例"
 
-#: website/public/index.html:832
+#: website/public/index.html:1087
 msgctxt "page:index.html"
 msgid "Android app"
 msgstr "Android 应用"
 
 #. {ph0}: <a href="showcase/aegis/" >
 #. {ph1}: </a >
-#: website/public/index.html:834
+#: website/public/index.html:1089
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How an authenticator generates a login code{ph1}"
 msgstr "{ph0}身份验证器如何生成登录验证码{ph1}"
 
-#: website/public/index.html:839
+#: website/public/index.html:1094
 msgctxt "page:index.html"
 msgid ""
 "Trace Aegis’s six-digit code through its released APK, then see why it "
 "changes every 30 seconds."
 msgstr "在已发布的 APK 中追踪 Aegis 的六位数验证码，看看它为什么每 30 秒变化一次。"
 
-#: website/public/index.html:843 website/public/index.html:871
-#: website/public/index.html:897
+#: website/public/index.html:1098 website/public/index.html:1126
+#: website/public/index.html:1154
 msgctxt "page:index.html"
 msgid "Read the case study"
 msgstr "阅读案例研究"
 
-#: website/public/index.html:860
+#: website/public/index.html:1115
 msgctxt "page:index.html"
 msgid "Electron app"
 msgstr "Electron 应用"
@@ -14036,91 +14077,91 @@ msgstr "Electron 应用"
 #. {ph0}: <a href="showcase/notion/" >
 #. {ph1}: <br />
 #. {ph2}: </a >
-#: website/public/index.html:862
+#: website/public/index.html:1117
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How Notion copies{ph1}text and HTML{ph2}"
 msgstr "{ph0}Notion 如何复制{ph1}文本和 HTML{ph2}"
 
-#: website/public/index.html:867
+#: website/public/index.html:1122
 msgctxt "page:index.html"
 msgid ""
 "Follow Notion’s packaged JavaScript to the system clipboard and see how a "
 "copy keeps its rich block data."
 msgstr "沿着 Notion 打包后的 JavaScript 一路追踪到系统剪贴板，看看复制时如何保留丰富的块数据。"
 
-#: website/public/index.html:888
+#: website/public/index.html:1143
 msgctxt "page:index.html"
 msgid "Windows game"
 msgstr "Windows 游戏"
 
-#. {ph0}: <a href="showcase/dx-ball/">
-#. {ph1}: </a>
-#: website/public/index.html:890
+#. {ph0}: <a href="showcase/dx-ball/" >
+#. {ph1}: </a >
+#: website/public/index.html:1145
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}DX-Ball’s sound-pan calculation{ph1}"
 msgstr "{ph0}DX-Ball 的声像计算{ph1}"
 
-#: website/public/index.html:893
+#: website/public/index.html:1150
 msgctxt "page:index.html"
 msgid ""
 "Recover how this 1996 game turns a hit brick’s position into stereo sound."
 msgstr "还原这款 1996 年的游戏如何把被击中砖块的位置转换为立体声。"
 
-#: website/public/index.html:909
+#: website/public/index.html:1166
 msgctxt "page:index.html"
 msgid "Build RL environments from a web app."
 msgstr "从 Web 应用构建 RL 环境。"
 
-#: website/public/index.html:911
+#: website/public/index.html:1168
 msgctxt "page:index.html"
 msgid ""
 "Turn a recorded session into a local environment where agents practice tasks"
 " without the original app."
 msgstr "把录制的会话变成本地环境，让智能体在没有原始应用的情况下练习任务。"
 
-#: website/public/index.html:916
+#: website/public/index.html:1173
 msgctxt "page:index.html"
 msgid "Read the guide"
 msgstr "阅读指南"
 
-#: website/public/index.html:922
+#: website/public/index.html:1179
 msgctxt "page:index.html"
 msgid "Watch the demo on"
 msgstr "观看演示："
 
-#: website/public/index.html:956
+#: website/public/index.html:1229
 msgctxt "page:index.html"
 msgid "Record a session"
 msgstr "录制会话"
 
-#: website/public/index.html:957
+#: website/public/index.html:1230
 msgctxt "page:index.html"
 msgid "Your agent records a test app’s requests and responses."
 msgstr "你的智能体记录测试应用的请求和响应。"
 
-#: website/public/index.html:979
+#: website/public/index.html:1252
 msgctxt "page:index.html"
 msgid "Build with REA"
 msgstr "用 REA 构建"
 
-#: website/public/index.html:980
+#: website/public/index.html:1253
 msgctxt "page:index.html"
 msgid "REA turns the recording into tools and reports what it supports."
 msgstr "REA 将录制内容转换为工具，并报告支持的范围。"
 
-#: website/public/index.html:999
+#: website/public/index.html:1274
 msgctxt "page:index.html"
 msgid "Run with AgentEnv"
 msgstr "用 AgentEnv 运行"
 
-#: website/public/index.html:1000
+#: website/public/index.html:1275
 msgctxt "page:index.html"
 msgid "Agents practice tasks in it, without the original app."
 msgstr "智能体在其中练习任务，无需原始应用。"
 
-#: website/public/index.html:1004
+#: website/public/index.html:1279
 msgctxt "page:index.html"
 msgid ""
 "Example with a test app that manages folders. The environment only supports "
@@ -14128,13 +14169,13 @@ msgid ""
 msgstr "示例使用一个管理文件夹的测试应用。该环境只支持录制内容所确认的更改。"
 
 #. {ph0}: <br />
-#: website/public/index.html:1015
+#: website/public/index.html:1290
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Ask how it works.{ph0}Then rebuild it."
 msgstr "询问它如何工作。{ph0}然后重新实现它。"
 
-#: website/public/index.html:1018
+#: website/public/index.html:1293
 msgctxt "page:index.html"
 msgid ""
 "Set up REA in your coding agent. It shows you the plan, waits for your "
@@ -14142,7 +14183,7 @@ msgid ""
 msgstr "在你的编程智能体中设置 REA。它会先展示计划，等待你批准，然后检查一切是否正常。"
 
 #. {ph0}: <code translate="no">npx rea-agents@latest setup</code>
-#: website/public/index.html:1044
+#: website/public/index.html:1319
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -14153,35 +14194,35 @@ msgstr "安装 REA，并使用 {ph0} 将其连接到这个编程智能体。先�
 #. {ph0}: <span translate="no">Node.js</span>
 #. {ph1}: <a href="get-started/">
 #. {ph2}: </a>
-#: website/public/index.html:1061
+#: website/public/index.html:1336
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Needs {ph0}. No coding agent yet? {ph1}Follow the setup guide{ph2}."
 msgstr "需要 {ph0}。还没有编程智能体？{ph1}按照设置指南操作{ph2}。"
 
-#: website/public/index.html:1067
+#: website/public/index.html:1342
 msgctxt "page:index.html"
 msgid "Then pick a guide for your target."
 msgstr "然后为你的目标选择一份指南。"
 
-#: website/public/index.html:1078
+#: website/public/index.html:1357
 msgctxt "page:index.html"
 msgid "Native programs"
 msgstr "原生程序"
 
-#: website/public/index.html:1093
+#: website/public/index.html:1376
 msgctxt "page:index.html"
 msgid "JavaScript and Electron"
 msgstr "JavaScript 和 Electron"
 
-#: website/public/index.html:1103
+#: website/public/index.html:1390
 msgctxt "page:index.html"
 msgid "Browser and runtime"
 msgstr "浏览器和运行时"
 
 #. {ph0}: <a href="first-investigation/" >
 #. {ph1}: </a >
-#: website/public/index.html:1107
+#: website/public/index.html:1394
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -14189,70 +14230,70 @@ msgid ""
 "export."
 msgstr "刚接触？{ph0}在我们的小型 Notes 应用上试用 REA{ph1}，追踪它的 CSV 导出功能。"
 
-#: website/public/index.html:152
+#: website/public/index.html:195
 msgctxt "page:index.html"
 msgid ""
 "A calculator taken apart and laid out piece by piece: its case, keypad, "
 "circuit board, display, screws and keys."
 msgstr "一台被拆开并逐件摆放的计算器：外壳、键盘、电路板、显示屏、螺丝和按键。"
 
-#: website/public/index.html:214
+#: website/public/index.html:257
 msgctxt "page:index.html"
 msgid ""
 "A calculator keypad with its % key set apart and tagged with a paper label."
 msgstr "计算器键盘，其中 % 键被单独取出并贴上纸质标签。"
 
-#: website/public/index.html:230
+#: website/public/index.html:273
 msgctxt "page:index.html"
 msgid "A calculator beside its circuit board, with a loupe over the chip."
 msgstr "计算器旁边放着它的电路板，芯片上方有一个放大镜。"
 
-#: website/public/index.html:246
+#: website/public/index.html:289
 msgctxt "page:index.html"
 msgid ""
 "The calculator reassembled with its % key highlighted and a spare % key "
 "beside it."
 msgstr "重新组装好的计算器，% 键被高亮显示，旁边还有一个备用的 % 键。"
 
-#: website/public/index.html:821
+#: website/public/index.html:1076
 msgctxt "page:index.html"
 msgid ""
 "A phone taken apart: its screen showing a six-digit code, frame, back, "
 "battery, board and screws."
 msgstr "一部被拆开的手机：显示六位数验证码的屏幕、边框、后盖、电池、主板和螺丝。"
 
-#: website/public/index.html:849
+#: website/public/index.html:1104
 msgctxt "page:index.html"
 msgid ""
 "Ctrl, C and V keys in a row, followed by a lifted key and three blank keys."
 msgstr "一排 Ctrl、C 和 V 键，后面是一个抬起的按键和三个空白按键。"
 
-#: website/public/index.html:877
+#: website/public/index.html:1132
 msgctxt "page:index.html"
 msgid "A sound card wired to a speaker on each side."
 msgstr "一块声卡，两侧各连接一个扬声器。"
 
-#: website/public/index.html:1116
+#: website/public/index.html:1403
 msgctxt "page:index.html"
 msgid "The rebuilt calculator showing 220 on its display."
 msgstr "重建的计算器，显示屏上显示 220。"
 
-#: website/public/index.html:1132
+#: website/public/index.html:1419
 msgctxt "page:index.html"
 msgid "Footer"
 msgstr "页脚"
 
-#: website/public/index.html:1155
+#: website/public/index.html:1442
 msgctxt "page:index.html"
 msgid "REA on GitHub"
 msgstr "在 GitHub 查看 REA"
 
-#: website/public/index.html:1156
+#: website/public/index.html:1443
 msgctxt "page:index.html"
 msgid "Join REA on Discord"
 msgstr "加入 REA 的 Discord 社区"
 
-#: website/public/index.html:1157
+#: website/public/index.html:1444
 msgctxt "page:index.html"
 msgid "Follow REA on X"
 msgstr "在 X 上关注 REA"
@@ -14383,7 +14424,7 @@ msgctxt "runtime"
 msgid "{count} downloads"
 msgstr "{count} 次下载"
 
-#: website/public/assets/main.js:175
+#: website/public/assets/main.js:176
 #, python-brace-format
 msgctxt "runtime"
 msgid "Step {number} of {total}"

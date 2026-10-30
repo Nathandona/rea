@@ -49,7 +49,10 @@
   if (motion) root.classList.add("motion-ready");
 
   const splitWords = (heading) => {
-    heading.setAttribute("aria-label", heading.textContent.replace(/\s+/g, " ").trim());
+    heading.setAttribute(
+      "aria-label",
+      heading.textContent.replace(/\s+/g, " ").trim(),
+    );
     let index = 0;
     const walk = (node) => {
       Array.from(node.childNodes).forEach((child) => {
@@ -57,7 +60,11 @@
           walk(child);
           return;
         }
-        if (child.nodeType !== Node.TEXT_NODE || child.textContent.trim() === "") return;
+        if (
+          child.nodeType !== Node.TEXT_NODE ||
+          child.textContent.trim() === ""
+        )
+          return;
         const fragment = document.createDocumentFragment();
         child.textContent.split(/(\s+)/).forEach((part) => {
           if (part === "") return;
@@ -108,10 +115,12 @@
         });
         observer.observe(element);
       });
-    document.querySelectorAll(".lcd-digits g:first-of-type rect").forEach((segment) => {
-      const siblings = Array.from(segment.parentElement.children);
-      segment.style.setProperty("--s", String(siblings.indexOf(segment)));
-    });
+    document
+      .querySelectorAll(".lcd-digits g:first-of-type rect")
+      .forEach((segment) => {
+        const siblings = Array.from(segment.parentElement.children);
+        segment.style.setProperty("--s", String(siblings.indexOf(segment)));
+      });
     document
       .querySelectorAll(".mini-requests tr, .mini-tools li")
       .forEach((row) => {

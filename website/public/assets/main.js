@@ -137,7 +137,8 @@ async function initializeWebsite() {
       const hash = window.location.hash.slice(1);
       setOpen(
         hash !== "" &&
-          (hash === region.id || region.querySelector(`[id="${CSS.escape(hash)}"]`) !== null),
+          (hash === region.id ||
+            region.querySelector(`[id="${CSS.escape(hash)}"]`) !== null),
       );
       link.addEventListener("click", (event) => {
         event.preventDefault();

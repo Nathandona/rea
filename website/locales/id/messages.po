@@ -19,7 +19,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:blog/index.html"
 msgid "{ph0}Home{ph1} / Blog"
-msgstr "{ph0}Rumah{ph1} / Blog"
+msgstr "{ph0}Beranda{ph1} / Blog"
 
 #: website/public/blog/index.html:151
 msgctxt "page:blog/index.html"
@@ -202,7 +202,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:blog/touhou-reconstruction/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Blog{ph3} / Touhou reconstruction"
-msgstr "{ph0}Rumah{ph1} / {ph2}Blog{ph3} / Rekonstruksi Touhou"
+msgstr "{ph0}Beranda{ph1} / {ph2}Blog{ph3} / Rekonstruksi Touhou"
 
 #: website/public/blog/touhou-reconstruction/index.html:154
 msgctxt "page:blog/touhou-reconstruction/index.html"
@@ -1831,7 +1831,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:examples/dino-lab/index.html"
 msgid "{ph0}Home{ph1}{ph2}/{ph3}Dinosaur speed lab"
-msgstr "{ph0}Rumah{ph1}{ph2}/{ph3}Lab kecepatan dinosaurus"
+msgstr "{ph0}Beranda{ph1}{ph2}/{ph3}Lab kecepatan dinosaurus"
 
 #: website/public/examples/dino-lab/index.html:154
 msgctxt "page:examples/dino-lab/index.html"
@@ -2222,7 +2222,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:faq/index.html"
 msgid "{ph0}Home{ph1} / FAQ"
-msgstr "{ph0}Rumah{ph1} / FAQ"
+msgstr "{ph0}Beranda{ph1} / FAQ"
 
 #: website/public/faq/index.html:151
 msgctxt "page:faq/index.html"
@@ -2837,7 +2837,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:first-investigation/index.html"
 msgid "{ph0}Home{ph1} / Your first investigation"
-msgstr "{ph0}Rumah{ph1} / Investigasi pertama Anda"
+msgstr "{ph0}Beranda{ph1} / Investigasi pertama Anda"
 
 #. {ph0}: <br />
 #: website/public/first-investigation/index.html:153
@@ -3208,7 +3208,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Home{ph1} / Get started"
-msgstr "{ph0}Rumah{ph1} / Memulai"
+msgstr "{ph0}Beranda{ph1} / Memulai"
 
 #: website/public/get-started/index.html:151
 msgctxt "page:get-started/index.html"
@@ -3803,7 +3803,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:guides/browser/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Guides{ph3} / Browser observation"
-msgstr "{ph0}Rumah{ph1} / {ph2}Panduan{ph3} / Pengamatan browser"
+msgstr "{ph0}Beranda{ph1} / {ph2}Panduan{ph3} / Pengamatan browser"
 
 #. {ph0}: <br />
 #: website/public/guides/browser/index.html:154
@@ -4275,7 +4275,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:guides/index.html"
 msgid "{ph0}Home{ph1} / Guides"
-msgstr "{ph0}Rumah{ph1} / Panduan"
+msgstr "{ph0}Beranda{ph1} / Panduan"
 
 #: website/public/guides/index.html:151
 msgctxt "page:guides/index.html"
@@ -4421,7 +4421,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Guides{ph3} / JavaScript & Electron"
-msgstr "{ph0}Rumah{ph1} / {ph2}Panduan{ph3} / JavaScript & Electron"
+msgstr "{ph0}Beranda{ph1} / {ph2}Panduan{ph3} / JavaScript & Electron"
 
 #. {ph0}: <br />
 #: website/public/guides/javascript/index.html:154
@@ -4863,7 +4863,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Guides{ph3} / Native analysis"
-msgstr "{ph0}Rumah{ph1} / {ph2}Panduan{ph3} / Analisis program kode mesin"
+msgstr "{ph0}Beranda{ph1} / {ph2}Panduan{ph3} / Analisis program kode mesin"
 
 #. {ph0}: <br />
 #: website/public/guides/native/index.html:153
@@ -5420,15 +5420,15 @@ msgctxt "page:index.html"
 msgid "Skip to content"
 msgstr "Lewati ke konten"
 
-#: website/public/index.html:284 website/public/index.html:448
-#: website/public/index.html:663 website/public/index.html:1035
+#: website/public/index.html:327 website/public/index.html:644
+#: website/public/index.html:918 website/public/index.html:1310
 msgctxt "page:index.html"
 msgid "Copy"
 msgstr "Salin"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:512
+#: website/public/index.html:767
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}01{ph1} Decode branches"
@@ -5436,7 +5436,7 @@ msgstr "{ph0}01{ph1} Dekode cabang"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:520
+#: website/public/index.html:775
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}02{ph1} Trace calls"
@@ -5444,7 +5444,7 @@ msgstr "{ph0}02{ph1} Melacak panggilan"
 
 #. {ph0}: <span>
 #. {ph1}: </span>
-#: website/public/index.html:528
+#: website/public/index.html:783
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}03{ph1} Recover the rule"
@@ -5454,20 +5454,20 @@ msgstr "{ph0}03{ph1} Pulihkan aturan"
 #. {ph1}: </span>
 #. {ph2}: <span class="assembly-disclosure" aria-hidden="true" >
 #. {ph3}: </span>
-#: website/public/index.html:539
+#: website/public/index.html:794
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}Original x64 · selected instructions{ph1} {ph2}{ph3}"
 msgstr "{ph0}x64 asli * instruksi yang dipilih{ph1} {ph2}{ph3}"
 
-#: website/public/index.html:581
+#: website/public/index.html:836
 msgctxt "page:index.html"
 msgid "01 · Which branch?"
 msgstr "01 * Cabang mana?"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:582
+#: website/public/index.html:837
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5476,29 +5476,29 @@ msgid ""
 msgstr ""
 "“{ph0}0x5b? 0x5c?{ph1} Dua lompatan ke tempat yang sama. Operator mana ini?”"
 
-#: website/public/index.html:586
+#: website/public/index.html:841
 msgctxt "page:index.html"
 msgid "Look up the command IDs, then label the branch."
 msgstr "Cari ID perintah, lalu beri label pada cabang."
 
-#: website/public/index.html:592
+#: website/public/index.html:847
 msgctxt "page:index.html"
 msgid "Divide ÷"
 msgstr "Membagi ÷"
 
-#: website/public/index.html:596
+#: website/public/index.html:851
 msgctxt "page:index.html"
 msgid "Multiply ×"
 msgstr "Kalikan ×"
 
-#: website/public/index.html:601
+#: website/public/index.html:856
 msgctxt "page:index.html"
 msgid "02 · What do the calls do?"
 msgstr "02 · Apa yang dilakukan fungsi yang dipanggil?"
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:602
+#: website/public/index.html:857
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5508,24 +5508,24 @@ msgstr ""
 "\"100 sudah jelas. Panggilan itu hanya alamat. {ph0}Yang mana yang membelah?"
 " Nilai mana yang masuk?{ph1}”"
 
-#: website/public/index.html:608
+#: website/public/index.html:863
 msgctxt "page:index.html"
 msgid "Inspect the helpers and trace the stored values."
 msgstr "Periksa fungsi pembantu dan lacak nilai yang disimpan."
 
-#: website/public/index.html:618
+#: website/public/index.html:873
 msgctxt "page:index.html"
 msgid "Divide"
 msgstr "Membagi"
 
-#: website/public/index.html:623
+#: website/public/index.html:878
 msgctxt "page:index.html"
 msgid "03 · What is the rule?"
 msgstr "03 · Apa aturannya?"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:624
+#: website/public/index.html:879
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5535,19 +5535,19 @@ msgstr ""
 "\"Jalur ini dikalikan dengan masukan lainnya. Jadi {ph0}10% berarti 10% dari"
 " 200{ph1} setelah +.”"
 
-#: website/public/index.html:628
+#: website/public/index.html:883
 msgctxt "page:index.html"
 msgid "Name the operands and check both operator paths."
 msgstr "Beri nama operan dan periksa kedua jalur operator."
 
-#: website/public/index.html:644 website/public/index.html:571
+#: website/public/index.html:899 website/public/index.html:826
 msgctxt "page:index.html"
 msgid "Illustrative expert reasoning"
 msgstr "Penalaran ahli ilustratif"
 
 #. {ph0}: <strong >
 #. {ph1}: </strong >
-#: website/public/index.html:647
+#: website/public/index.html:902
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5565,20 +5565,20 @@ msgstr ""
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/index.html:658
+#: website/public/index.html:913
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Example prompt · Calculator"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Contoh prompt * Kalkulator"
 
-#: website/public/index.html:680
+#: website/public/index.html:935
 msgctxt "page:index.html"
 msgid "Example answer · based on the findings"
 msgstr "Contoh jawaban * berdasarkan temuan"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/index.html:683
+#: website/public/index.html:938
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5586,43 +5586,43 @@ msgid ""
 msgstr ""
 "Setelah +, tombol % mengambil {ph0}persentase dari angka pertama.{ph1}"
 
-#: website/public/index.html:696
+#: website/public/index.html:951
 msgctxt "page:index.html"
 msgid "REA supplies"
 msgstr "REA menyediakan"
 
-#: website/public/index.html:697
+#: website/public/index.html:952
 msgctxt "page:index.html"
 msgid "The handler’s instructions, decompiled code and calls."
 msgstr "Instruksi pawang, kode yang didekompilasi, dan panggilan."
 
-#: website/public/index.html:702
+#: website/public/index.html:957
 msgctxt "page:index.html"
 msgid "Your agent explains"
 msgstr "Agen Anda menjelaskan"
 
-#: website/public/index.html:703
+#: website/public/index.html:958
 msgctxt "page:index.html"
 msgid "Which branch applies, what it calculates and how to rebuild it."
 msgstr ""
 "Cabang mana yang berlaku, apa yang menghitungnya, dan bagaimana membangunnya"
 " kembali."
 
-#: website/public/index.html:268
+#: website/public/index.html:311
 msgctxt "page:index.html"
 msgid "Why does the dinosaur get faster?"
 msgstr "Mengapa dinosaurus semakin cepat?"
 
 #. {ph0}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph1}: </a >
-#: website/public/index.html:332
+#: website/public/index.html:528
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Inspected target: {ph0}wayou’s Chromium-derived browser edition{ph1}."
 msgstr ""
 "Target yang diperiksa: {ph0}edisi peramban turunan Chromium wayou{ph1}."
 
-#: website/public/index.html:354
+#: website/public/index.html:550
 msgctxt "page:index.html"
 msgid "What each part does"
 msgstr "Apa yang dilakukan setiap bagian"
@@ -5633,7 +5633,7 @@ msgstr "Apa yang dilakukan setiap bagian"
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:356
+#: website/public/index.html:552
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5650,7 +5650,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:363
+#: website/public/index.html:559
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5667,7 +5667,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:371
+#: website/public/index.html:567
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5678,7 +5678,7 @@ msgstr ""
 "akselerasi asli, lalu pilih kecepatan Anda sendiri.{ph5}"
 
 #. {ph0}: <code>index.js</code>
-#: website/public/index.html:381
+#: website/public/index.html:577
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5688,7 +5688,7 @@ msgstr ""
 "REA memeriksa edisi browser HTTP melalui koneksi debugging lokal dan "
 "mengembalikan yang dimuat {ph0}, termasuk sumber dan intisarinya."
 
-#: website/public/index.html:394
+#: website/public/index.html:590
 msgctxt "page:index.html"
 msgid ""
 "We called the original game’s update function in a controlled browser check,"
@@ -5702,7 +5702,7 @@ msgstr ""
 
 #. {ph0}: <a href="examples/dino-lab/">
 #. {ph1}: </a>
-#: website/public/index.html:400
+#: website/public/index.html:596
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5719,7 +5719,7 @@ msgstr ""
 #. {ph1}: </a>
 #. {ph2}: <a href="https://wayou.github.io/t-rex-runner/" >
 #. {ph3}: </a >
-#: website/public/index.html:406
+#: website/public/index.html:602
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5737,7 +5737,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <a href="assets/licenses/dinosaur.txt" >
 #. {ph3}: </a >
-#: website/public/index.html:415
+#: website/public/index.html:611
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5746,20 +5746,20 @@ msgstr ""
 "{ph0}Kode kecepatan yang diperiksa{ph1} · {ph2} Penulis Chromium * Lisensi "
 "BSD{ph3}"
 
-#: website/public/index.html:432
+#: website/public/index.html:628
 msgctxt "page:index.html"
 msgid "Rebuild Calculator’s % button."
 msgstr "Buat ulang tombol % Kalkulator."
 
 #. {ph0}: <code>previous = 200</code>
 #. {ph1}: <code>current = 10</code>
-#: website/public/index.html:715
+#: website/public/index.html:970
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "For this example, {ph0} and {ph1}."
 msgstr "Untuk contoh ini, {ph0} dan {ph1}."
 
-#: website/public/index.html:730
+#: website/public/index.html:985
 msgctxt "page:index.html"
 msgid "From the installed app to a working % button"
 msgstr "Dari aplikasi yang diinstal ke tombol % yang berfungsi"
@@ -5771,7 +5771,7 @@ msgstr "Dari aplikasi yang diinstal ke tombol % yang berfungsi"
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: <code>100</code>
 #. {ph6}: </span >
-#: website/public/index.html:743
+#: website/public/index.html:998
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5789,7 +5789,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/index.html:751
+#: website/public/index.html:1006
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5801,7 +5801,7 @@ msgstr ""
 "aturan{ph3}{ph4}Periksa silang cabang dengan sumber Microsoft, lalu coba + "
 "dan × {ph5}"
 
-#: website/public/index.html:786
+#: website/public/index.html:1041
 msgctxt "page:index.html"
 msgid ""
 "Inspected with REA 4.1.0: Windows Calculator 11.2508.4.0, x64. The readable "
@@ -5822,7 +5822,7 @@ msgstr ""
 #. {ph3}: </a >
 #. {ph4}: <a href="guides/native/">
 #. {ph5}: </a>
-#: website/public/index.html:791
+#: website/public/index.html:1046
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -5847,32 +5847,32 @@ msgstr ""
 "pengkodean Anda. Ikuti panduan yang jelas dan coba contoh interaktif dengan "
 "REA ."
 
-#: website/public/index.html:1035
+#: website/public/index.html:1310
 msgctxt "page:index.html"
 msgid "Copy REA installation prompt"
 msgstr "Salin prompt instalasi REA"
 
-#: website/public/index.html:171 website/public/index.html:1053
+#: website/public/index.html:214 website/public/index.html:1328
 msgctxt "page:index.html"
 msgid "Copy setup command"
 msgstr "Salin perintah pengaturan"
 
-#: website/public/index.html:507
+#: website/public/index.html:762
 msgctxt "page:index.html"
 msgid "Follow the manual Calculator analysis"
 msgstr "Ikuti analisis Kalkulator manual"
 
-#: website/public/index.html:663
+#: website/public/index.html:918
 msgctxt "page:index.html"
 msgid "Copy Calculator percentage question"
 msgstr "Salin pertanyaan persentase Kalkulator"
 
-#: website/public/index.html:284
+#: website/public/index.html:327
 msgctxt "page:index.html"
 msgid "Copy dinosaur analysis prompt"
 msgstr "Salin prompt analisis dinosaurus"
 
-#: website/public/index.html:448
+#: website/public/index.html:644
 msgctxt "page:index.html"
 msgid "Copy Calculator analysis prompt"
 msgstr "Salin prompt analisis Kalkulator"
@@ -5890,7 +5890,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:showcase/aegis/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Showcases{ph3} / Android"
-msgstr "{ph0}Rumah{ph1} / {ph2}Menampilkan{ph3} / Android"
+msgstr "{ph0}Beranda{ph1} / {ph2}Menampilkan{ph3} / Android"
 
 #: website/public/showcase/aegis/index.html:154
 msgctxt "page:showcase/aegis/index.html"
@@ -6625,7 +6625,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:showcase/ctf/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Showcases{ph3} / CTF"
-msgstr "{ph0}Rumah{ph1} / {ph2}Menampilkan{ph3} / CTF"
+msgstr "{ph0}Beranda{ph1} / {ph2}Menampilkan{ph3} / CTF"
 
 #: website/public/showcase/ctf/index.html:153
 msgctxt "page:showcase/ctf/index.html"
@@ -7358,7 +7358,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:showcase/dx-ball/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Showcases{ph3} / DX-Ball"
-msgstr "{ph0}Rumah{ph1} / {ph2}Menampilkan{ph3} / DX-Ball"
+msgstr "{ph0}Beranda{ph1} / {ph2}Menampilkan{ph3} / DX-Ball"
 
 #: website/public/showcase/dx-ball/index.html:153
 msgctxt "page:showcase/dx-ball/index.html"
@@ -8146,7 +8146,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:showcase/index.html"
 msgid "{ph0}Home{ph1} / Showcases"
-msgstr "{ph0}Rumah{ph1} / Menampilkan"
+msgstr "{ph0}Beranda{ph1} / Menampilkan"
 
 #: website/public/showcase/index.html:151
 msgctxt "page:showcase/index.html"
@@ -8339,7 +8339,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:showcase/notion/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Showcases{ph3} / Notion"
-msgstr "{ph0}Rumah{ph1} / {ph2}Menampilkan{ph3} / Notion"
+msgstr "{ph0}Beranda{ph1} / {ph2}Menampilkan{ph3} / Notion"
 
 #: website/public/showcase/notion/index.html:153
 msgctxt "page:showcase/notion/index.html"
@@ -8973,7 +8973,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:showcase/th04/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Showcases{ph3} / TH04"
-msgstr "{ph0}Rumah{ph1} / {ph2}Menampilkan{ph3} / TH04"
+msgstr "{ph0}Beranda{ph1} / {ph2}Menampilkan{ph3} / TH04"
 
 #: website/public/showcase/th04/index.html:153
 msgctxt "page:showcase/th04/index.html"
@@ -9819,7 +9819,7 @@ msgctxt "runtime"
 msgid "Code selected. Use your keyboard to copy it."
 msgstr "Kode dipilih. Gunakan keyboard Anda untuk menyalinnya."
 
-#: website/public/assets/main.js:215
+#: website/public/assets/main.js:216
 #, python-brace-format
 msgctxt "runtime"
 msgid "REA on GitHub ({count})"
@@ -10298,7 +10298,7 @@ msgstr "Jarak yang sama: 256 ÷ 16 = 16 satuan sudut = 22,5°"
 #: website/public/guides/native/index.html:463
 #: website/public/guides/rl-environments/index.html:120
 #: website/public/guides/rl-environments/index.html:449
-#: website/public/index.html:121 website/public/index.html:1136
+#: website/public/index.html:121 website/public/index.html:1423
 #: website/public/showcase/aegis/index.html:121
 #: website/public/showcase/aegis/index.html:766
 #: website/public/showcase/ctf/index.html:120
@@ -10338,7 +10338,7 @@ msgstr "Studi kasus"
 #: website/public/guides/native/index.html:464
 #: website/public/guides/rl-environments/index.html:121
 #: website/public/guides/rl-environments/index.html:450
-#: website/public/index.html:122 website/public/index.html:1137
+#: website/public/index.html:122 website/public/index.html:1424
 #: website/public/showcase/aegis/index.html:122
 #: website/public/showcase/aegis/index.html:767
 #: website/public/showcase/ctf/index.html:121
@@ -10378,7 +10378,7 @@ msgstr "Blog"
 #: website/public/guides/native/index.html:462
 #: website/public/guides/rl-environments/index.html:143
 #: website/public/guides/rl-environments/index.html:448
-#: website/public/index.html:144 website/public/index.html:1135
+#: website/public/index.html:144 website/public/index.html:1422
 #: website/public/showcase/aegis/index.html:144
 #: website/public/showcase/aegis/index.html:765
 #: website/public/showcase/ctf/index.html:143
@@ -10418,7 +10418,7 @@ msgstr "Mulai"
 #: website/public/guides/native/index.html:465
 #: website/public/guides/rl-environments/index.html:122
 #: website/public/guides/rl-environments/index.html:451
-#: website/public/index.html:123 website/public/index.html:1138
+#: website/public/index.html:123 website/public/index.html:1425
 #: website/public/showcase/aegis/index.html:123
 #: website/public/showcase/aegis/index.html:768
 #: website/public/showcase/ctf/index.html:122
@@ -10448,7 +10448,7 @@ msgstr "Panduan"
 #: website/public/guides/javascript/index.html:476
 #: website/public/guides/native/index.html:477
 #: website/public/guides/rl-environments/index.html:463
-#: website/public/index.html:1150 website/public/showcase/aegis/index.html:780
+#: website/public/index.html:1437 website/public/showcase/aegis/index.html:780
 #: website/public/showcase/ctf/index.html:742
 #: website/public/showcase/dx-ball/index.html:750
 #: website/public/showcase/index.html:302
@@ -10471,7 +10471,7 @@ msgstr "Lisensi MIT"
 #: website/public/guides/javascript/index.html:477
 #: website/public/guides/native/index.html:478
 #: website/public/guides/rl-environments/index.html:464
-#: website/public/index.html:1151 website/public/showcase/aegis/index.html:781
+#: website/public/index.html:1438 website/public/showcase/aegis/index.html:781
 #: website/public/showcase/ctf/index.html:743
 #: website/public/showcase/dx-ball/index.html:751
 #: website/public/showcase/index.html:303
@@ -10576,22 +10576,22 @@ msgctxt "page:guides/native/index.html"
 msgid "Recovered C · excerpt"
 msgstr "Kutipan C · yang dipulihkan"
 
-#: website/public/index.html:388
+#: website/public/index.html:584
 msgctxt "page:index.html"
 msgid "Selected settings from the inspected script"
 msgstr "Pengaturan yang dipilih dari skrip yang diinspeksi"
 
-#: website/public/index.html:721
+#: website/public/index.html:976
 msgctxt "page:index.html"
 msgid "Readable summary of the % handler"
 msgstr "Ringkasan yang dapat dibaca dari % handler"
 
-#: website/public/index.html:765
+#: website/public/index.html:1020
 msgctxt "page:index.html"
 msgid "REA · selected original instructions"
 msgstr "REA * instruksi asli yang dipilih"
 
-#: website/public/index.html:776
+#: website/public/index.html:1031
 msgctxt "page:index.html"
 msgid "Operator IDs · Microsoft’s source"
 msgstr "ID Operator * Sumber Microsoft"
@@ -11171,7 +11171,7 @@ msgstr ""
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/index.html:672
+#: website/public/index.html:927
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -11182,7 +11182,7 @@ msgstr ""
 "{ph3} menghasilkan 220?{ph4}{ph5}{ph6}"
 
 #. {ph0}: <span translate="no">index.js</span>
-#: website/public/index.html:340
+#: website/public/index.html:536
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "REA · loaded {ph0} · selected lines"
@@ -11196,7 +11196,7 @@ msgstr "REA * dimuat {ph0} * baris yang dipilih"
 #. {ph5}: <span class="flow-note" >
 #. {ph6}: <code>ms-calculator:</code>
 #. {ph7}: </span >
-#: website/public/index.html:734
+#: website/public/index.html:989
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -11255,12 +11255,12 @@ msgctxt "page:showcase/notion/index.html"
 msgid "main/{ph0} · clipboard receiver"
 msgstr "utama/{ph0} * penerima papan klip"
 
-#: website/public/assets/theme.js:130
+#: website/public/assets/theme.js:139
 msgctxt "runtime"
 msgid "Switch to light mode"
 msgstr "Beralih ke mode terang"
 
-#: website/public/assets/theme.js:131
+#: website/public/assets/theme.js:140
 msgctxt "runtime"
 msgid "Switch to dark mode"
 msgstr "Beralih ke mode gelap"
@@ -13849,43 +13849,43 @@ msgid "Then check Ghidra and save its paths for your client:"
 msgstr "Lalu periksa Ghidra dan simpan jalurnya untuk aplikasimu:"
 
 #. {ph0}: <span translate="no">200 + 10%</span>
-#: website/public/index.html:495
+#: website/public/index.html:750
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Why does Calculator give 220 for {ph0}?"
 msgstr "Mengapa {ph0} menghasilkan 220 di Kalkulator?"
 
-#: website/public/index.html:167
+#: website/public/index.html:210
 msgctxt "page:index.html"
 msgid "Get started"
 msgstr "Mulai"
 
-#: website/public/index.html:222
+#: website/public/index.html:265
 msgctxt "page:index.html"
 msgid "Ask about one feature"
 msgstr "Tanyakan satu fitur"
 
-#: website/public/index.html:238
+#: website/public/index.html:281
 msgctxt "page:index.html"
 msgid "Inspect the program"
 msgstr "Periksa programnya"
 
-#: website/public/index.html:254
+#: website/public/index.html:297
 msgctxt "page:index.html"
 msgid "Explain it, then try a change"
 msgstr "Pahami, lalu coba perubahan"
 
-#: website/public/index.html:504
+#: website/public/index.html:759
 msgctxt "page:index.html"
 msgid "Follow the instructions step by step"
 msgstr "Ikuti instruksi langkah demi langkah"
 
-#: website/public/index.html:655
+#: website/public/index.html:910
 msgctxt "page:index.html"
 msgid "Ask your agent the same question"
 msgstr "Ajukan pertanyaan yang sama kepada agen Anda"
 
-#: website/public/index.html:349
+#: website/public/index.html:545
 msgctxt "page:index.html"
 msgid ""
 "Start at 6. Add 0.001 each update without a collision, while speed is below "
@@ -13973,7 +13973,7 @@ msgstr ""
 #: website/public/guides/javascript/index.html:471
 #: website/public/guides/native/index.html:472
 #: website/public/guides/rl-environments/index.html:458
-#: website/public/index.html:1145 website/public/showcase/aegis/index.html:775
+#: website/public/index.html:1432 website/public/showcase/aegis/index.html:775
 #: website/public/showcase/ctf/index.html:737
 #: website/public/showcase/dx-ball/index.html:745
 #: website/public/showcase/index.html:297
@@ -14168,7 +14168,7 @@ msgstr "Lewati ke konten"
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Guides{ph3} / RL environments"
-msgstr ""
+msgstr "{ph0}Beranda{ph1} / {ph2}Panduan{ph3} / Lingkungan RL"
 
 #: website/public/guides/rl-environments/index.html:153
 msgctxt "page:guides/rl-environments/index.html"
@@ -14191,7 +14191,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Watch the announcement video on X{ph1}"
-msgstr ""
+msgstr "{ph0}Tonton video pengumuman di X{ph1}"
 
 #: website/public/guides/rl-environments/index.html:166
 #: website/public/guides/rl-environments/index.html:165
@@ -14202,22 +14202,22 @@ msgstr "Di halaman ini"
 #: website/public/guides/rl-environments/index.html:179
 msgctxt "page:guides/rl-environments/index.html"
 msgid "What REA builds"
-msgstr ""
+msgstr "Apa yang dibangun REA"
 
 #: website/public/guides/rl-environments/index.html:222
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Before you start"
-msgstr ""
+msgstr "Sebelum memulai"
 
 #: website/public/guides/rl-environments/index.html:323
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Run the environment"
-msgstr ""
+msgstr "Jalankan lingkungan"
 
 #: website/public/guides/rl-environments/index.html:404
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Check what works"
-msgstr ""
+msgstr "Periksa apa yang berfungsi"
 
 #: website/public/guides/rl-environments/index.html:180
 msgctxt "page:guides/rl-environments/index.html"
@@ -14227,6 +14227,10 @@ msgid ""
 "calls, the local data those tools use, and a basic test that checks the "
 "environment starts and responds."
 msgstr ""
+"Agen dapat berlatih menemukan issue, membuat folder, atau mengedit record "
+"tanpa menjalankan aplikasi aslinya. REA membangun tool yang dipanggil agen, "
+"data lokal yang digunakan tool tersebut, dan pengujian dasar yang memeriksa "
+"bahwa lingkungan dapat dimulai dan merespons."
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -14241,6 +14245,8 @@ msgid ""
 "{ph0}01 · Record{ph1}{ph2}Use a test app{ph3}{ph4}Capture requests, "
 "responses, and the results of changes.{ph5}"
 msgstr ""
+"{ph0}01 · Rekam{ph1}{ph2}Gunakan aplikasi uji{ph3}{ph4}Tangkap permintaan, "
+"respons, dan hasil perubahan.{ph5}"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -14256,6 +14262,9 @@ msgid ""
 "state{ph3}{ph4}Export a runnable AgentEnv folder with the recording and a "
 "test.{ph5}"
 msgstr ""
+"{ph0}02 · Bangun dengan REA{ph1}{ph2}Buat tool dan state "
+"lokal{ph3}{ph4}Ekspor folder AgentEnv yang dapat dijalankan beserta rekaman "
+"dan sebuah pengujian.{ph5}"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -14271,6 +14280,9 @@ msgid ""
 "agent{ph3}{ph4}Add task goals and reward checks for evaluation or RL "
 "training.{ph5}"
 msgstr ""
+"{ph0}03 · Jalankan dengan AgentEnv{ph1}{ph2}Berikan lingkungan kepada "
+"agen{ph3}{ph4}Tambahkan tujuan tugas dan pemeriksaan reward untuk evaluasi "
+"atau pelatihan RL.{ph5}"
 
 #: website/public/guides/rl-environments/index.html:214
 msgctxt "page:guides/rl-environments/index.html"
@@ -14278,6 +14290,8 @@ msgid ""
 "The recording determines which operations the environment can support. "
 "Changes are supported when the recording confirms their effects."
 msgstr ""
+"Rekaman menentukan operasi mana yang dapat didukung lingkungan. Perubahan "
+"didukung jika rekaman mengonfirmasi efeknya."
 
 #. {ph0}: <a href="../../get-started/">
 #. {ph1}: </a >
@@ -14290,6 +14304,11 @@ msgid ""
 "create, edit, and delete data. REA records the app you provide; you start it"
 " and prepare its test data."
 msgstr ""
+"{ph0}Siapkan REA dengan agen pengodean Anda{ph1}. Untuk merekam aplikasi, "
+"Anda memerlukan browser keluarga Chrome dan instans uji yang sedang berjalan"
+" tempat agen boleh membuat, mengedit, dan menghapus data. REA merekam "
+"aplikasi yang Anda sediakan; Anda yang menjalankannya dan menyiapkan data "
+"ujinya."
 
 #. {ph0}: <a href="https://github.com/scaleapi/agentenv-framework#install" >
 #. {ph1}: </a >
@@ -14302,11 +14321,14 @@ msgid ""
 "and start Docker. REA's compatibility check uses AgentEnv version {ph2} with"
 " Python 3.12."
 msgstr ""
+"Untuk menjalankan lingkungan yang diekspor, instal {ph0}framework "
+"AgentEnv{ph1} dan jalankan Docker. Pemeriksaan kompatibilitas REA "
+"menggunakan AgentEnv versi {ph2} dengan Python 3.12."
 
 #: website/public/guides/rl-environments/index.html:240
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Record and build with your agent"
-msgstr ""
+msgstr "Rekam dan bangun bersama agen Anda"
 
 #: website/public/guides/rl-environments/index.html:241
 msgctxt "page:guides/rl-environments/index.html"
@@ -14314,6 +14336,8 @@ msgid ""
 "Tell your agent which app and operations to cover. For an app with folders, "
 "adapt this example:"
 msgstr ""
+"Beri tahu agen Anda aplikasi dan operasi mana yang perlu dicakup. Untuk "
+"aplikasi yang memiliki folder, sesuaikan contoh ini:"
 
 #. {ph0}: <span class="terminal-dots" aria-hidden="true" >
 #. {ph1}: <i>
@@ -14359,6 +14383,13 @@ msgid ""
 " {ph6}, which does not exist yet. Check which operations are supported and "
 "report any gaps.{ph7}{ph8}{ph9}"
 msgstr ""
+"{ph0}›{ph1}{ph2}Gunakan REA untuk membangun lingkungan AgentEnv dari "
+"aplikasi web uji saya di {ph3}. Cakup operasi menampilkan daftar, membuat, "
+"mengganti nama, dan menghapus folder. Kamu boleh membuat dan menghapus "
+"folder uji; jangan ubah data yang sudah ada. Masuk sebagai admin dengan kata"
+" sandi di {ph4}. Gunakan browser di {ph5} dan ekspor ke {ph6}, yang belum "
+"ada. Periksa operasi mana yang didukung dan laporkan setiap "
+"kekurangan.{ph7}{ph8}{ph9}"
 
 #. {ph0}: <code>APP_PASSWORD</code>
 #: website/public/guides/rl-environments/index.html:275
@@ -14369,6 +14400,8 @@ msgid ""
 "in the environment that starts REA's MCP server so the password stays out of"
 " the prompt."
 msgstr ""
+"Contoh prompt. Ganti URL, operasi, akun, dan path. Atur {ph0} di environment"
+" yang menjalankan server MCP REA agar kata sandi tidak masuk ke prompt."
 
 #. {ph0}: <a href="#run">
 #. {ph1}: </a>
@@ -14380,11 +14413,14 @@ msgid ""
 "operations, and exports the environment. After export, continue with "
 "{ph0}running the environment{ph1}."
 msgstr ""
+"Agen Anda memeriksa aplikasi, merekam sesi, memeriksa operasi yang didukung,"
+" dan mengekspor lingkungan. Setelah ekspor, lanjutkan dengan "
+"{ph0}menjalankan lingkungan{ph1}."
 
 #: website/public/guides/rl-environments/index.html:287
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Or use a saved recording"
-msgstr ""
+msgstr "Atau gunakan rekaman yang tersimpan"
 
 #: website/public/guides/rl-environments/index.html:288
 msgctxt "page:guides/rl-environments/index.html"
@@ -14393,11 +14429,14 @@ msgid ""
 "with API response bodies from the browser's network panel, then build into a"
 " new or empty folder:"
 msgstr ""
+"File HAR merekam permintaan jaringan browser beserta responsnya. Ekspor satu"
+" file yang menyertakan body respons API dari panel jaringan browser, lalu "
+"bangun ke folder baru atau kosong:"
 
 #: website/public/guides/rl-environments/index.html:295
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Build the environment"
-msgstr ""
+msgstr "Bangun lingkungan"
 
 #. {ph0}: <code>capture-browser-scenario</code>
 #. {ph1}: <code>--dry-run</code>
@@ -14410,6 +14449,11 @@ msgid ""
 " build reads local data and writes the folder without contacting the app. "
 "Add {ph1} to review the report without writing files."
 msgstr ""
+"Anda juga dapat memberikan JSON Evidence tangkapan yang disimpan oleh {ph0} "
+"milik REA atau oleh inspeksi HAR. Evidence adalah rekaman tersimpan beserta "
+"informasi sumbernya. Proses build membaca data lokal dan menulis folder "
+"tanpa menghubungi aplikasi. Tambahkan {ph1} untuk meninjau laporan tanpa "
+"menulis file."
 
 #: website/public/guides/rl-environments/index.html:315
 msgctxt "page:guides/rl-environments/index.html"
@@ -14418,6 +14462,10 @@ msgid ""
 " because the recording did not establish their effects. Each withheld "
 "operation has a reason and a hint about what to record next."
 msgstr ""
+"Laporan mencantumkan operasi baca, perubahan yang didukung, dan operasi yang"
+" ditahan karena rekaman tidak membuktikan efeknya. Setiap operasi yang "
+"ditahan memiliki alasan dan petunjuk tentang apa yang perlu direkam "
+"berikutnya."
 
 #: website/public/guides/rl-environments/index.html:324
 msgctxt "page:guides/rl-environments/index.html"
@@ -14425,11 +14473,13 @@ msgid ""
 "Whether your agent exported the folder or you built it from a recording, run"
 " it with AgentEnv:"
 msgstr ""
+"Baik agen Anda yang mengekspor folder maupun Anda yang membangunnya dari "
+"rekaman, jalankan dengan AgentEnv:"
 
 #: website/public/guides/rl-environments/index.html:330
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Run the environment test"
-msgstr ""
+msgstr "Jalankan pengujian lingkungan"
 
 #: website/public/guides/rl-environments/index.html:342
 msgctxt "page:guides/rl-environments/index.html"
@@ -14437,6 +14487,8 @@ msgid ""
 "Use the path your agent reported if it differs. The first run builds the "
 "container image and needs access to its image and package sources."
 msgstr ""
+"Gunakan path yang dilaporkan agen Anda jika berbeda. Proses pertama "
+"membangun image container dan memerlukan akses ke sumber image dan paketnya."
 
 #: website/public/guides/rl-environments/index.html:347
 msgctxt "page:guides/rl-environments/index.html"
@@ -14445,11 +14497,15 @@ msgid ""
 "a suitable read tool exists, calls it and checks its response status. "
 "Passing it shows the environment starts and responds in that setup."
 msgstr ""
+"Tugas smoke yang disertakan adalah pengujian dasar. Tugas ini memeriksa "
+"jumlah tool dan, jika ada tool baca yang sesuai, memanggilnya serta "
+"memeriksa status responsnya. Jika lulus, berarti lingkungan dapat dimulai "
+"dan merespons dalam pengaturan tersebut."
 
 #: website/public/guides/rl-environments/index.html:355
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Add tasks and reward checks"
-msgstr ""
+msgstr "Tambahkan tugas dan pemeriksaan reward"
 
 #: website/public/guides/rl-environments/index.html:356
 msgctxt "page:guides/rl-environments/index.html"
@@ -14458,6 +14514,10 @@ msgid ""
 "and run training. Your coding agent can help write the tasks and checks. "
 "Start with one operation the environment supports:"
 msgstr ""
+"Gunakan lingkungan ini dengan framework RL Anda untuk menentukan tujuan, "
+"menilai hasil, dan menjalankan pelatihan. Agen pengodean Anda dapat membantu"
+" menulis tugas dan pemeriksaannya. Mulailah dengan satu operasi yang "
+"didukung lingkungan:"
 
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
@@ -14475,6 +14535,11 @@ msgid ""
 "the result. Reset the environment before each run. Use the AgentEnv task and"
 " verifier formats.{ph3}{ph4}{ph5}"
 msgstr ""
+"{ph0}›{ph1}{ph2}Gunakan lingkungan hasil ekspor ini untuk menambahkan tugas "
+"AgentEnv yang meminta agen membuat folder bernama Practice. Periksa state "
+"lingkungan untuk memastikan folder dengan nama itu ada, dan gunakan "
+"pemeriksaan itu untuk menilai hasilnya. Reset lingkungan sebelum setiap "
+"proses. Gunakan format tugas dan verifier AgentEnv.{ph3}{ph4}{ph5}"
 
 #: website/public/guides/rl-environments/index.html:389
 msgctxt "page:guides/rl-environments/index.html"
@@ -14483,6 +14548,9 @@ msgid ""
 " changes data should check the resulting state; a retrieval task can check "
 "an answer against a recorded value."
 msgstr ""
+"Contoh prompt untuk lingkungan yang mendukung pembuatan folder. Tugas yang "
+"mengubah data sebaiknya memeriksa state yang dihasilkan; tugas pengambilan "
+"data dapat memeriksa jawaban terhadap nilai yang terekam."
 
 #. {ph0}: <a href="https://www.agentenvframework.com/docs" >
 #. {ph1}: </a >
@@ -14494,6 +14562,10 @@ msgid ""
 "specific grading is added in the evaluation workflow. See the {ph0}AgentEnv "
 "documentation{ph1} for tasks, verifiers, and agent connections."
 msgstr ""
+"Hasil ekspor mencakup lingkungan yang dapat dijalankan dan pengujian "
+"dasarnya. Penilaian khusus tugas ditambahkan dalam alur kerja evaluasi. "
+"Lihat {ph0}dokumentasi AgentEnv{ph1} untuk tugas, verifier, dan koneksi "
+"agen."
 
 #: website/public/guides/rl-environments/index.html:405
 msgctxt "page:guides/rl-environments/index.html"
@@ -14503,6 +14575,10 @@ msgid ""
 "change. Repeat with different values. For deletes, record the missing-item "
 "response and the updated list."
 msgstr ""
+"Agar perubahan didukung, rekam hasilnya selain tindakannya: baca sebuah "
+"item, ubah item itu, lalu baca kembali item dan daftarnya sebelum perubahan "
+"berikutnya. Ulangi dengan nilai yang berbeda. Untuk penghapusan, rekam "
+"respons item yang tidak ditemukan dan daftar yang telah diperbarui."
 
 #. {ph0}: <code>environment-compare</code>
 #: website/public/guides/rl-environments/index.html:411
@@ -14514,6 +14590,10 @@ msgid ""
 "separate recording of calls made against the app from the same starting "
 "data."
 msgstr ""
+"Lulus uji startup, agen yang menyelesaikan tugas, dan kecocokan dengan "
+"aplikasi asli adalah pemeriksaan yang terpisah. Untuk yang terakhir, gunakan"
+" {ph0} dengan rekaman terpisah dari panggilan yang dilakukan ke aplikasi "
+"dari data awal yang sama."
 
 #: website/public/guides/rl-environments/index.html:417
 msgctxt "page:guides/rl-environments/index.html"
@@ -14522,6 +14602,10 @@ msgid ""
 "paths. Custom headers, query values, and body tokens can remain. Credential-"
 "name warnings identify places to review; they do not remove those values."
 msgstr ""
+"Sebelum membagikan folder, tinjau body respons yang disimpan di dalamnya dan"
+" path lokalnya. Header kustom, nilai query, dan token dalam body bisa tetap "
+"ada. Peringatan nama kredensial menunjukkan bagian yang perlu ditinjau; "
+"peringatan itu tidak menghapus nilai tersebut."
 
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
 #. environments-quickstart.md" >
@@ -14537,6 +14621,9 @@ msgid ""
 "reports and comparison commands. The {ph2}environment reference{ph3} covers "
 "direct MCP serving, state controls, and limits."
 msgstr ""
+"Ikuti {ph0}panduan lengkap perekaman dan validasi{ph1} untuk laporan cakupan"
+" dan perintah perbandingan. {ph2}Referensi lingkungan{ph3} membahas "
+"penyajian langsung lewat MCP, kontrol state, dan batasan."
 
 #: website/public/guides/rl-environments/index.html:6
 msgctxt "page:guides/rl-environments/index.html"
@@ -14546,7 +14633,7 @@ msgstr "Bangun lingkungan RL dengan REA"
 #: website/public/guides/rl-environments/index.html:251
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment prompt"
-msgstr ""
+msgstr "Salin prompt lingkungan"
 
 #: website/public/guides/rl-environments/index.html:296
 msgctxt "page:guides/rl-environments/index.html"
@@ -14556,12 +14643,12 @@ msgstr "Salin perintah pembuatan lingkungan"
 #: website/public/guides/rl-environments/index.html:331
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment run command"
-msgstr ""
+msgstr "Salin perintah menjalankan lingkungan"
 
 #: website/public/guides/rl-environments/index.html:368
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy task prompt"
-msgstr ""
+msgstr "Salin prompt tugas"
 
 #. {ph0}: <a href="#workflow">
 #. {ph1}: </a>
@@ -14569,7 +14656,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}What REA builds{ph1}"
-msgstr ""
+msgstr "{ph0}Apa yang dibangun REA{ph1}"
 
 #. {ph0}: <a href="#prepare">
 #. {ph1}: </a>
@@ -14577,7 +14664,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Before you start{ph1}"
-msgstr ""
+msgstr "{ph0}Sebelum memulai{ph1}"
 
 #. {ph0}: <a href="#record">
 #. {ph1}: </a>
@@ -14585,7 +14672,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Record with your agent{ph1}"
-msgstr ""
+msgstr "{ph0}Rekam bersama agen Anda{ph1}"
 
 #. {ph0}: <a href="#build">
 #. {ph1}: </a>
@@ -14593,7 +14680,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Use a saved recording{ph1}"
-msgstr ""
+msgstr "{ph0}Gunakan rekaman yang tersimpan{ph1}"
 
 #. {ph0}: <a href="#run">
 #. {ph1}: </a>
@@ -14601,7 +14688,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Run the environment{ph1}"
-msgstr ""
+msgstr "{ph0}Jalankan lingkungan{ph1}"
 
 #. {ph0}: <a href="#tasks">
 #. {ph1}: </a>
@@ -14609,7 +14696,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Add tasks and rewards{ph1}"
-msgstr ""
+msgstr "{ph0}Tambahkan tugas dan reward{ph1}"
 
 #. {ph0}: <a href="#check">
 #. {ph1}: </a>
@@ -14617,7 +14704,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Check what works{ph1}"
-msgstr ""
+msgstr "{ph0}Periksa apa yang berfungsi{ph1}"
 
 #: website/public/showcase/index.html:250
 msgctxt "page:showcase/index.html"
@@ -14657,6 +14744,9 @@ msgid ""
 "renderer has since changed; the recorded source locations accompany the API,"
 " channel and handler findings."
 msgstr ""
+"Direkam oleh REA 4.1.0 pada versi lebih lama dari contoh di bawah. Renderer-"
+"nya telah berubah sejak itu; lokasi sumber yang terekam menyertai temuan "
+"tentang API, channel, dan handler."
 
 #. {ph0}: <code>--client</code>
 #: website/public/get-started/index.html:585
@@ -14666,6 +14756,8 @@ msgid ""
 "Use the ID with {ph0} when choosing a client explicitly. These clients are "
 "supported in npm 6.8.0 and later."
 msgstr ""
+"Gunakan ID dengan {ph0} saat memilih klien secara eksplisit. Klien-klien ini"
+" didukung di npm 6.8.0 dan yang lebih baru."
 
 #. {ph0}: <code>droid</code>
 #. {ph1}: <code>dsh</code>
@@ -14682,6 +14774,8 @@ msgid ""
 "{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5} and {ph6} require npm 6.5.0 or "
 "later. {ph7} requires npm 6.8.0 or later."
 msgstr ""
+"{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5}, dan {ph6} memerlukan npm 6.5.0 "
+"atau yang lebih baru. {ph7} memerlukan npm 6.8.0 atau yang lebih baru."
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
@@ -14693,11 +14787,14 @@ msgid ""
 "with an MCP registration. The macOS headless profile requires a source build"
 " or a release that includes it."
 msgstr ""
+"{ph0}IDA{ph1} (Windows; macOS arm64 headless): gunakan instalasi IDA yang "
+"sudah ada dengan registrasi MCP. Profil headless macOS memerlukan build dari"
+" source atau rilis yang menyertakannya."
 
 #: website/public/get-started/index.html:992
 msgctxt "page:get-started/index.html"
 msgid "x86_64 installer on supported distributions"
-msgstr ""
+msgstr "Penginstal x86_64 pada distribusi yang didukung"
 
 #. {ph0}: <a href="../../get-started/">
 #. {ph1}: </a>
@@ -14714,6 +14811,11 @@ msgid ""
 "prerequisites and PowerShell setup. A Linux environment such as WSL is "
 "another option."
 msgstr ""
+"{ph0}Siapkan REA{ph1}, lalu unduh kedua file ini ke folder yang sama. Di "
+"Windows x64, gunakan paket dengan kontrol native Windows yang sesuai dan "
+"dukungan stdin milik protokol; lihat {ph2}panduan penyedia Android{ph3} "
+"untuk prasyarat dan penyiapan dengan PowerShell. Lingkungan Linux seperti "
+"WSL adalah pilihan lain."
 
 #: website/public/get-started/index.html:1022
 msgctxt "page:get-started/index.html"
@@ -14724,6 +14826,11 @@ msgid ""
 "arm64, use Ghidra. Hopper is commercial software; its demo has vendor-"
 "defined limits."
 msgstr ""
+"Penyiapan otomatis di Linux memerlukan host x86_64 yang menjalankan Ubuntu "
+"24.04+, Fedora 41+, Nobara 44+, Arch Linux, CachyOS, atau Omarchy. Launcher "
+"Hopper yang sudah ada juga dapat dikonfigurasi di distribusi Linux lain yang"
+" didukung. Di Linux arm64, gunakan Ghidra. Hopper adalah perangkat lunak "
+"komersial; versi demonya memiliki batasan yang ditetapkan vendor."
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
@@ -14736,8 +14843,12 @@ msgid ""
 "license before your first analysis. Automated Linux setup requires x86_64; "
 "use Ghidra on Linux arm64."
 msgstr ""
+"{ph0}Hopper{ph1} (macOS atau Linux): penyiapan REA mendeteksinya atau "
+"menawarkan untuk menginstalnya. Di macOS, buka Hopper sekali dan pilih mode "
+"demo atau aktifkan lisensi sebelum analisis pertama Anda. Penyiapan otomatis"
+" di Linux memerlukan x86_64; gunakan Ghidra di Linux arm64."
 
-#: website/public/index.html:710
+#: website/public/index.html:965
 msgctxt "page:index.html"
 msgid ""
 "Selected assembly from the installed Calculator DLL. The thoughts and reply "
@@ -14759,7 +14870,7 @@ msgstr ""
 #: website/public/guides/javascript/index.html:460
 #: website/public/guides/native/index.html:461
 #: website/public/guides/rl-environments/index.html:447
-#: website/public/index.html:1134 website/public/showcase/aegis/index.html:764
+#: website/public/index.html:1421 website/public/showcase/aegis/index.html:764
 #: website/public/showcase/ctf/index.html:726
 #: website/public/showcase/dx-ball/index.html:734
 #: website/public/showcase/index.html:286
@@ -14782,7 +14893,7 @@ msgstr "Produk"
 #: website/public/guides/javascript/index.html:467
 #: website/public/guides/native/index.html:468
 #: website/public/guides/rl-environments/index.html:454
-#: website/public/index.html:1141 website/public/showcase/aegis/index.html:771
+#: website/public/index.html:1428 website/public/showcase/aegis/index.html:771
 #: website/public/showcase/ctf/index.html:733
 #: website/public/showcase/dx-ball/index.html:741
 #: website/public/showcase/index.html:293
@@ -14805,7 +14916,7 @@ msgstr "Bantuan"
 #: website/public/guides/javascript/index.html:470
 #: website/public/guides/native/index.html:471
 #: website/public/guides/rl-environments/index.html:457
-#: website/public/index.html:1144 website/public/showcase/aegis/index.html:774
+#: website/public/index.html:1431 website/public/showcase/aegis/index.html:774
 #: website/public/showcase/ctf/index.html:736
 #: website/public/showcase/dx-ball/index.html:744
 #: website/public/showcase/index.html:296
@@ -14828,7 +14939,7 @@ msgstr "Isu GitHub"
 #: website/public/guides/javascript/index.html:474
 #: website/public/guides/native/index.html:475
 #: website/public/guides/rl-environments/index.html:461
-#: website/public/index.html:1148 website/public/showcase/aegis/index.html:778
+#: website/public/index.html:1435 website/public/showcase/aegis/index.html:778
 #: website/public/showcase/ctf/index.html:740
 #: website/public/showcase/dx-ball/index.html:748
 #: website/public/showcase/index.html:300
@@ -14851,7 +14962,7 @@ msgstr "Proyek"
 #: website/public/guides/javascript/index.html:475
 #: website/public/guides/native/index.html:476
 #: website/public/guides/rl-environments/index.html:462
-#: website/public/index.html:1149 website/public/showcase/aegis/index.html:779
+#: website/public/index.html:1436 website/public/showcase/aegis/index.html:779
 #: website/public/showcase/ctf/index.html:741
 #: website/public/showcase/dx-ball/index.html:749
 #: website/public/showcase/index.html:301
@@ -14874,7 +14985,7 @@ msgstr "Kode sumber"
 #: website/public/guides/javascript/index.html:488
 #: website/public/guides/native/index.html:489
 #: website/public/guides/rl-environments/index.html:475
-#: website/public/index.html:1162 website/public/showcase/aegis/index.html:792
+#: website/public/index.html:1449 website/public/showcase/aegis/index.html:792
 #: website/public/showcase/ctf/index.html:754
 #: website/public/showcase/dx-ball/index.html:762
 #: website/public/showcase/index.html:314
@@ -14897,7 +15008,7 @@ msgstr "Rekayasa balik dengan agen coding Anda."
 #: website/public/guides/javascript/index.html:489
 #: website/public/guides/native/index.html:490
 #: website/public/guides/rl-environments/index.html:476
-#: website/public/index.html:1163 website/public/showcase/aegis/index.html:793
+#: website/public/index.html:1450 website/public/showcase/aegis/index.html:793
 #: website/public/showcase/ctf/index.html:755
 #: website/public/showcase/dx-ball/index.html:763
 #: website/public/showcase/index.html:315
@@ -15212,12 +15323,12 @@ msgctxt "page:guides/rl-environments/index.html"
 msgid "Follow REA on X"
 msgstr "Ikuti REA di X"
 
-#: website/public/index.html:161
+#: website/public/index.html:204
 msgctxt "page:index.html"
 msgid "Take any program apart."
 msgstr "Bongkar program apa pun."
 
-#: website/public/index.html:162
+#: website/public/index.html:205
 msgctxt "page:index.html"
 msgid ""
 "REA lets your coding agent open an app, a game or a website and lay out the "
@@ -15230,18 +15341,18 @@ msgstr ""
 #. {ph1}: </strong >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/index.html:195
+#: website/public/index.html:238
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}{ph1}{ph2}npm, last 30 days{ph3}"
 msgstr "{ph0}{ph1}{ph2}npm, 30 hari terakhir{ph3}"
 
-#: website/public/index.html:206
+#: website/public/index.html:249
 msgctxt "page:index.html"
 msgid "Every investigation follows the same three steps."
 msgstr "Setiap investigasi mengikuti tiga langkah yang sama."
 
-#: website/public/index.html:207
+#: website/public/index.html:250
 msgctxt "page:index.html"
 msgid ""
 "Your agent asks, REA reads the program, and your agent explains it. The two "
@@ -15250,7 +15361,7 @@ msgstr ""
 "Agen Anda bertanya, REA membaca programnya, lalu agen Anda menjelaskannya. "
 "Dua contoh di bawah menunjukkannya pada program sungguhan."
 
-#: website/public/index.html:223
+#: website/public/index.html:266
 msgctxt "page:index.html"
 msgid ""
 "Give your agent an app, a game or a page, and one question about how it "
@@ -15259,7 +15370,7 @@ msgstr ""
 "Berikan agen Anda sebuah aplikasi, game, atau halaman, beserta satu "
 "pertanyaan tentang cara kerjanya."
 
-#: website/public/index.html:239
+#: website/public/index.html:282
 msgctxt "page:index.html"
 msgid ""
 "REA lets your agent read the code and see what the program does while it "
@@ -15268,7 +15379,7 @@ msgstr ""
 "REA memungkinkan agen Anda membaca kode dan melihat apa yang dilakukan "
 "program saat berjalan."
 
-#: website/public/index.html:255
+#: website/public/index.html:298
 msgctxt "page:index.html"
 msgid ""
 "Your agent uses the findings to explain the feature or rebuild it with your "
@@ -15277,7 +15388,7 @@ msgstr ""
 "Agen Anda menggunakan temuan itu untuk menjelaskan fiturnya atau "
 "membangunnya ulang dengan perubahan Anda."
 
-#: website/public/index.html:269
+#: website/public/index.html:312
 msgctxt "page:index.html"
 msgid ""
 "The game speeds up as you run. Ask your agent for the rule, then rebuild it "
@@ -15286,7 +15397,7 @@ msgstr ""
 "Game ini makin cepat selama Anda berlari. Tanyakan aturannya kepada agen "
 "Anda, lalu bangun ulang dengan pengatur kecepatan."
 
-#: website/public/index.html:293
+#: website/public/index.html:336
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect this dinosaur game. Why does it get faster? Show the "
@@ -15296,7 +15407,7 @@ msgstr ""
 "cepat? Tunjukkan aturan kecepatannya, lalu buat versi kecil dengan kecepatan"
 " yang bisa diatur."
 
-#: website/public/index.html:305
+#: website/public/index.html:501
 msgctxt "page:index.html"
 msgid ""
 "Recovered speed: it starts at 6, reaches 10 after 4,000 updates and stops at"
@@ -15305,27 +15416,27 @@ msgstr ""
 "Kecepatan yang ditemukan: dimulai dari 6, mencapai 10 setelah 4.000 "
 "pembaruan, dan berhenti di 13 setelah 10.000 pembaruan."
 
-#: website/public/index.html:312
+#: website/public/index.html:508
 msgctxt "page:index.html"
 msgid "Starting speed"
 msgstr "Kecepatan awal"
 
-#: website/public/index.html:316
+#: website/public/index.html:512
 msgctxt "page:index.html"
 msgid "Added on each update"
 msgstr "Ditambahkan setiap pembaruan"
 
-#: website/public/index.html:320
+#: website/public/index.html:516
 msgctxt "page:index.html"
 msgid "Where it stops"
 msgstr "Titik berhentinya"
 
-#: website/public/index.html:326 website/public/index.html:489
+#: website/public/index.html:522 website/public/index.html:744
 msgctxt "page:index.html"
 msgid "See how it was found"
 msgstr "Lihat cara menemukannya"
 
-#: website/public/index.html:433
+#: website/public/index.html:629
 msgctxt "page:index.html"
 msgid ""
 "The % key does different things after + and after ×. Ask your agent to find "
@@ -15334,7 +15445,7 @@ msgstr ""
 "Tombol % bekerja berbeda setelah + dan setelah ×. Minta agen Anda menemukan "
 "kedua aturannya."
 
-#: website/public/index.html:457
+#: website/public/index.html:653
 msgctxt "page:index.html"
 msgid ""
 "Use REA to inspect Windows Calculator’s % button. Find the rule after + and "
@@ -15346,7 +15457,7 @@ msgstr ""
 #. {ph0}: <span class="calculator-sum" translate="no">200 + 10%</span>
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:469
+#: website/public/index.html:698
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% of 200 is added: 200 + 20{ph2}"
@@ -15355,18 +15466,18 @@ msgstr "{ph0} {ph1}10% dari 200 ditambahkan: 200 + 20{ph2}"
 #. {ph0}: <span class="calculator-sum" translate="no">200 × 10%</span>
 #. {ph1}: <span>
 #. {ph2}: </span>
-#: website/public/index.html:478
+#: website/public/index.html:733
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0} {ph1}10% becomes 0.1: 200 × 0.1{ph2}"
 msgstr "{ph0} {ph1}10% menjadi 0.1: 200 × 0.1{ph2}"
 
-#: website/public/index.html:811
+#: website/public/index.html:1066
 msgctxt "page:index.html"
 msgid "Real apps, taken apart."
 msgstr "Aplikasi sungguhan, dibongkar."
 
-#: website/public/index.html:812
+#: website/public/index.html:1067
 msgctxt "page:index.html"
 msgid ""
 "Each case study follows one feature in a released app or game, with the code"
@@ -15375,25 +15486,25 @@ msgstr ""
 "Setiap studi kasus menelusuri satu fitur dalam aplikasi atau game yang sudah"
 " dirilis, lengkap dengan kode dan hasil yang sudah diperiksa."
 
-#: website/public/index.html:817
+#: website/public/index.html:1072
 msgctxt "page:index.html"
 msgid "All showcases"
 msgstr "Semua contoh"
 
-#: website/public/index.html:832
+#: website/public/index.html:1087
 msgctxt "page:index.html"
 msgid "Android app"
 msgstr "Aplikasi Android"
 
 #. {ph0}: <a href="showcase/aegis/" >
 #. {ph1}: </a >
-#: website/public/index.html:834
+#: website/public/index.html:1089
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How an authenticator generates a login code{ph1}"
 msgstr "{ph0}Cara autentikator membuat kode masuk{ph1}"
 
-#: website/public/index.html:839
+#: website/public/index.html:1094
 msgctxt "page:index.html"
 msgid ""
 "Trace Aegis’s six-digit code through its released APK, then see why it "
@@ -15402,13 +15513,13 @@ msgstr ""
 "Telusuri kode enam digit Aegis melalui APK rilisnya, lalu lihat mengapa kode"
 " itu berubah setiap 30 detik."
 
-#: website/public/index.html:843 website/public/index.html:871
-#: website/public/index.html:897
+#: website/public/index.html:1098 website/public/index.html:1126
+#: website/public/index.html:1154
 msgctxt "page:index.html"
 msgid "Read the case study"
 msgstr "Baca studi kasus"
 
-#: website/public/index.html:860
+#: website/public/index.html:1115
 msgctxt "page:index.html"
 msgid "Electron app"
 msgstr "Aplikasi Electron"
@@ -15416,13 +15527,13 @@ msgstr "Aplikasi Electron"
 #. {ph0}: <a href="showcase/notion/" >
 #. {ph1}: <br />
 #. {ph2}: </a >
-#: website/public/index.html:862
+#: website/public/index.html:1117
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}How Notion copies{ph1}text and HTML{ph2}"
 msgstr "{ph0}Cara Notion menyalin{ph1}teks dan HTML{ph2}"
 
-#: website/public/index.html:867
+#: website/public/index.html:1122
 msgctxt "page:index.html"
 msgid ""
 "Follow Notion’s packaged JavaScript to the system clipboard and see how a "
@@ -15431,20 +15542,20 @@ msgstr ""
 "Ikuti JavaScript terpaket Notion hingga ke clipboard sistem dan lihat "
 "bagaimana salinan mempertahankan data blok yang kaya."
 
-#: website/public/index.html:888
+#: website/public/index.html:1143
 msgctxt "page:index.html"
 msgid "Windows game"
 msgstr "Game Windows"
 
-#. {ph0}: <a href="showcase/dx-ball/">
-#. {ph1}: </a>
-#: website/public/index.html:890
+#. {ph0}: <a href="showcase/dx-ball/" >
+#. {ph1}: </a >
+#: website/public/index.html:1145
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "{ph0}DX-Ball’s sound-pan calculation{ph1}"
 msgstr "{ph0}Perhitungan panning suara DX-Ball{ph1}"
 
-#: website/public/index.html:893
+#: website/public/index.html:1150
 msgctxt "page:index.html"
 msgid ""
 "Recover how this 1996 game turns a hit brick’s position into stereo sound."
@@ -15452,12 +15563,12 @@ msgstr ""
 "Ungkap bagaimana game tahun 1996 ini mengubah posisi bata yang terkena "
 "menjadi suara stereo."
 
-#: website/public/index.html:909
+#: website/public/index.html:1166
 msgctxt "page:index.html"
 msgid "Build RL environments from a web app."
 msgstr "Bangun lingkungan RL dari aplikasi web."
 
-#: website/public/index.html:911
+#: website/public/index.html:1168
 msgctxt "page:index.html"
 msgid ""
 "Turn a recorded session into a local environment where agents practice tasks"
@@ -15466,48 +15577,48 @@ msgstr ""
 "Ubah sesi yang direkam menjadi lingkungan lokal tempat agen berlatih tugas "
 "tanpa aplikasi aslinya."
 
-#: website/public/index.html:916
+#: website/public/index.html:1173
 msgctxt "page:index.html"
 msgid "Read the guide"
 msgstr "Baca panduan"
 
-#: website/public/index.html:922
+#: website/public/index.html:1179
 msgctxt "page:index.html"
 msgid "Watch the demo on"
 msgstr "Tonton demo di"
 
-#: website/public/index.html:956
+#: website/public/index.html:1229
 msgctxt "page:index.html"
 msgid "Record a session"
 msgstr "Rekam sesi"
 
-#: website/public/index.html:957
+#: website/public/index.html:1230
 msgctxt "page:index.html"
 msgid "Your agent records a test app’s requests and responses."
 msgstr "Agen Anda merekam permintaan dan respons dari aplikasi uji."
 
-#: website/public/index.html:979
+#: website/public/index.html:1252
 msgctxt "page:index.html"
 msgid "Build with REA"
 msgstr "Bangun dengan REA"
 
-#: website/public/index.html:980
+#: website/public/index.html:1253
 msgctxt "page:index.html"
 msgid "REA turns the recording into tools and reports what it supports."
 msgstr ""
 "REA mengubah rekaman menjadi alat dan melaporkan apa yang didukungnya."
 
-#: website/public/index.html:999
+#: website/public/index.html:1274
 msgctxt "page:index.html"
 msgid "Run with AgentEnv"
 msgstr "Jalankan dengan AgentEnv"
 
-#: website/public/index.html:1000
+#: website/public/index.html:1275
 msgctxt "page:index.html"
 msgid "Agents practice tasks in it, without the original app."
 msgstr "Agen berlatih tugas di dalamnya, tanpa aplikasi aslinya."
 
-#: website/public/index.html:1004
+#: website/public/index.html:1279
 msgctxt "page:index.html"
 msgid ""
 "Example with a test app that manages folders. The environment only supports "
@@ -15517,13 +15628,13 @@ msgstr ""
 "mendukung perubahan yang dikonfirmasi oleh rekaman."
 
 #. {ph0}: <br />
-#: website/public/index.html:1015
+#: website/public/index.html:1290
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Ask how it works.{ph0}Then rebuild it."
 msgstr "Tanyakan cara kerjanya.{ph0}Lalu bangun ulang."
 
-#: website/public/index.html:1018
+#: website/public/index.html:1293
 msgctxt "page:index.html"
 msgid ""
 "Set up REA in your coding agent. It shows you the plan, waits for your "
@@ -15533,7 +15644,7 @@ msgstr ""
 "persetujuan Anda, lalu memeriksa bahwa semuanya berfungsi."
 
 #. {ph0}: <code translate="no">npx rea-agents@latest setup</code>
-#: website/public/index.html:1044
+#: website/public/index.html:1319
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -15546,7 +15657,7 @@ msgstr ""
 #. {ph0}: <span translate="no">Node.js</span>
 #. {ph1}: <a href="get-started/">
 #. {ph2}: </a>
-#: website/public/index.html:1061
+#: website/public/index.html:1336
 #, python-brace-format
 msgctxt "page:index.html"
 msgid "Needs {ph0}. No coding agent yet? {ph1}Follow the setup guide{ph2}."
@@ -15554,29 +15665,29 @@ msgstr ""
 "Memerlukan {ph0}. Belum punya agen coding? {ph1}Ikuti panduan "
 "penyiapan{ph2}."
 
-#: website/public/index.html:1067
+#: website/public/index.html:1342
 msgctxt "page:index.html"
 msgid "Then pick a guide for your target."
 msgstr "Lalu pilih panduan untuk target Anda."
 
-#: website/public/index.html:1078
+#: website/public/index.html:1357
 msgctxt "page:index.html"
 msgid "Native programs"
 msgstr "Program native"
 
-#: website/public/index.html:1093
+#: website/public/index.html:1376
 msgctxt "page:index.html"
 msgid "JavaScript and Electron"
 msgstr "JavaScript dan Electron"
 
-#: website/public/index.html:1103
+#: website/public/index.html:1390
 msgctxt "page:index.html"
 msgid "Browser and runtime"
 msgstr "Browser dan runtime"
 
 #. {ph0}: <a href="first-investigation/" >
 #. {ph1}: </a >
-#: website/public/index.html:1107
+#: website/public/index.html:1394
 #, python-brace-format
 msgctxt "page:index.html"
 msgid ""
@@ -15586,7 +15697,7 @@ msgstr ""
 "Baru mengenal ini? {ph0}Coba REA pada aplikasi Notes kecil kami{ph1} dan "
 "telusuri ekspor CSV-nya."
 
-#: website/public/index.html:152
+#: website/public/index.html:195
 msgctxt "page:index.html"
 msgid ""
 "A calculator taken apart and laid out piece by piece: its case, keypad, "
@@ -15595,20 +15706,20 @@ msgstr ""
 "Kalkulator yang dibongkar dan ditata satu per satu: casing, papan tombol, "
 "papan sirkuit, layar, sekrup, dan tombolnya."
 
-#: website/public/index.html:214
+#: website/public/index.html:257
 msgctxt "page:index.html"
 msgid ""
 "A calculator keypad with its % key set apart and tagged with a paper label."
 msgstr ""
 "Papan tombol kalkulator dengan tombol % dipisahkan dan diberi label kertas."
 
-#: website/public/index.html:230
+#: website/public/index.html:273
 msgctxt "page:index.html"
 msgid "A calculator beside its circuit board, with a loupe over the chip."
 msgstr ""
 "Kalkulator di samping papan sirkuitnya, dengan kaca pembesar di atas chip."
 
-#: website/public/index.html:246
+#: website/public/index.html:289
 msgctxt "page:index.html"
 msgid ""
 "The calculator reassembled with its % key highlighted and a spare % key "
@@ -15617,7 +15728,7 @@ msgstr ""
 "Kalkulator yang dirakit kembali dengan tombol % disorot dan tombol % "
 "cadangan di sebelahnya."
 
-#: website/public/index.html:821
+#: website/public/index.html:1076
 msgctxt "page:index.html"
 msgid ""
 "A phone taken apart: its screen showing a six-digit code, frame, back, "
@@ -15626,7 +15737,7 @@ msgstr ""
 "Ponsel yang dibongkar: layarnya menampilkan kode enam digit, rangka, penutup"
 " belakang, baterai, papan, dan sekrup."
 
-#: website/public/index.html:849
+#: website/public/index.html:1104
 msgctxt "page:index.html"
 msgid ""
 "Ctrl, C and V keys in a row, followed by a lifted key and three blank keys."
@@ -15634,32 +15745,32 @@ msgstr ""
 "Tombol Ctrl, C, dan V berderet, diikuti satu tombol yang terangkat dan tiga "
 "tombol kosong."
 
-#: website/public/index.html:877
+#: website/public/index.html:1132
 msgctxt "page:index.html"
 msgid "A sound card wired to a speaker on each side."
 msgstr "Kartu suara yang tersambung ke speaker di setiap sisi."
 
-#: website/public/index.html:1116
+#: website/public/index.html:1403
 msgctxt "page:index.html"
 msgid "The rebuilt calculator showing 220 on its display."
 msgstr "Kalkulator hasil bangun ulang menampilkan 220 di layarnya."
 
-#: website/public/index.html:1132
+#: website/public/index.html:1419
 msgctxt "page:index.html"
 msgid "Footer"
 msgstr "Footer"
 
-#: website/public/index.html:1155
+#: website/public/index.html:1442
 msgctxt "page:index.html"
 msgid "REA on GitHub"
 msgstr "REA di GitHub"
 
-#: website/public/index.html:1156
+#: website/public/index.html:1443
 msgctxt "page:index.html"
 msgid "Join REA on Discord"
 msgstr "Gabung REA di Discord"
 
-#: website/public/index.html:1157
+#: website/public/index.html:1444
 msgctxt "page:index.html"
 msgid "Follow REA on X"
 msgstr "Ikuti REA di X"
@@ -15790,7 +15901,7 @@ msgctxt "runtime"
 msgid "{count} downloads"
 msgstr "{count} unduhan"
 
-#: website/public/assets/main.js:175
+#: website/public/assets/main.js:176
 #, python-brace-format
 msgctxt "runtime"
 msgid "Step {number} of {total}"
