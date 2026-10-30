@@ -80,34 +80,27 @@ code excerpt with readable logic and a figure that explains the result without
 requiring the reader to understand either language. Show a simple agent prompt
 and the specific facts REA supplies to answer it.
 
-Put compact setup at the beginning of the homepage: a copyable installation
-prompt, with the terminal command and platform options in open native disclosures.
-Keep the setup-guide link visible. Then explain what reverse engineering
-means and what it lets someone do, before the worked examples.
+Put the setup command at the beginning of the homepage and the full setup
+prompt in the closing section, with the setup-guide link visible. Explain how
+an investigation works before the worked examples.
 Begin each example with its goal and the reason to inspect that program.
 Name the actual evidence REA returned and what the agent did with it.
-Open the homepage with a short introduction beside the probe-station figure,
-then the setup section with the agent prompt and the terminal command side by
-side. Make Get started the primary opening action. Keep short RL environments,
-Showcases and Blog descriptions below the opening actions as ruled rows. The
-sticky header leaves room above fragment targets; the homepage has no separate
-table of contents.
+Open the homepage with the headline, the setup command and Get started beside
+the teardown photograph. The sticky header leaves room above fragment targets;
+the homepage has no separate table of contents.
 Use a short introduction and one three-step overview before the examples.
 Let introductory prose wrap naturally across the container, independently of
 the narrower heading width. Add a brief transition before the worked examples.
-Present each example in the same reading order: the question, the rule found
-in the program, then a reconstruction to try. Use plain language in that path;
-keep original code, source details and verification in the disclosure below it.
-Prefer ordinary paragraphs to repeated goal, finding and role panels. Reserve
-bold text and blue highlights for a meaningful code selection or action, not
-every takeaway. Keep source, interpretation and new code attributed to their
-respective roles. On mobile, the demo can precede its supporting code once its
-purpose is clear. Show the full Calculator manual/agent comparison by default,
-using an open native disclosure so readers can collapse it. Keep supporting
-verification flows in closed disclosures. Retain the
-authored examples, source excerpts, investigation steps and useful prompts when
-reordering the page. Opening an investigation should reveal its explanation
-and code without another layer of hidden analysis.
+Present each example in the same reading order: the question with a copyable
+prompt, then a visual answer that shows the recovered rule. Keep original code,
+source details, verification and the Calculator manual/agent comparison behind
+"See how it was found". Prefer ordinary paragraphs to repeated goal, finding and
+role panels. Reserve bold text and highlights for a meaningful code selection
+or action, not every takeaway. Keep source, interpretation and new code
+attributed to their respective roles. Retain the authored examples, source
+excerpts and investigation steps when reordering the page. Opening an
+investigation should reveal its explanation and code without another layer of
+hidden analysis.
 Keep FAQ, community help and issue reports on separate lines. Describe what
 each destination is for so readers can choose the right one.
 Show how the reader's task changes using the same question on both sides of a
@@ -242,11 +235,11 @@ The shared stylesheet defines the site. Its core colors are:
 | `--soft`   | `#efede7` | `#1d1c19` | Code and supporting surfaces     |
 | `--accent` | `#2f54c8` | `#8ea9ff` | Links and meaningful highlights  |
 
-Neutrals carry a slight warm bias in both themes; the blue accent is the only
-saturated color. A new fixed color should come from the same warm family.
+Neutrals carry a slight warm bias in both themes. Ink is the link and action
+color; a muted lime marks code highlights and the LCD figures. A new fixed color should come from the same warm family.
 
-The header's sun/moon button switches between light and dark. On the first visit,
-the site follows the system preference; a manual choice is saved for later visits
+The header's sun/moon button switches between light and dark. Every first visit
+starts light, whatever the system preference; a manual choice is saved for later visits
 and shared across pages and languages on that host. Without JavaScript, the site
 uses the light palette and hides the switch.
 
@@ -255,8 +248,8 @@ The stylesheet scopes the dark palette to `data-theme="dark"` on the root.
 Any new fixed color needs a dark counterpart in that section. Keep selector
 specificity unchanged with `:where()` when scoping component rules.
 Embedded SVGs inherit the page's `color-scheme`; canvas demos listen for
-`website-theme-change` to redraw. Check both themes, including a manual choice
-that differs from the system preference.
+`website-theme-change` to redraw. Check both themes, including dark chosen with the
+switch on a system set to light, and light on a system set to dark.
 
 Use Geist for prose and Geist Mono for code. Both are self-hosted variable
 fonts in `assets/fonts/` under the SIL Open Font License; system fonts follow in

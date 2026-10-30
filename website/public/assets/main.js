@@ -3,7 +3,10 @@ async function initializeWebsite() {
 
   function initializeCopyButtons() {
     document.querySelectorAll("[data-copy]").forEach((button) => {
+      // Icon-only buttons keep their accessible name and show a tick instead.
+      const iconOnly = button.classList.contains("copy-icon");
       const label = button.textContent;
+      let reset;
       button.addEventListener("click", async () => {
         const target = document.getElementById(
           button.getAttribute("data-copy"),
@@ -13,12 +16,14 @@ async function initializeWebsite() {
         const status = document.getElementById("copy-status");
         const content = target.textContent.trim();
         const text =
-          target.closest(".terminal-prompt") === null
-            ? content
-            : content.replace(/\s+/g, " ");
+          target.closest("pre") === null
+            ? content.replace(/\s+/g, " ")
+            : content;
+        let feedback;
         try {
           await navigator.clipboard.writeText(text);
-          button.textContent = t("Copied");
+          feedback = t("Copied");
+          button.classList.add("is-copied");
           if (status !== null)
             status.textContent = t("Code copied to clipboard.");
         } catch {
@@ -29,15 +34,18 @@ async function initializeWebsite() {
             selection.removeAllRanges();
             selection.addRange(range);
           }
-          button.textContent = t("Selected");
+          feedback = t("Selected");
           if (status !== null)
             status.textContent = t(
               "Code selected. Use your keyboard to copy it.",
             );
         }
+        if (!iconOnly) button.textContent = feedback;
 
-        window.setTimeout(() => {
-          button.textContent = label;
+        window.clearTimeout(reset);
+        reset = window.setTimeout(() => {
+          if (!iconOnly) button.textContent = label;
+          button.classList.remove("is-copied");
         }, 2000);
       });
     });
@@ -112,33 +120,83 @@ async function initializeWebsite() {
 
   initializeLinkedDetails();
 
-  function initializeBackToTop() {
-    const link = document.querySelector(".back-to-top");
-    if (link === null) return;
-
-    const updateVisibility = () => {
-      link.hidden = window.scrollY < 400;
-    };
-    window.addEventListener("scroll", updateVisibility, { passive: true });
-    updateVisibility();
-
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      const reduceMotion = window.matchMedia(
-        "(prefers-reduced-motion: reduce)",
-      ).matches;
-      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
-      document
-        .querySelector(".brand, .breadcrumb a")
-        ?.focus({ preventScroll: true });
+  // "See how it was found" links reveal the evidence that follows them. The
+  // evidence starts hidden and opens on click or when the URL points into it.
+  function initializeRevealLinks() {
+    document.querySelectorAll("a[data-reveal]").forEach((link) => {
+      const region = document.getElementById(
+        link.getAttribute("href").slice(1),
+      );
+      if (region === null) return;
+      const setOpen = (open) => {
+        region.hidden = !open;
+        link.setAttribute("aria-expanded", String(open));
+      };
+      link.setAttribute("role", "button");
+      link.setAttribute("aria-controls", region.id);
+      const hash = window.location.hash.slice(1);
+      setOpen(
+        hash !== "" &&
+          (hash === region.id || region.querySelector(`[id="${CSS.escape(hash)}"]`) !== null),
+      );
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        setOpen(region.hidden);
+      });
     });
   }
 
-  initializeBackToTop();
+  initializeRevealLinks();
+
+  // The setup step rail marks steps above the reading position as done and the
+  // one being read as current, with a "Step 2 of 4" summary for small screens.
+  function initializeStepRail() {
+    const rail = document.querySelector("[data-step-rail]");
+    if (rail === null) return;
+    const links = Array.from(rail.querySelectorAll("ol a"));
+    const sections = links.map((link) =>
+      document.getElementById(link.getAttribute("href").slice(1)),
+    );
+    if (sections.some((section) => section === null)) return;
+    const progress = rail.querySelector("[data-step-progress]");
+
+    const update = () => {
+      const line = window.innerHeight * 0.35;
+      let current = 0;
+      sections.forEach((section, index) => {
+        if (section.getBoundingClientRect().top <= line) current = index;
+      });
+      links.forEach((link, index) => {
+        link.classList.toggle("is-done", index < current);
+        if (index === current) link.setAttribute("aria-current", "step");
+        else link.removeAttribute("aria-current");
+      });
+      if (progress !== null) {
+        progress.textContent = t("Step {number} of {total}", {
+          number: current + 1,
+          total: links.length,
+        });
+        progress.hidden = false;
+      }
+    };
+    let frame = 0;
+    window.addEventListener(
+      "scroll",
+      () => {
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(update);
+      },
+      { passive: true },
+    );
+    update();
+  }
+
+  initializeStepRail();
 
   async function initializeGitHubStars() {
     const link = document.querySelector(".nav-github");
-    const count = link?.querySelector(".nav-github-count");
+    const stars = link?.querySelector(".nav-github-stars");
+    const count = stars?.querySelector(".nav-github-count");
     if (count === null || count === undefined) return;
 
     try {
@@ -149,15 +207,17 @@ async function initializeWebsite() {
       });
       if (!response.ok) return;
       const repository = await response.json();
-      const stars = repository.stargazers_count;
-      if (!Number.isSafeInteger(stars) || stars < 0) return;
+      const total = repository.stargazers_count;
+      if (!Number.isSafeInteger(total) || total < 0) return;
 
-      const formatted = new Intl.NumberFormat(
-        document.documentElement.lang,
-      ).format(stars);
+      const language = document.documentElement.lang;
+      const formatted = new Intl.NumberFormat(language).format(total);
       const label = t("REA on GitHub ({count})", { count: formatted });
-      count.textContent = formatted;
-      count.hidden = false;
+      count.textContent = new Intl.NumberFormat(language, {
+        notation: "compact",
+        maximumFractionDigits: 1,
+      }).format(total);
+      stars.hidden = false;
       link.setAttribute("aria-label", label);
       link.setAttribute("title", label);
     } catch {

@@ -371,7 +371,7 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
             original = page.read_text()
             body = original.split('<main id="main"', 1)[1].split("</main>", 1)[0]
             template = root / "website/templates/header.html.tmpl"
-            template.write_text(template.read_text().replace("Reverse Engineer Anything", "REA test navigation"))
+            template.write_text(template.read_text().replace('aria-label="Main navigation"', 'aria-label="REA test navigation"'))
             with self.assertRaisesRegex(ValueError, "Shared HTML is stale"):
                 WEBSITE.sync_pages(root, check=True)
             self.assertEqual(page.read_text(), original)
@@ -801,7 +801,7 @@ class WebsiteTranslationChecks(unittest.TestCase):
                         doc = Document(path.read_text())
                         colors = [node for node in doc.nodes if node.tag == "meta" and node.attrs.get("name") == "theme-color"]
                         self.assertEqual(len(colors), 1)
-                        self.assertEqual(colors[0].attrs.get("content"), "#f7f6f2")
+                        self.assertEqual(colors[0].attrs.get("content"), "#f1efeb")
                         self.assertNotIn("media", colors[0].attrs)
                         theme = [node for node in doc.nodes if node.tag == "script" and (node.attrs.get("src") or "").endswith("/assets/theme.js")]
                         self.assertEqual(len(theme), 1)
